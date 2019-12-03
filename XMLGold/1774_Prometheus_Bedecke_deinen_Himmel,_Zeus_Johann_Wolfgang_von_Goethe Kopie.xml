@@ -1,0 +1,135 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Prometheus / Bedecke deinen Himmel, Zeus</title>
+        <author>
+          <persName>
+            <surname>Goethe</surname>
+            <forename>Johann Wolfgang von</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">7</measure>
+        <measure type="verses">58</measure>
+        <measure type="verses_per_stanza">1-12, 2-9, 3-7, 4-9, 5-9, 6-5, 7-7</measure>
+        <measure type="tokens">222</measure>
+        <measure type="sentences">17</measure>
+        <measure type="characters">1151</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1774</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/johann-wolfgang-von-goethe-prometheus,textbearbeitung,430.html"> Prometheus - Johann Wolfgang von Goethe (English Translation, Interpretation #430)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Sturm und DrangGeniezeit</classCode>
+        <classCode scheme="text_genre">Hymne</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Prometheus / Bedecke deinen Himmel, Zeus</head>
+          <lg rhyme="abcdefeghijk" type="stanza">
+            <l rhythm="010|0020:1:" emo1="beauty/joy" emo2="suspense">Bedecke deinen Himmel, Zeus,</l>
+            <l rhythm="0200:" emo1="beauty/joy" emo2="suspense">Mit Wolkendunst!</l>
+            <l rhythm="020:10(1)|" emo1="beauty/joy" emo2="suspense">Und übe, Knaben gleich,</l>
+            <l rhythm="0200:" emo1="beauty/joy" emo2="suspense">Der Disteln köpft,</l>
+            <l rhythm="0200|0200:" emo1="beauty/joy" emo2="suspense">An Eichen dich und Bergeshöh'n!</l>
+            <l rhythm="010020|" emo1="beauty/joy" emo2="suspense">Mußt mir meine Erde</l>
+            <l rhythm="0102:" emo1="beauty/joy" emo2="suspense">Doch lassen steh'n,</l>
+            <l rhythm="00020|" emo1="beauty/joy" emo2="suspense">Und meine Hütte,</l>
+            <l rhythm="01002:" emo1="beauty/joy" emo2="suspense">Die du nicht gebaut,</l>
+            <l rhythm="0002|" emo1="beauty/joy" emo2="suspense">Und meinen Herd,</l>
+            <l rhythm="0002" emo1="beauty/joy" emo2="suspense">Um dessen Glut</l>
+            <l rhythm="00020:" emo1="beauty/joy" emo2="suspense">Du mich beneidest.</l>
+          </lg>
+          <lg rhyme="abcdefghi" type="stanza">
+            <l rhythm="0101(|)200" emo1="annoyance">Ich kenne nichts Ärmeres</l>
+            <l rhythm="0001|0020:" emo1="annoyance">Unter der Sonn' als euch Götter!</l>
+            <l rhythm="010|200|" emo1="annoyance">Ihr nähret kümmerlich</l>
+            <l rhythm="02010|" emo1="annoyance">Von Opfersteuern</l>
+            <l rhythm="0020|" emo1="annoyance">Und Gebetshauch</l>
+            <l rhythm="00002:" emo1="annoyance">Eure Majestät</l>
+            <l rhythm="020:10" emo1="annoyance">Und darbtet, wären</l>
+            <l rhythm="020020|" emo1="annoyance">Nicht Kinder und Bettler</l>
+            <l rhythm="200020:" emo1="annoyance">Hoffnungsvolle Toren.</l>
+          </lg>
+          <lg rhyme="abcdefg" type="stanza">
+            <l rhythm="10020|" emo1="nostalgia" emo2="beauty/joy">Da ich ein Kind war,</l>
+            <l rhythm="020|02|02|" emo1="nostalgia" emo2="beauty/joy">Nicht wußte, wo aus, wo ein,</l>
+            <l rhythm="100|01020|" emo1="nostalgia" emo2="beauty/joy">Kehrt' ich mein verirrtes Auge</l>
+            <l rhythm="020|00200|" emo1="nostalgia" emo2="beauty/joy">Zur Sonne, als wenn drüber wär</l>
+            <l rhythm="02|010|0020|" emo1="nostalgia" emo2="beauty/joy">Ein Ohr zu hören meine Klage,</l>
+            <l rhythm="0201|" emo1="nostalgia" emo2="beauty/joy">Ein Herz wie meins,</l>
+            <l rhythm="00020|0020:" emo1="nostalgia" emo2="beauty/joy">Sich des Bedrängten zu erbarmen.</l>
+          </lg>
+          <lg rhyme="abcdefbgh" type="stanza">
+            <l rhythm="020|" emo1="annoyance" emo2="vitality">Wer half mir</l>
+            <l rhythm="000010200:" emo1="annoyance" emo2="vitality">Wider der Titanen Übermut?</l>
+            <l rhythm="02000200|" emo1="annoyance" emo2="vitality">Wer rettete vom Tode mich,</l>
+            <l rhythm="0102:" emo1="annoyance" emo2="vitality">Von Sklaverei?</l>
+            <l rhythm="010102010|" emo1="annoyance" emo2="vitality">Hast du's nicht alles selbst vollendet,</l>
+            <l rhythm="10102:" emo1="annoyance" emo2="vitality">Heilig glühend Herz?</l>
+            <l rhythm="020|102:" emo1="annoyance" emo2="vitality">Und glühtest, jung und gut,</l>
+            <l rhythm="020|201" emo1="annoyance" emo2="vitality">Betrogen, Rettungsdank</l>
+            <l rhythm="0200|010:" emo1="annoyance" emo2="vitality">Dem Schlafenden dadroben?</l>
+          </lg>
+          <lg rhyme="abcdefghi" type="stanza">
+            <l rhythm="(1)020:02:" emo1="annoyance" emo2="vitality">Ich dich ehren? Wofür?</l>
+            <l rhythm="00010020|" emo1="annoyance" emo2="vitality">Hast du die Schmerzen gelindert</l>
+            <l rhythm="100200:" emo1="annoyance" emo2="vitality">Je des Beladenen?</l>
+            <l rhythm="00010020|" emo1="annoyance" emo2="vitality">Hast du die Tränen gestillet</l>
+            <l rhythm="100200:" emo1="annoyance" emo2="vitality">Je des Geängsteten?</l>
+            <l rhythm="010020010|" emo1="vitality" emo2="awe/sublime">Hat nicht mich zum Manne geschmiedet</l>
+            <l rhythm="001002:" emo1="vitality" emo2="awe/sublime">Die allmächtige Zeit</l>
+            <l rhythm="0010020|" emo1="vitality" emo2="awe/sublime">Und das ewige Schicksal,</l>
+            <l rhythm="1020|010:" emo1="vitality" emo2="awe/sublime">Meine Herren und deine?</l>
+          </lg>
+          <lg rhyme="abcde" type="stanza">
+            <l rhythm="20010|" emo1="vitality">Wähntest du etwa,</l>
+            <l rhythm="01002010|" emo1="vitality">Ich sollte das Leben hassen,</l>
+            <l rhythm="0200:" emo1="vitality">In Wüsten fliehn,</l>
+            <l rhythm="00102010|" emo1="vitality">Weil nicht alle Knabenmorgen-</l>
+            <l rhythm="201010:" emo1="vitality">Blütenträume reiften?</l>
+          </lg>
+          <lg rhyme="abcdefe" type="stanza">
+            <l rhythm="010|1020|" emo1="beauty/joy" emo2="awe/sublime">Hier sitz' ich, forme Menschen</l>
+            <l rhythm="02010:" emo1="beauty/joy" emo2="awe/sublime">Nach meinem Bilde,</l>
+            <l rhythm="0020|0020|" emo1="beauty/joy" emo2="awe/sublime">Ein Geschlecht, das mir gleich sei,</l>
+            <l rhythm="020|20|" emo1="beauty/joy" emo2="awe/sublime">Zu leiden, weinen,</l>
+            <l rhythm="020|00200:" emo1="beauty/joy" emo2="awe/sublime">Genießen und zu freuen sich,</l>
+            <l rhythm="010020:" emo1="beauty/joy" emo2="awe/sublime">Und dein nicht zu achten,</l>
+            <l rhythm="02:" emo1="beauty/joy" emo2="awe/sublime">Wie ich!</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Verfall</title>
+        <author>
+          <persName>
+            <surname>Trakl</surname>
+            <forename>Georg</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">4</measure>
+        <measure type="verses">14</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-3, 4-3</measure>
+        <measure type="tokens">91</measure>
+        <measure type="sentences">6</measure>
+        <measure type="characters">512</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1909</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/georg-trakl-verfall,textbearbeitung,332.html">Verfall - Georg Trakl (Interpretation #332)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Expressionismus</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Verfall</head>
+          <lg rhyme="abba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-" rhythm="020|00102010|" emo1="beauty/joy">Am Abend, wenn die Glocken Frieden läuten,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="10020100020|" emo1="beauty/joy">Folg ich der Vögel wundervollen Flügen,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="0102|0102010|" emo1="beauty/joy">Die lang geschart, gleich frommen Pilgerzügen,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="02000201020:" emo1="beauty/joy">Entschwinden in den herbstlich klaren Weiten.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l met="+-|-+|-+|-+|-+|-" rhythm="20000100020|" emo1="nostalgia" emo2="beauty/joy">Hinwandelnd durch den dämmervollen Garten</l>
+            <l met="+-|-+|-+|-+|-+|-" rhythm="20000100020|" emo1="nostalgia" emo2="beauty/joy">Träum ich nach ihren helleren Geschicken</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="02010200020:" emo1="nostalgia" emo2="beauty/joy">Und fühl der Stunden Weiser kaum mehr rücken.</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="01000200020:" emo1="nostalgia" emo2="beauty/joy">So folg ich über Wolken ihren Fahrten.</l>
+          </lg>
+          <lg rhyme="aba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-" rhythm="01020|002010:" emo1="uneasiness">Da macht ein Hauch mich von Verfall erzittern.</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="01020001020:" emo1="uneasiness">Die Amsel klagt in den entlaubten Zweigen.</l>
+            <l met="-+|-+|-+|-+|--+|-" rhythm="020102(|)010020:" emo1="uneasiness">Es schwankt der rote Wein an rostigen Gittern,</l>
+          </lg>
+          <lg rhyme="aba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-" rhythm="01(|)010202010|" emo1="uneasiness">Indes wie blasser Kinder Todesreigen</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="0102010|0020|" emo1="uneasiness">Um dunkle Brunnenränder, die verwittern,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="02(|)020102010:" emo1="uneasiness">Im Wind sich fröstelnd blaue Astern neigen.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

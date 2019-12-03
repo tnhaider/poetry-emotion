@@ -1,0 +1,93 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Künstlers Abendlied</title>
+        <author>
+          <persName>
+            <surname>Goethe</surname>
+            <forename>Johann Wolfgang von</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">5</measure>
+        <measure type="verses">20</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-4, 4-4, 5-4</measure>
+        <measure type="tokens">102</measure>
+        <measure type="sentences">6</measure>
+        <measure type="characters">508</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1774</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/johann-wolfgang-von-goethe-kuenstlers-abendlied,textbearbeitung,292.html">Künstlers Abendlied - Johann Wolfgang von Goethe (Interpretation #292)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Sturm und DrangGeniezeit</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Künstlers Abendlied</head>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-+|" rhythm="1|0010201|" emo1="vitality">Ach, daß die inn're Schöpfungskraft</l>
+            <l met="-+|-+|-+|-" rhythm="0001020:" emo1="vitality">Durch meinen Sinn erschölle!</l>
+            <l met="-+|-+|-+|-+|" rhythm="00010002|" emo1="vitality">Daß eine Bildung voller Saft</l>
+            <l met="-+|-+|-+|-" rhythm="0002010:" emo1="vitality">Aus meinen Fingern quölle!</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-+|" rhythm="0200|0200" emo1="vitality">Ich zittre nur, ich stottre nur</l>
+            <l met="-+|-+|-+|-" rhythm="0100020:" emo1="vitality">Und kann es doch nicht lassen;</l>
+            <l met="-+|-+|-+|-+|" rhythm="0(2)(|)0100|02:" emo1="vitality">Ich fühl', ich kenne dich, Natur,</l>
+            <l met="-+|-+|-+|-" rhythm="0100020:" emo1="vitality">Und so muß ich dich fassen.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-+|" rhythm="0200|0102|" emo1="nostalgia" emo2="beauty/joy">Bedenk' ich dann, wie manches Jahr</l>
+            <l met="-+|-+|-+|-" rhythm="0001020:" emo1="nostalgia" emo2="beauty/joy">Sich schon mein Sinn erschließet,</l>
+            <l met="-+|-+|-+|-+|" rhythm="01|010200|" emo1="nostalgia" emo2="beauty/joy">Wie er, wo dürre Heide war,</l>
+            <l met="-+|-+|-+|-" rhythm="0201020:" emo1="nostalgia" emo2="beauty/joy">Nun Freudenquell genießet:</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-+|" rhythm="0200|02|01:" emo1="beauty/joy">Wie sehn' ich mich, Natur, nach dir,</l>
+            <l met="-+|-+|-+|-" rhythm="0101020:" emo1="beauty/joy">Dich treu und lieb zu fühlen!</l>
+            <l met="-+|-+|-+|-+|" rhythm="01020|100|" emo1="beauty/joy">Ein lust'ger Springbrunn, wirst du mir</l>
+            <l met="-+|-+|-+|-" rhythm="0201020:" emo1="beauty/joy">Aus tausend Röhren spielen.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-+|" rhythm="01000200|" emo1="beauty/joy">Wirst alle meine Kräfte mir</l>
+            <l met="-+|-+|-+|-" rhythm="0001020:" emo1="beauty/joy">In meinem Sinn erheitern,</l>
+            <l met="-+|-+|-+|-+|" rhythm="00010200|" emo1="beauty/joy">Und dieses enge Dasein hier</l>
+            <l met="-+|-+|-+|-" rhythm="0100020:" emo1="beauty/joy">Zur Ewigkeit erweitern.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Einsamkeit</title>
+        <author>
+          <persName>
+            <surname>Gryphius</surname>
+            <forename>Andreas</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">4</measure>
+        <measure type="verses">14</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-3, 4-3</measure>
+        <measure type="tokens">127</measure>
+        <measure type="sentences">4</measure>
+        <measure type="characters">593</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1658</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/andreas-gryphius-einsamkeit,textbearbeitung,93.html">Einsamkeit - Andreas Gryphius (Interpretation #93)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Barock</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Einsamkeit</head>
+          <lg rhyme="abba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="000200|0101020|" emo1="beauty/joy">In dieser Einsamkeit, der mehr denn öden Wüsten,</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="020102|000102:" emo1="beauty/joy">Gestreckt auf wildes Kraut, an die bemooste See:</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="020102|000102:" emo1="beauty/joy">Beschau ich jenes Tal und dieser Felsen Höh',</l>
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="000200|0102010:" emo1="beauty/joy">Auf welchem Eulen nur und stille Vögel nisten.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="2|10002:2001020|" emo1="awe/sublime">Hier, fern von dem Palast; weit von des Pöbels Lüsten,</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="020:002010002|" emo1="awe/sublime">Betracht' ich: wie der Mensch in Eitelkeit vergeh',</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="2|00102(|)000201:" emo1="awe/sublime">Wie, auf nicht festem Grund all unser Hoffen steh',</l>
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="000102|0001020:" emo1="awe/sublime">Wie die vor Abend schmähn, die vor dem Tag uns grüßten.</l>
+          </lg>
+          <lg rhyme="aab" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="02|0102|0201|02|" emo1="uneasiness">Die Höll', der rauhe Wald, der Totenkopf, der Stein,</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="000201|020102|" emo1="uneasiness">Den auch die Zeit auffrisst, die abgezehrten Bein'</l>
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="010002(|)0100020:" emo1="uneasiness">Entwerfen in dem Mut unzählige Gedanken.</l>
+          </lg>
+          <lg rhyme="aab" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="020102|020102|" emo1="awe/sublime">Der Mauern alter Graus, dies unbebaute Land</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="010200|010002|" emo1="awe/sublime">Ist schön und fruchtbar mir, der eigentlich erkannt,</l>
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="010|102|0102|020:" emo1="awe/sublime">dass alles, ohn' ein' Geist, den Gott selbst hält, muss wanken.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

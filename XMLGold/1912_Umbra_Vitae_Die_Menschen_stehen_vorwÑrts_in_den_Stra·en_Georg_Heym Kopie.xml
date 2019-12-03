@@ -1,0 +1,129 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Umbra Vitae / Die Menschen stehen vorwärts in den Straßen</title>
+        <author>
+          <persName>
+            <surname>Heym</surname>
+            <forename>Georg</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">11</measure>
+        <measure type="verses">44</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-4, 4-4, 5-4, 6-4, 7-4, 8-4, 9-4, 10-4, 11-4</measure>
+        <measure type="tokens">306</measure>
+        <measure type="sentences">21</measure>
+        <measure type="characters">1552</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1912</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/georg-heym-umbra-vitae,textbearbeitung,151.html">Umbra Vitae - Georg Heym (Interpretation #151)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Expressionismus</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Umbra Vitae / Die Menschen stehen vorwärts in den Straßen</head>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-" rhythm="020102(|)00020|" emo1="suspense">Die Menschen stehen vorwärts in den Straßen</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="02000102010:" emo1="suspense">Und sehen auf die großen Himmelszeichen,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="00020(|)002010|" emo1="uneasiness">Wo die Kometen mit den Feuernasen</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="000102(|)01020:" emo1="uneasiness">Um die gezackten Türme drohend schleichen.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-" rhythm="00020012010|" emo1="beauty/joy">Und alle Dächer sind voll Sternedeuter,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="1002010(|)1020:" emo1="beauty/joy">Die in den Himmel stecken große Röhren.</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="020|10002010|" emo1="beauty/joy">Und Zaubrer, wachsend aus den Bodenlöchern,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="0102|0002010:" emo1="beauty/joy">In Dunkel schräg, die einen Stern beschwören.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="+-|-+|-+|-+|-+|-" rhythm="20020(|)002010|" emo1="uneasiness">Krankheit und Mißwachs durch die Tore kriechen</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="01020:002010(|)" emo1="uneasiness">In schwarzen Tüchern. Und die Betten tragen</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="02000201020:" emo1="uneasiness">Das Wälzen und das Jammern vieler Siechen,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="00010002010:" emo1="uneasiness">Und welche rennen mit den Totenschragen.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="+-|-+|-+|-+|-+|-" rhythm="200102(|)01020|" emo1="sadness">Selbstmörder gehen nachts in großen Horden,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="01020(|)001020:" emo1="sadness">Die suchen vor sich ihr verlornes Wesen,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="020102|01020|" emo1="sadness">Gebückt in Süd und West, und Ost und Norden,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="02010(|)002010:" emo1="sadness">Den Staub zerfegend mit den Armen-Besen.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-" rhythm="0002|0100020:" emo1="sadness">Sie sind wie Staub, der hält noch eine Weile,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="01020000020:" emo1="sadness">Die Haare fallen schon auf ihren Wegen,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="020|0020|1020:" emo1="sadness">Sie springen, daß sie sterben, 'nun' in Eile,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="000102(|)02010:" emo1="sadness">Und sind mit totem Haupt im Feld gelegen.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-" rhythm="01020:001020|" emo1="uneasiness">Noch manchmal zappelnd. Und der Felder Tiere</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="0(1)02|0100020|" emo1="uneasiness">Stehn um sie blind, und stoßen mit dem Horne</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="0002:0100020|" emo1="uneasiness">In ihren Bauch. Sie strecken alle viere</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="020(|)00200020:" emo1="uneasiness">Begraben unter Salbei und dem Dorne.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-" rhythm="02010200020|" emo1="sadness">Das Jahr ist tot und leer von seinen Winden,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="000201(|)02010|" emo1="sadness">Das wie ein Mantel hängt voll Wassertriefen,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="01020|001020|" emo1="sadness">Und ewig Wetter, die sich klagend winden</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="01020000020:" emo1="sadness">Aus Tiefen wolkig wieder zu den Tiefen.]</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+-+|-+|-" rhythm="0100020:0010(|)" emo1="sadness">Die Meere aber stocken. In den Wogen</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="02010(|)200020|" emo1="sadness">Die Schiffe hängen modernd und verdrossen,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="02|010200020:" emo1="sadness">Zerstreut, und keine Strömung wird gezogen</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="00010200020:" emo1="sadness">Und aller Himmel Höfe sind verschlossen.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-+|-" rhythm="010200020|" emo1="sadness">Die Bäume wechseln nicht die Zeiten</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="0101020002:0" emo1="sadness">Und bleiben ewig tot in ihrem Ende</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="00000102010|" emo1="sadness">Und über die verfallnen Wege spreiten</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="02000102010:" emo1="sadness">Sie hölzern ihre langen Finger-Hände.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-" rhythm="02|0102|00020|" emo1="awe/sublime">Wer stirbt, der setzt sich auf, sich zu erheben,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="01000002010:" emo1="awe/sublime">Und eben hat er noch ein Wort gesprochen.</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="0(1)0002:0(1)020:" emo1="awe/sublime" emo2="sadness">Auf einmal ist er fort. Wo ist sein Leben?</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="00020(|)001020:" emo1="awe/sublime" emo2="sadness">Und seine Augen sind wie Glas zerbrochen.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="+-|-+|-+|-+|-+|-" rhythm="20010:100020:" emo1="sadness">Schatten sind viele. Trübe und verborgen.</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="020|00102010:" emo1="sadness">Und Träume, die an stummen Türen schleifen,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="0002|0200020|" emo1="sadness">Und der erwacht, bedrückt von andern Morgen,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="0102(|)0102010:" emo1="sadness">Muß schweren Schlaf von grauen Lidern streifen.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

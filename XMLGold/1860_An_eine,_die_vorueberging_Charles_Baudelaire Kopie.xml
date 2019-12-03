@@ -1,0 +1,85 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">An eine, die vorüberging</title>
+        <author>
+          <persName>
+            <surname>Baudelaire</surname>
+            <forename>Charles</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">4</measure>
+        <measure type="verses">14</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-3, 4-3</measure>
+        <measure type="tokens">111</measure>
+        <measure type="sentences">11</measure>
+        <measure type="characters">540</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1860</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/charles-baudelaire-an-eine-die-vorueberging,textbearbeitung,350.html">An eine, die vorüberging - Charles Baudelaire (Interpretation #350)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">SymbolismusExpressionismus</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>An eine, die vorüberging</head>
+          <lg rhyme="abba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|" rhythm="0201020101:" emo1="sadness">Der Straßenlärm betäubend zu mir drang.</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="01020|2|0102|" emo1="sadness">In großer Trauer, schlank, von Schmerz gestrafft,</l>
+            <l met="+-|-+|-+|-+|-+|-+|" rhythm="100201|000102|" emo1="beauty/joy">Schritt eine Frau vorbei, die mit der Hand gerafft,</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="010201|0102:" emo1="beauty/joy">Den Saum des Kleides hob, der glockig schwang.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l met="+-|-+|-+|-+|-+|" rhythm="200|0020001:" emo1="beauty/joy">Anmutig, wie gemeißelt war das Bein.</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="02|02|010002:" emo1="beauty/joy">Und ich, erstarrt, wie außer mich gebracht,</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="0100020|00201|" emo1="beauty/joy">Vom Himmel ihrer Augen, wo ein Sturm erwacht,</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="020|002|02|0102:" emo1="beauty/joy">Sog Süße, die betört, und Lust, die tötet, ein.</l>
+          </lg>
+          <lg rhyme="aab" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-" rhythm="02:02:020|0020|" emo1="sadness">Ein Blitz… dann Nacht! - Du Schöne, mir verloren,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="00020100020|" emo1="sadness">Durch deren Blick ich jählings neu geboren,</l>
+            <l met="+--+-+-++-+" rhythm="10020100201:" emo1="sadness">Werd ich in Ewigkeit dich erst wiedersehn?</l>
+          </lg>
+          <lg rhyme="abb" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="020|200:02:0102:" emo1="sadness">Woanders, weit von hier! zu spät! soll’s nie geschehn?</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="0200|00010201:" emo1="sadness">Dein Ziel ist mir und dir das meine unbekannt.</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="010002|000002:" emo1="sadness">Dich hätte ich geliebt, und du hast es geahnt!</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

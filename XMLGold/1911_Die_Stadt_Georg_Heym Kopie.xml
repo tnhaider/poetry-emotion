@@ -1,0 +1,85 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Die Stadt</title>
+        <author>
+          <persName>
+            <surname>Heym</surname>
+            <forename>Georg</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">4</measure>
+        <measure type="verses">14</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-3, 4-3</measure>
+        <measure type="tokens">90</measure>
+        <measure type="sentences">7</measure>
+        <measure type="characters">480</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1911</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/georg-heym-die-stadt,textbearbeitung,12.html">Die Stadt - Georg Heym (Interpretation #12)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Expressionismus</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Die Stadt</head>
+          <lg rhyme="abba" type="stanza">
+            <l met="+-|-+|-+|-+|-+|" rhythm="020001:0201" emo1="beauty/joy">Sehr weit ist diese Nacht. Und Wolkenschein</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="020|0010201:" emo1="beauty/joy">Zerreißet vor des Mondes Untergang.</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="01020(|)10201|" emo1="beauty/joy">Und tausend Fenster stehn die Nacht entlang</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="0100020|202:" emo1="beauty/joy">Und blinzeln mit den Lidern, rot und klein.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|" rhythm="0201(|)020001:" emo1="sadness">Wie Aderwerk gehn Straßen durch die Stadt,</l>
+            <l met="+-|-+|-+|-+|-+|" rhythm="20010(|)00202:" emo1="sadness">Unzählig Menschen schwemmen aus und ein.</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="0101020102|" emo1="sadness">Und ewig stumpfer Ton von stumpfem Sein</l>
+            <l met="+-|-+|-+|-+|-+|" rhythm="2001020102:" emo1="sadness">Eintönig kommt heraus in Stille matt.</l>
+          </lg>
+          <lg rhyme="aaa" type="stanza">
+            <l met="-+|-+|-+|-+|-+|" rhythm="020|2|010201|" emo1="uneasiness">Gebären, Tod, gewirktes Einerlei,</l>
+            <l met="+-|-+|-+|-+|-+|" rhythm="10020|10201|" emo1="uneasiness">Lallen der Wehen, langer Sterbeschrei,</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="01020(|)00102:" emo1="uneasiness">Im blinden Wechsel geht es dumpf vorbei.</l>
+          </lg>
+          <lg rhyme="aaa" type="stanza">
+            <l met="-+|-+|-+|-+|-+|" rhythm="01020|20102:" emo1="uneasiness">Und Schein und Feuer, Fackeln rot und Brand,</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="01020(|)00102|" emo1="uneasiness">Die drohn im Weiten mit gezückter Hand</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="0102(|)010201:" emo1="uneasiness">Und scheinen hoch von dunkler Wolkenwand.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

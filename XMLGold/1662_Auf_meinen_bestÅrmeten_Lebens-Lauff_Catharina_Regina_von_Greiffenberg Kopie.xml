@@ -1,0 +1,85 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Auf meinen bestürmeten Lebens-Lauff</title>
+        <author>
+          <persName>
+            <surname>Greiffenberg</surname>
+            <forename>Catharina Regina von</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">4</measure>
+        <measure type="verses">14</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-3, 4-3</measure>
+        <measure type="tokens">127</measure>
+        <measure type="sentences">8</measure>
+        <measure type="characters">601</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1662</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/catharina-regina-von-greiffenberg-auf-meinen-bestuermeten-lebens-lauff,textbearbeitung,378.html">Auf meinen bestürmeten Lebens-Lauff - Catharina Regina von Greiffenberg (Interpretation #378)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Barock</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Auf meinen bestürmeten Lebens-Lauff</head>
+          <lg rhyme="abba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="000201(|)0001020|" emo1="beauty/joy">Wie sehr der Wirbelstrom so vieler Angst und plagen</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="020102|010002|" emo1="beauty/joy">mich drähet um und um / so bistu doch mein Hort</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="0201|00020102|" emo1="beauty/joy">mein mittel punct / in dem mein Zirkel fort und fort</l>
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="010201(|)02010020:" emo1="beauty/joy">mein Geist halb hafften bleibt vom sturm unausgeschlagen.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="020102|0102010|" emo1="beauty/joy" emo2="vitality">Mein Zünglein stehet stät / von Wellen fort getragen</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="000201:010201|" emo1="beauty/joy" emo2="vitality">auf meinen Stern gericht. Mein Herz und Aug′ ist dort</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="020000(|)020102:" emo1="beauty/joy" emo2="vitality">es wartet schon auf mich am Ruhe-vollen Port:</l>
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="001002(|)0102010:" emo1="beauty/joy" emo2="vitality">dieweil muß ich mich keck in weh und See hinwagen.</l>
+          </lg>
+          <lg rhyme="aba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="0102|02|0102010:" emo1="sadness">Offt will der Muht / der Mast / zu tausend trümmern springen.</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="000201|020|102:" emo1="sadness">Bald thun die Ruder-Knecht / die sinnen / keinen Zug.</l>
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="010002(|)0201020:" emo1="sadness">Bald kan ich keinen Wind in glaubens-Segel bringen.</l>
+          </lg>
+          <lg rhyme="aba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="020|001020|002:" emo1="sadness">Jetz hab ich / meine Uhr zu richten / keinen fug.</l>
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="010002(|)0102010|" emo1="sadness">Dann wollen mich die Wind auf andre zufahrt dringen,</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="000200|02|0002:" emo1="sadness" emo2="vitality">bring′ an den Hafen mich / mein GOtt / es ist genug!</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

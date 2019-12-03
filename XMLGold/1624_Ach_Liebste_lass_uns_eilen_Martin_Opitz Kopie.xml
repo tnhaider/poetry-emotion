@@ -1,0 +1,99 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Ach Liebste lass uns eilen</title>
+        <author>
+          <persName>
+            <surname>Opitz</surname>
+            <forename>Martin</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">6</measure>
+        <measure type="verses">24</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-4, 4-4, 5-4, 6-4</measure>
+        <measure type="tokens">93</measure>
+        <measure type="sentences">6</measure>
+        <measure type="characters">456</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1624</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/martin-opitz-ach-liebste-lass-uns-eilen,textbearbeitung,187.html">Ach Liebste lass uns eilen - Martin Opitz (Interpretation #187)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Barock</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Ach Liebste lass uns eilen</head>
+          <lg rhyme="abab" type="stanza"> 
+            <l met="-+|-+|-+|-" rhythm="020|1020:" emo1="vitality">Ach Liebste, laß uns eilen,</l>
+            <l met="-+|-+|" rhythm="0002:" emo1="vitality">Wir haben Zeit,</l>
+            <l met="-+|-+|-+|-" rhythm="0100020|" emo1="vitality">Es schadet uns verweilen</l>
+            <l met="-+|-+|" rhythm="0201:" emo1="vitality">Uns beyderseit.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-" rhythm="0101020|" emo1="sadness">Der edlen Schönheit Gaben</l>
+            <l met="+-|+-|+|" rhythm="20102|" emo1="sadness">Fliehen Fuß für Fuß,</l>
+            <l met="-+|-+|-+|-" rhythm="020|0020|" emo1="sadness">Daß alles, was wir haben,</l>
+            <l met="-+|-+|" rhythm="0201:" emo1="sadness">Verschwinden muß.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-" rhythm="0102020|" emo1="sadness">Der Wangen Ziehr verbleichet,</l>
+            <l met="-+|-+|" rhythm="0102|" emo1="sadness">Das Haar wird greiß,</l>
+            <l met="-+|-+|-+|-" rhythm="0102020|" emo1="sadness">Der Augen Feuer weichet,</l>
+            <l met="-+|-+|" rhythm="0102:" emo1="sadness">Die Brunst wird Eiß.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-" rhythm="0100020|" emo1="sadness">Das Mündlein von Corallen</l>
+            <l met="-+|-+|" rhythm="0201|" emo1="sadness">Wird ungestalt,</l>
+            <l met="-+|-+|-+|-" rhythm="0102010|" emo1="sadness">Die Händ' als Schnee verfallen,</l>
+            <l met="-+|-+|" rhythm="0002:" emo1="sadness">Und du wirst alt.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-" rhythm="0201020|" emo1="vitality">Drumb laß uns jetzt geniessen</l>
+            <l met="-+|-+|" rhythm="0102|" emo1="vitality">Der Jugend Frucht,</l>
+            <l met="-+|-+|-+|-" rhythm="0002010|" emo1= "vitality" emo2="sadness">Eh' als wir folgen müssen</l>
+            <l met="-+|-+|" rhythm="0102:" emo1= "vitality" emo2="sadness">Der Jahre Flucht.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-" rhythm="0001020|" emo1="beauty/joy">Wo du dich selber liebest,</l>
+            <l met="-+|-+|" rhythm="0102|" emo1="beauty/joy">So liebe mich,</l>
+            <l met="-+|-+|-+|-" rhythm="102|0020|" emo1="beauty/joy">Gieb mir das, wann du giebest,</l>
+            <l met="-+|-+|" rhythm="0102:" emo1="beauty/joy">Verlier auch ich.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

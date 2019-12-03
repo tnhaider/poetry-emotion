@@ -1,0 +1,81 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Herbsttag</title>
+        <author>
+          <persName>
+            <surname>Rilke</surname>
+            <forename>Rainer Maria</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">3</measure>
+        <measure type="verses">12</measure>
+        <measure type="verses_per_stanza">1-3, 2-4, 3-5</measure>
+        <measure type="tokens">87</measure>
+        <measure type="sentences">6</measure>
+        <measure type="characters">411</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1902</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/rainer-maria-rilke-herbsttag,textbearbeitung,136.html">Herbsttag - Rainer Maria Rilke (Interpretation #136)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Symbolismus</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Herbsttag</head>
+          <lg rhyme="aba" type="stanza">
+            <l met="+--+-+-+-+" rhythm="2|002:020002:" emo1="vitality" emo2="awe/sublime">Herr, es ist Zeit. Der Sommer war sehr groß.</l>
+            <l met="+--+-+-+-+-" rhythm="10020002010|" emo1="vitality" emo2="awe/sublime">Leg deinen Schatten auf die Sonnenuhren,</l>
+            <l met="-+-+-+-+-+" rhythm="0002010201:" emo1="vitality" emo2="awe/sublime">und auf den Fluren lass die Winde los.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l met="-+-+-+-+-+" rhythm="0201020|201:" emo1="vitality" emo2="awe/sublime">Befiehl den letzten Früchten, voll zu sein;</l>
+            <l met="+--+-+-+-+-" rhythm="10000200020:" emo1="vitality" emo2="awe/sublime">gib ihnen noch zwei südlichere Tage,</l>
+            <l met="+-+--+-+-+-" rhythm="20000201|020" emo1="vitality" emo2="awe/sublime">dränge sie zur Vollendung hin, und jage</l>
+            <l met="-+-+-+-+-+" rhythm="01020(|)00102:" emo1="vitality" emo2="awe/sublime">die letzte Süße in den schweren Wein.</l>
+          </lg>
+          <lg rhyme="abbab" type="stanza">
+            <l met="-+-+-+-+-+" rhythm="01020|20100:" emo1="sadness">Wer jetzt kein Haus hat, baut sich keines mehr.</l>
+            <l met="-+-+-+-+-+-" rhythm="01020|001020|" emo1="sadness">Wer jetzt allein ist, wird es lange bleiben,</l>
+            <l met="-+-+-+-+-+-" rhythm="020|20|102010:" emo1="nostalgia" emo2="sadness">wird wachen, lesen, lange Briefe schreiben</l>
+            <l met="-+-+-+-+-+" rhythm="0100020102|" emo1="nostalgia" emo2="sadness">und wird in den Alleen hin und her</l>
+            <l met="+-+-+-+-+-" rhythm="1020|002010:" emo1="nostalgia" emo2="sadness">unruhig wandern, wenn die Blätter treiben.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Sehnsucht / Es schienen so golden die Sterne</title>
+        <author>
+          <persName>
+            <surname>Eichendorff</surname>
+            <forename>Joseph von</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">3</measure>
+        <measure type="verses">24</measure>
+        <measure type="verses_per_stanza">1-8, 2-8, 3-8</measure>
+        <measure type="tokens">115</measure>
+        <measure type="sentences">5</measure>
+        <measure type="characters">627</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1834</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/joseph-von-eichendorff-sehnsucht-longing,textbearbeitung,425.html"> Sehnsucht (Longing) - Joseph von Eichendorff (English Translation, Interpretation #425)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Romantik</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Sehnsucht / Es schienen so golden die Sterne</head>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l met="-+|--+|--+|-" rhythm="020010020|" emo1="nostalgia" emo2="beauty/joy">Es schienen so golden die Sterne,</l>
+            <l met="-+|--+|-+|" rhythm="0200102:" emo1="nostalgia" emo2="beauty/joy">Am Fenster ich einsam stand</l>
+            <l met="-+|--+|-+|-" rhythm="02001020|" emo1="nostalgia" emo2="beauty/joy">Und hörte aus weiter Ferne</l>
+            <l met="-+|--+|-+|" rhythm="0200102:" emo1="nostalgia" emo2="beauty/joy">Ein Posthorn im stillen Land.</l>
+            <l met="-+|--+|-+|-" rhythm="02001020|" emo1="nostalgia" emo2="beauty/joy">Das Herz mir im Leib entbrennte,</l>
+            <l met="-+|--+|--+|" rhythm="02001002:" emo1="nostalgia" emo2="beauty/joy">Da hab ich mir heimlich gedacht:</l>
+            <l met="-+|-+|--+|-" rhythm="2|0020020|" emo1="nostalgia" emo2="beauty/joy">Ach, wer da mitreisen könnte</l>
+            <l met="-+|--+|-+|" rhythm="0100201:" emo1="nostalgia" emo2="beauty/joy">In der prächtigen Sommernacht!</l>
+          </lg>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l met="-+|--+|-+|-" rhythm="01002020|" emo1="beauty/joy">Zwei junge Gesellen gingen</l>
+            <l met="-+|--+|-+|" rhythm="0100201:" emo1="beauty/joy">Vorüber am Bergeshang,</l>
+            <l met="-+|--+|--+|-" rhythm="020010020|" emo1="beauty/joy">Ich hörte im Wandern sie singen</l>
+            <l met="-+|-+|--+|" rhythm="0102001:" emo1="beauty/joy">Die stille Gegend entlang:</l>
+            <l met="-+|--+|-+|-" rhythm="01002010|" emo1="nostalgia" emo2="beauty/joy">Von schwindelnden Felsenschlüften,</l>
+            <l met="--+|-+|--+|" rhythm="00201002:" emo1="nostalgia" emo2="beauty/joy">Wo die Wälder rauschen so sacht,</l>
+            <l met="-+|--+|-+|-" rhythm="020|00020|" emo1="nostalgia" emo2="beauty/joy">Von Quellen, die von den Klüften</l>
+            <l met="-+|---+|-+" rhythm="02000201:" emo1="nostalgia" emo2="beauty/joy">Sich stürzen in die Waldesnacht.</l>
+          </lg>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l met="-+|--+|-+|-" rhythm="01002010|" emo1="nostalgia" emo2="beauty/joy">Sie sangen von Marmorbildern,</l>
+            <l met="-+|--+|--+|" rhythm="020|01002" emo1="nostalgia" emo2="beauty/joy">Von Gärten, die überm Gestein</l>
+            <l met="-+|--+|--+|-" rhythm="010020020:" emo1="nostalgia" emo2="beauty/joy">In dämmernden Lauben verwildern,</l>
+            <l met="-+|--+|-+|" rhythm="0200201|" emo1="nostalgia" emo2="beauty/joy">Palästen im Mondenschein,</l>
+            <l met="--+|--+|-+|-" rhythm="002002010|" emo1="nostalgia" emo2="beauty/joy">Wo die Mädchen am Fenster lauschen,</l>
+            <l met="--+|-+|-+|" rhythm="0010202:" emo1="nostalgia" emo2="beauty/joy">Wann der Lauten Klang erwacht</l>
+            <l met="--+|--+|-+|-" rhythm="002001020|" emo1="nostalgia" emo2="beauty/joy">Und die Brunnen verschlafen rauschen</l>
+            <l met="--+|--+|-+|" rhythm="00100201:" emo1="nostalgia" emo2="beauty/joy">In der prächtigen Sommernacht. -</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

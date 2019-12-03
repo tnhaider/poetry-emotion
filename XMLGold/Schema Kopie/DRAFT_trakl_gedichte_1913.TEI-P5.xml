@@ -1,0 +1,3253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.deutschestextarchiv.de/basisformat.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Gedichte</title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/118623575">
+            <surname>Trakl</surname>
+            <forename>Georg</forename>
+          </persName>
+        </author>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/115266127">
+            <surname>Geyken</surname>
+            <forename>Alexander</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/1018099549">
+            <surname>Haaf</surname>
+            <forename>Susanne</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/1019062681">
+            <surname>Jurish</surname>
+            <forename>Bryan</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Schulz</surname>
+            <forename>Matthias</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Steinmann</surname>
+            <forename>Jakob</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Thomas</surname>
+            <forename>Christian</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Wiegand</surname>
+            <forename>Frank</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <orgName>Wikisource</orgName>
+          <resp>
+            <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in Wikisource-Syntax.</note>
+            <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme aus Wikisource entsprechen muss.</note>
+            <ref target="http://de.wikisource.org/wiki/Gedichte_(Trakl)" />
+            <date type="importDTA">2013-03-14T09:09:31Z</date>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <orgName>Wikimedia Commons</orgName>
+          <resp>
+            <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>
+            <ref target="http://commons.wikimedia.org/wiki/Category:Gedichte_(Trakl,_1913)" />
+            <date type="importDTA">2013-03-14T09:09:31Z</date>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <persName>
+            <forename>Frank</forename>
+            <surname>Wiegand</surname>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Konvertierung von Wikisource-Markup nach XML/TEI gemäß DTA-Basisformat.</note>
+            <date type="importDTA">2013-03-14T09:09:31Z</date>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <orgName ref="http://www.clarin-d.de">CLARIN-D</orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="http://fedora.dwds.de" />
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Vollständige digitalisierte Ausgabe.</edition>
+      </editionStmt>
+      <extent>
+        <measure type="images">63</measure>
+        <measure type="tokens">6399</measure>
+        <measure type="types">2506</measure>
+        <measure type="characters">42101</measure>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities</orgName>
+          <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2014-08-25T11:52:32Z</date>
+        <availability>
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+            <p>Dieses Werk ist gemeinfrei.</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="URLWeb">http://www.deutschestextarchiv.de/trakl_gedichte_1913</idno>
+          <idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/trakl_gedichte_1913</idno>
+          <idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/trakl_gedichte_1913</idno>
+          <idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/trakl_gedichte_1913</idno>
+          <idno type="DTADirName">trakl_gedichte_1913</idno>
+          <idno type="DTAID">30357</idno>
+          <idno type="URN">urn:nbn:de:kobv:b4-30357-9</idno>
+        </idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="M">Trakl, Georg: Gedichte. Leipzig, 1913.</bibl>
+        <biblFull>
+          <titleStmt>
+            <title level="m" type="main">Gedichte</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/118623575">
+                <surname>Trakl</surname>
+                <forename>Georg</forename>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1" />
+          </editionStmt>
+          <publicationStmt>
+            <publisher>
+              <name>Kurt Wolff Verlag</name>
+            </publisher>
+            <pubPlace>Leipzig</pubPlace>
+            <date type="publication">1913</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier />
+          <physDesc>
+            <typeDesc>
+              <p>Antiqua</p>
+            </typeDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p />
+        <p>
+          <![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Als Grundlage dienen die <a href="http://de.wikisource.org/wiki/Wikisource:Editionsrichtlinien">Wikisource:Editionsrichtlinien</a>.</li>
+</ul>
+]]>
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">German</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Lyrik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">wikisource</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb facs="#f0001" />
+      <titlePage type="main">
+        <byline>
+          <docAuthor>
+            <hi rendition="#g">GEORG TRAKL</hi>
+          </docAuthor>
+        </byline>
+        <lb />
+        <titlePart type="main">
+          <hi rendition="#g">GEDICHTE</hi>
+        </titlePart>
+        <lb />
+        <space dim="vertical" />
+        <docImprint>
+          <docDate>
+            <hi rendition="#g">1913</hi>
+          </docDate>
+          <lb />
+          <publisher>KURT WOLFF VERLAG</publisher>
+          <pubPlace>LEIPZIG</pubPlace>
+        </docImprint>
+        <lb />
+      </titlePage>
+      <pb facs="#f0002" />
+      <div type="imprint">
+        <p rendition="#c">
+          Dies Buch wurde
+          <lb />
+          gedruckt im Mai 1913 als siebenter und achter
+          <lb />
+          Band der Bücherei „Der jüngste Tag“ bei
+          <lb />
+          Poeschel &amp; Trepte in Leipzig
+        </p>
+      </div>
+      <space dim="vertical" />
+      <div type="copyright">
+        <p rendition="#c">COPYRIGHT BY KURT WOLFF VERLAG, LEIPZIG 1913</p>
+      </div>
+    </front>
+    <body>
+      <pb facs="#f0003" n="5" />
+      <div n="1">
+        <lg type="poem">
+          <head>DIE RABEN</head>
+          <lb />
+          <lg n="1" type="stanza" rhyme="abba">
+            <l>
+              Über den schwarzen Winkel
+              <rhyme label="a">hasten</rhyme>
+            </l>
+            <lb />
+            <l>
+              Am Mittag die Raben mit hartem
+              <rhyme label="b">Schrei</rhyme>
+              .
+            </l>
+            <lb />
+            <l>
+              Ihr Schatten streift an der Hirschkuh
+              <rhyme label="b">vorbei</rhyme>
+            </l>
+            <lb />
+            <l>
+              Und manchmal sieht man sie mürrisch
+              <rhyme label="a">rasten</rhyme>
+              .
+            </l>
+            <lb />
+          </lg>
+          <lg n="2" type="stanza" rhyme="abba">
+            <l>
+              O wie sie die braune Stille
+              <rhyme label="a">stören</rhyme>
+              ,
+            </l>
+            <lb />
+            <l>
+              In der ein Acker sich
+              <rhyme label="b">verzückt</rhyme>
+              ,
+            </l>
+            <lb />
+            <l>
+              Wie ein Weib, das schwere Ahnung
+              <rhyme label="b">berückt</rhyme>
+              ,
+            </l>
+            <lb />
+            <l>
+              Und manchmal kann man sie keifen
+              <rhyme label="a">hören</rhyme>
+            </l>
+            <lb />
+          </lg>
+          <lg n="3" type="stanza" rhyme="abba">
+            <l>
+              Um ein Aas, das sie irgendwo
+              <rhyme label="a">wittern</rhyme>
+              ,
+            </l>
+            <lb />
+            <l>
+              Und plötzlich richten nach Nord sie den
+              <rhyme label="b">Flug</rhyme>
+            </l>
+            <lb />
+            <l>
+              Und schwinden wie ein
+              <rhyme label="b">Leichenzug</rhyme>
+            </l>
+            <lb />
+            <l>
+              In Lüften, die von Wollust
+              <rhyme label="a">zittern</rhyme>
+              .
+            </l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0004" n="6" />
+      <div n="1">
+        <lg type="poem">
+          <head>DIE JUNGE MAGD</head>
+          <lb />
+          <argument>
+            <p>Ludwig von Ficker zugeeignet</p>
+          </argument>
+          <lb />
+          <lg n="1">
+            <head>1.</head>
+            <lb />
+            <lg n="1" type="stanza" rhyme="abab">
+              <l>Oft am Brunnen, wenn es dämmert,</l>
+              <lb />
+              <l>Sieht man sie verzaubert stehen</l>
+              <lb />
+              <l>Wasser schöpfen, wenn es dämmert.</l>
+              <lb />
+              <l>Eimer auf und niedergehen.</l>
+              <lb />
+            </lg>
+            <lg n="2" type="stanza" rhyme="abab">
+              <l>In den Buchen Dohlen flattern</l>
+              <lb />
+              <l>Und sie gleichet einem Schatten.</l>
+              <lb />
+              <l>Ihre gelben Haare flattern</l>
+              <lb />
+              <l>Und im Hofe schrein die Ratten.</l>
+              <lb />
+            </lg>
+            <lg n="3" type="stanza" rhyme="abab">
+              <l>Und umschmeichelt von Verfalle</l>
+              <lb />
+              <l>Senkt sie die entzundenen Lider.</l>
+              <lb />
+              <l>Dürres Gras neigt im Verfalle</l>
+              <lb />
+              <l>Sich zu ihren Füßen nieder.</l>
+              <lb />
+            </lg>
+          </lg>
+          <lg n="2">
+            <head>2.</head>
+            <lb />
+            <lg n="1" type="stanza" rhyme="abab">
+              <l>Stille schafft sie in der Kammer</l>
+              <lb />
+              <l>Und der Hof liegt längst verödet.</l>
+              <lb />
+              <l>Im Hollunder vor der Kammer</l>
+              <lb />
+              <l>Kläglich eine Amsel flötet.</l>
+              <lb />
+            </lg>
+            <lg n="2" type="stanza" rhyme="abab">
+              <l>Silbern schaut ihr Bild im Spiegel</l>
+              <lb />
+              <l>Fremd sie an im Zwielichtscheine</l>
+              <lb />
+              <l>Und verdämmert fahl im Spiegel</l>
+              <lb />
+              <l>Und ihr graut vor seiner Reine.</l>
+              <lb />
+            </lg>
+            <lg n="3" type="stanza" rhume="abab">
+              <l>Traumhaft singt ein Knecht im Dunkel</l>
+              <lb />
+              <l>Und sie starrt von Schmerz geschüttelt.</l>
+              <lb />
+              <l>Röte träufelt durch das Dunkel.</l>
+              <lb />
+              <l>Jäh am Tor der Südwind rüttelt.</l>
+              <lb />
+            </lg>
+          </lg>
+          <pb facs="#f0005" n="7" />
+          <lg n="3">
+            <head>3.</head>
+            <lb />
+            <lg n="1" type="stanza" rhyme="abab">
+              <l>Nächtens übern kahlen Anger</l>
+              <lb />
+              <l>Gaukelt sie in Fieberträumen.</l>
+              <lb />
+              <l>Mürrisch greint der Wind im Anger</l>
+              <lb />
+              <l>Und der Mond lauscht aus den Bäumen.</l>
+              <lb />
+            </lg>
+            <lg n="2" type="stanza" rhyme="abab">
+              <l>Balde rings die Sterne bleichen</l>
+              <lb />
+              <l>Und ermattet von Beschwerde</l>
+              <lb />
+              <l>Wächsern ihre Wangen bleichen.</l>
+              <lb />
+              <l>Fäulnis wittert aus der Erde.</l>
+              <lb />
+            </lg>
+            <lg n="3" type="stanza" rhyme="abab">
+              <l>Traurig rauscht das Rohr im Tümpel</l>
+              <lb />
+              <l>Und sie friert in sich gekauert.</l>
+              <lb />
+              <l>Fern ein Hahn kräht. Übern Tümpel</l>
+              <lb />
+              <l>Hart und grau der Morgen schauert.</l>
+              <lb />
+            </lg>
+          </lg>
+          <lg n="4">
+            <head>4.</head>
+            <lb />
+            <lg n="1" type="stanza" rhyme="abab">
+              <l>In der Schmiede dröhnt der Hammer</l>
+              <lb />
+              <l>Und sie huscht am Tor vorüber.</l>
+              <lb />
+              <l>Glührot schwingt der Knecht den Hammer</l>
+              <lb />
+              <l>Und sie schaut wie tot hinüber.</l>
+              <lb />
+            </lg>
+            <lg n="2" type="stanza" rhyme="abab">
+              <l>Wie im Traum trifft sie ein Lachen;</l>
+              <lb />
+              <l>Und sie taumelt in die Schmiede,</l>
+              <lb />
+              <l>Scheu geduckt vor seinem Lachen,</l>
+              <lb />
+              <l>Wie der Hammer hart und rüde.</l>
+              <lb />
+            </lg>
+            <lg n="3" type="stanza" rhyme="abab">
+              <l>Hell versprühn im Raum die Funken</l>
+              <lb />
+              <l>Und mit hilfloser Geberde</l>
+              <lb />
+              <l>Hascht sie nach den wilden Funken</l>
+              <lb />
+              <l>Und sie stürzt betäubt zur Erde.</l>
+              <lb />
+            </lg>
+          </lg>
+          <pb facs="#f0006" n="8" />
+          <lg n="5">
+            <head>5.</head>
+            <lb />
+            <lg n="1" type="stanza" rhyme="abab">
+              <l>Schmächtig hingestreckt im Bette</l>
+              <lb />
+              <l>Wacht sie auf voll süßem Bangen</l>
+              <lb />
+              <l>Und sie sieht ihr schmutzig Bette</l>
+              <lb />
+              <l>Ganz von goldnem Licht verhangen,</l>
+              <lb />
+            </lg>
+            <lg n="2" type="stanza" rhyme="abab">
+              <l>Die Reseden dort am Fenster</l>
+              <lb />
+              <l>Und den bläulich hellen Himmel.</l>
+              <lb />
+              <l>Manchmal trägt der Wind ans Fenster</l>
+              <lb />
+              <l>Einer Glocke zag Gebimmel.</l>
+              <lb />
+            </lg>
+            <lg n="3" type="stanza" rhyme="abab">
+              <l>Schatten gleiten übers Kissen,</l>
+              <lb />
+              <l>Langsam schlägt die Mittagsstunde</l>
+              <lb />
+              <l>Und sie atmet schwer im Kissen</l>
+              <lb />
+              <l>Und ihr Mund gleicht einer Wunde.</l>
+              <lb />
+            </lg>
+          </lg>
+          <lg n="6">
+            <head>6.</head>
+            <lb />
+            <lg n="1" type="stanza" rhyme="abab">
+              <l>Abends schweben blutige Linnen,</l>
+              <lb />
+              <l>Wolken über stummen Wäldern,</l>
+              <lb />
+              <l>Die gehüllt in schwarze Linnen,</l>
+              <lb />
+              <l>Spatzen lärmen auf den Feldern.</l>
+              <lb />
+            </lg>
+            <lg n="2" type="stanza" rhyme="abab">
+              <l>Und sie liegt ganz weiß im Dunkel.</l>
+              <lb />
+              <l>Unterm Dach verhaucht ein Girren.</l>
+              <lb />
+              <l>Wie ein Aas in Busch und Dunkel</l>
+              <lb />
+              <l>Fliegen ihren Mund umschwirren.</l>
+              <lb />
+            </lg>
+            <lg n="3" type="stanza" rhyme="abab">
+              <l>Traumhaft klingt im braunen Weiler</l>
+              <lb />
+              <l>Nach ein Klang von Tanz und Geigen,</l>
+              <lb />
+              <l>Schwebt ihr Antlitz durch den Weiler,</l>
+              <lb />
+              <l>Weht ihr Haar in kahlen Zweigen.</l>
+              <lb />
+            </lg>
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0007" n="9" />
+      <div n="1">
+        <lg type="poem">
+          <head>ROMANZE ZUR NACHT</head>
+          <lb />
+          <lg n="1" type="stanza" rhyme="abba">
+            <l>Einsamer unterm Sternenzelt</l>
+            <lb />
+            <l>Geht durch die stille Mitternacht.</l>
+            <lb />
+            <l>Der Knab aus Träumen wirr erwacht,</l>
+            <lb />
+            <l>Sein Antlitz grau im Mond verfällt.</l>
+            <lb />
+          </lg>
+          <lg n="2" type="stanza" rhyme="abba">
+            <l>Die Närrin weint mit offnem Haar</l>
+            <lb />
+            <l>Am Fenster, das vergittert starrt.</l>
+            <lb />
+            <l>Im Teich vorbei auf süßer Fahrt</l>
+            <lb />
+            <l>Ziehn Liebende sehr wunderbar.</l>
+            <lb />
+          </lg>
+          <lg n="3" type="stanza" rhyme="abba">
+            <l>Der Mörder lächelt bleich im Wein,</l>
+            <lb />
+            <l>Die Kranken Todesgrausen packt.</l>
+            <lb />
+            <l>Die Nonne betet wund und nackt</l>
+            <lb />
+            <l>Vor des Heilands Kreuzespein.</l>
+            <lb />
+          </lg>
+          <lg n="4" type="stanza" rhyme="abba">
+            <l>Die Mutter leis’ im Schlafe singt.</l>
+            <lb />
+            <l>Sehr friedlich schaut zur Nacht das Kind</l>
+            <lb />
+            <l>Mit Augen, die ganz wahrhaft sind.</l>
+            <lb />
+            <l>Im Hurenhaus Gelächter klingt.</l>
+            <lb />
+          </lg>
+          <lg n="5" type="stanza" rhyme="abba">
+            <l>Beim Talglicht drunt’ im Kellerloch</l>
+            <lb />
+            <l>Der Tote malt mit weißer Hand</l>
+            <lb />
+            <l>Ein grinsend Schweigen an die Wand.</l>
+            <lb />
+            <l>Der Schläfer flüstert immer noch.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0008" n="10" />
+      <div n="1">
+        <lg type="poem">
+          <head>IM ROTEN LAUBWERK VOLL GUITARREN ...</head>
+          <lb />
+          <lg n="1">
+            <l>Im roten Laubwerk voll Guitarren</l>
+            <lb />
+            <l>Der Mädchen gelbe Haare wehen</l>
+            <lb />
+            <l>Am Zaun, wo Sonnenblumen stehen.</l>
+            <lb />
+            <l>Durch Wolken fährt ein goldner Karren.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>In brauner Schatten Ruh verstummen</l>
+            <lb />
+            <l>Die Alten, die sich blöd umschlingen.</l>
+            <lb />
+            <l>Die Waisen süß zur Vesper singen.</l>
+            <lb />
+            <l>In gelben Dünsten Fliegen summen.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Am Bache waschen noch die Frauen.</l>
+            <lb />
+            <l>Die aufgehängten Linnen wallen.</l>
+            <lb />
+            <l>Die Kleine, die mir lang gefallen,</l>
+            <lb />
+            <l>Kommt wieder durch das Abendgrauen.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Vom lauen Himmel Spatzen stürzen</l>
+            <lb />
+            <l>In grüne Löcher voll Verwesung.</l>
+            <lb />
+            <l>Dem Hungrigen täuscht vor Genesung</l>
+            <lb />
+            <l>Ein Duft von Brot und herben Würzen.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0009" n="11" />
+      <div n="1">
+        <lg type="poem">
+          <head>MUSIK IM MIRABELL</head>
+          <lb />
+          <lg n="1" rhyme="abab">
+            <l>Ein Brunnen singt. Die Wolken stehn</l>
+            <lb />
+            <l>Im klaren Blau, die weißen, zarten.</l>
+            <lb />
+            <l>Bedächtig stille Menschen gehn</l>
+            <lb />
+            <l>Am Abend durch den alten Garten.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Der Ahnen Marmor ist ergraut.</l>
+            <lb />
+            <l>Ein Vogelzug streift in die Weiten.</l>
+            <lb />
+            <l>Ein Faun mit toten Augen schaut</l>
+            <lb />
+            <l>Nach Schatten, die ins Dunkel gleiten.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Das Laub fällt rot vom alten Baum</l>
+            <lb />
+            <l>Und kreist herein durchs offne Fenster.</l>
+            <lb />
+            <l>Ein Feuerschein glüht auf im Raum</l>
+            <lb />
+            <l>Und malet trübe Angstgespenster.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Ein weißer Fremdling tritt ins Haus.</l>
+            <lb />
+            <l>Ein Hund stürzt durch verfallene Gänge.</l>
+            <lb />
+            <l>Die Magd löscht eine Lampe aus,</l>
+            <lb />
+            <l>Das Ohr hört nachts Sonatenklänge.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0010" n="12" />
+      <div n="1">
+        <lg type="poem">
+          <head>MELANCHOLIE DES ABENDS</head>
+          <lb />
+          <lg n="1">
+            <l>— Der Wald, der sich verstorben breitet —</l>
+            <lb />
+            <l>Und Schatten sind um ihn, wie Hecken.</l>
+            <lb />
+            <l>Das Wild kommt zitternd aus Verstecken,</l>
+            <lb />
+            <l>Indes ein Bach ganz leise gleitet</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Und Farnen folgt und alten Steinen</l>
+            <lb />
+            <l>Und silbern glänzt aus Laubgewinden.</l>
+            <lb />
+            <l>Man hört ihn bald in schwarzen Schlünden —</l>
+            <lb />
+            <l>Vielleicht, daß auch schon Sterne scheinen.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Der dunkle Plan scheint ohne Massen,</l>
+            <lb />
+            <l>Verstreute Dörfer, Sumpf und Weiher,</l>
+            <lb />
+            <l>Und etwas täuscht dir vor ein Feuer.</l>
+            <lb />
+            <l>Ein kalter Glanz huscht über Straßen.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Am Himmel ahnet man Bewegung,</l>
+            <lb />
+            <l>Ein Heer von wilden Vögeln wandern</l>
+            <lb />
+            <l>Nach jenen Ländern, schönen, andern.</l>
+            <lb />
+            <l>Es steigt und sinkt des Rohres Regung.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0011" n="13" />
+      <div n="1">
+        <lg type="poem">
+          <head>WINTERDÄMMERUNG</head>
+          <lb />
+          <argument>
+            <p>An Max von Esterle</p>
+          </argument>
+          <lb />
+          <lg n="1">
+            <l>Schwarze Himmel von Metall.</l>
+            <lb />
+            <l>Kreuz in roten Stürmen wehen</l>
+            <lb />
+            <l>Abends hungertolle Krähen</l>
+            <lb />
+            <l>Über Parken gram und fahl.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Im Gewölk erfriert ein Strahl;</l>
+            <lb />
+            <l>Und vor Satans Flüchen drehen</l>
+            <lb />
+            <l>Jene sich im Kreis und gehen</l>
+            <lb />
+            <l>Nieder siebenfach an Zahl.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>In Verfaultem süß und schal</l>
+            <lb />
+            <l>Lautlos ihre Schnäbel mähen.</l>
+            <lb />
+            <l>Häuser dräu’n aus stummen Nähen;</l>
+            <lb />
+            <l>Helle im Theatersaal.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Kirchen, Brücken und Spital</l>
+            <lb />
+            <l>Grauenvoll im Zwielicht stehen.</l>
+            <lb />
+            <l>Blutbefleckte Linnen blähen</l>
+            <lb />
+            <l>Segel sich auf dem Kanal</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0012" n="14" />
+      <div n="1">
+        <lg type="poem">
+          <head>RONDEL</head>
+          <lb />
+          <lg n="1">
+            <l>Verflossen ist das Gold der Tage,</l>
+            <lb />
+            <l>Des Abends braun und blaue Farben:</l>
+            <lb />
+            <l>Des Hirten sanfte Flöten starben</l>
+            <lb />
+            <l>Des Abends blau und braune Farben</l>
+            <lb />
+            <l>Verflossen ist das Gold der Tage.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0013" n="15" />
+      <div n="1">
+        <lg type="poem">
+          <head>FRAUENSEGEN</head>
+          <lb />
+          <lg n="1">
+            <l>Schreitest unter deinen Frau’n</l>
+            <lb />
+            <l>Und du lächelst oft beklommen:</l>
+            <lb />
+            <l>Sind so bange Tage kommen.</l>
+            <lb />
+            <l>Weiß verblüht der Mohn am Zaun.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Wie dein Leib so schön geschwellt</l>
+            <lb />
+            <l>Golden reift der Wein am Hügel.</l>
+            <lb />
+            <l>Ferne glänzt des Weihers Spiegel</l>
+            <lb />
+            <l>Und die Sense klirrt im Feld.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>In den Büschen rollt der Tau,</l>
+            <lb />
+            <l>Rot die Blätter niederfließen.</l>
+            <lb />
+            <l>Seine liebe Frau zu grüßen</l>
+            <lb />
+            <l>Naht ein Mohr dir braun und rauh.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0014" n="16" />
+      <div n="1">
+        <lg type="poem">
+          <head>DIE SCHÖNE STADT</head>
+          <lb />
+          <lg n="1">
+            <l>Alte Plätze sonnig schweigen.</l>
+            <lb />
+            <l>Tief in Blau und Gold versponnen</l>
+            <lb />
+            <l>Traumhaft hasten sanfte Nonnen</l>
+            <lb />
+            <l>Unter schwüler Buchen Schweigen.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Aus den braun erhellten Kirchen</l>
+            <lb />
+            <l>Schaun des Todes reine Bilder,</l>
+            <lb />
+            <l>Großer Fürsten schöne Schilder.</l>
+            <lb />
+            <l>Kronen schimmern in den Kirchen.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Rösser tauchen aus dem Brunnen.</l>
+            <lb />
+            <l>Blütenkrallen drohn aus Bäumen.</l>
+            <lb />
+            <l>Knaben spielen wirr von Träumen</l>
+            <lb />
+            <l>Abends leise dort am Brunnen.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Mädchen stehen an den Toren,</l>
+            <lb />
+            <l>Schauen scheu ins farbige Leben.</l>
+            <lb />
+            <l>Ihre feuchten Lippen beben</l>
+            <lb />
+            <l>Und sie warten an den Toren.</l>
+            <lb />
+          </lg>
+          <lg n="5">
+            <l>Zitternd flattern Glockenklange,</l>
+            <lb />
+            <l>Marschtakt hallt und Wacherufen.</l>
+            <lb />
+            <l>Fremde lauschen auf den Stufen.</l>
+            <lb />
+            <l>Hoch im Blau sind Orgelklänge.</l>
+            <lb />
+          </lg>
+          <lg n="6">
+            <l>Helle Instrumente singen.</l>
+            <lb />
+            <l>Durch der Garten Blätterrahmen</l>
+            <lb />
+            <l>Schwirrt das Lachen schöner Damen.</l>
+            <lb />
+            <l>Leise junge Mütter singen.</l>
+            <lb />
+          </lg>
+          <lg n="7">
+            <l>Heimlich haucht an blumigen Fenstern</l>
+            <lb />
+            <l>Duft von Weihrauch, Teer und Flieder.</l>
+            <lb />
+            <l>Silbern flimmern müde Lider</l>
+            <lb />
+            <l>Durch die Blumen an den Fenstern.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0015" n="17" />
+      <div n="1">
+        <lg type="poem">
+          <head>IN EINEM VERLASSENEN ZIMMER</head>
+          <lb />
+          <lg n="1">
+            <l>Fenster, bunte Blumenbeeten,</l>
+            <lb />
+            <l>Eine Orgel spielt herein.</l>
+            <lb />
+            <l>Schatten tanzen an Tapeten,</l>
+            <lb />
+            <l>Wunderlich ein toller Reihn.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Lichterloh die Büsche wehen</l>
+            <lb />
+            <l>Und ein Schwarm von Mücken schwingt,</l>
+            <lb />
+            <l>Fern im Acker Sensen mähen</l>
+            <lb />
+            <l>Und ein altes Wasser singt.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Wessen Atem kommt mich kosen?</l>
+            <lb />
+            <l>Schwalben irre Zeichen ziehn.</l>
+            <lb />
+            <l>Leise fließt im Grenzenlosen</l>
+            <lb />
+            <l>Dort das goldne Waldland hin.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Flammen flackern in den Beeten.</l>
+            <lb />
+            <l>Wirr verzückt der tolle Reihn</l>
+            <lb />
+            <l>An den gelblichen Tapeten.</l>
+            <lb />
+            <l>Jemand schaut zur Tür herein.</l>
+            <lb />
+          </lg>
+          <lg n="5">
+            <l>Weihrauch duftet süß und Birne</l>
+            <lb />
+            <l>Und es dämmern Glas und Truh.</l>
+            <lb />
+            <l>Langsam beugt die heiße Stirne</l>
+            <lb />
+            <l>Sich den weißen Sternen zu.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0016" n="18" />
+      <div n="1">
+        <lg type="poem">
+          <head>AN DEN KNABEN ELIS</head>
+          <lb />
+          <lg n="1">
+            <l>Elis, wenn die Amsel im schwarzen Wald ruft,</l>
+            <lb />
+            <l>Dieses ist dein Untergang.</l>
+            <lb />
+            <l>Deine Lippen trinken die Kühle des blauen Felsenquells.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Laß, wenn deine Stirne leise blutet</l>
+            <lb />
+            <l>Uralte Legenden</l>
+            <lb />
+            <l>Und dunkle Deutung des Vogelflugs.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Du aber gehst mit weichen Schritten in die Nacht,</l>
+            <lb />
+            <l>Die voll purpurner Trauben hängt</l>
+            <lb />
+            <l>Und du regst die Arme schöner im Blau.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Ein Dornenbusch tönt,</l>
+            <lb />
+            <l>Wo deine mondenen Augen sind.</l>
+            <lb />
+            <l>O, wie lange bist, Elis, du verstorben.</l>
+            <lb />
+          </lg>
+          <lg n="5">
+            <l>Dein Leib ist eine Hyazinthe,</l>
+            <lb />
+            <l>In die ein Mönch die wächsernen Finger taucht.</l>
+            <lb />
+            <l>Eine schwarze Höhle ist unser Schweigen,</l>
+            <lb />
+          </lg>
+          <lg n="6">
+            <l>Daraus bisweilen ein sanftes Tier tritt</l>
+            <lb />
+            <l>Und langsam die schweren Lider senkt.</l>
+            <lb />
+            <l>Auf deine Schläfen tropft schwarzer Tau,</l>
+            <lb />
+          </lg>
+          <lg n="7">
+            <l>Das letzte Gold verfallener Sterne.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0017" n="19" />
+      <div n="1">
+        <lg type="poem">
+          <head>DER GEWITTERABEND</head>
+          <lb />
+          <lg n="1">
+            <l>O die roten Abendstunden!</l>
+            <lb />
+            <l>Flimmernd schwankt am offenen Fenster</l>
+            <lb />
+            <l>Weinlaub wirr ins Blau gewunden,</l>
+            <lb />
+            <l>Drinnen nisten Angstgespenster.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Staub tanzt im Gestank der Gossen.</l>
+            <lb />
+            <l>Klirrend stößt der Wind in Scheiben.</l>
+            <lb />
+            <l>Einen Zug von wilden Rossen</l>
+            <lb />
+            <l>Blitze grelle Wolken treiben.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Laut zerspringt der Weiherspiegel.</l>
+            <lb />
+            <l>Möven schrein am Fensterrahmen.</l>
+            <lb />
+            <l>Feuerreiter sprengt vom Hügel</l>
+            <lb />
+            <l>Und zerschellt im Tann zu Flammen.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Kranke kreischen im Spitale.</l>
+            <lb />
+            <l>Bläulich schwirrt der Nacht Gefieder.</l>
+            <lb />
+            <l>Glitzernd braust mit einem Male</l>
+            <lb />
+            <l>Regen auf die Dächer nieder.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0018" n="20" />
+      <div n="1">
+        <lg type="poem">
+          <head>ABENDMUSE</head>
+          <lb />
+          <lg n="1">
+            <l>Ans Blumenfenster wieder kehrt des Kirchturms Schatten</l>
+            <lb />
+            <l>Und Goldnes. Die heiße Stirn verglüht in Ruh und Schweigen.</l>
+            <lb />
+            <l>Ein Brunnen fällt im Dunkel von Kastanienzweigen —</l>
+            <lb />
+            <l>Da fühlst du: es ist gut! in schmerzlichem Ermatten.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Der Markt ist leer von Sommerfrüchten und Gewinden.</l>
+            <lb />
+            <l>Einträchtig stimmt der Tore schwärzliches Gepränge.</l>
+            <lb />
+            <l>In einem Garten tönen sanften Spieles Klänge,</l>
+            <lb />
+            <l>Wo Freunde nach dem Mahle sich zusammenfinden.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Des weißen Magiers Märchen lauscht die Seele gerne.</l>
+            <lb />
+            <l>Rund saust das Korn, das Mäher nachmittags geschnitten.</l>
+            <lb />
+            <l>Geduldig schweigt das harte Leben in den Hütten;</l>
+            <lb />
+            <l>Der Kühe linden Schlaf bescheint die Stallaterne.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Von Lüften trunken sinken balde ein die Lider</l>
+            <lb />
+            <l>Und öffnen leise sich zu fremden Sternenzeichen.</l>
+            <lb />
+            <l>Endymion taucht aus dem Dunkel alter Eichen</l>
+            <lb />
+            <l>Und beugt sich über trauervolle Wasser nieder.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0019" n="21" />
+      <div n="1">
+        <lg type="poem">
+          <head>TRAUM DES BÖSEN</head>
+          <lb />
+          <lg n="1">
+            <l>Verhallend eines Gongs braungoldne Klänge —</l>
+            <lb />
+            <l>Ein Liebender erwacht in schwarzen Zimmern</l>
+            <lb />
+            <l>Die Wang’ an Flammen, die im Fenster flimmern.</l>
+            <lb />
+            <l>Am Strome blitzen Segel, Masten, Stränge.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Ein Mönch, ein schwangres Weib dort im Gedränge.</l>
+            <lb />
+            <l>Guitarren klimpern, rote Kittel schimmern.</l>
+            <lb />
+            <l>Kastanien schwül in goldnem Glanz verkümmern;</l>
+            <lb />
+            <l>Schwarz ragt der Kirchen trauriges Gepränge.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Aus bleichen Masken schaut der Geist des Bösen.</l>
+            <lb />
+            <l>Ein Platz verdämmert grauenvoll und düster;</l>
+            <lb />
+            <l>Am Abend regt auf Inseln sich Geflüster.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Des Vogelfluges wirre Zeichen lesen</l>
+            <lb />
+            <l>Aussätzige, die zur Nacht vielleicht verwesen.</l>
+            <lb />
+            <l>Im Park erblicken zitternd sich Geschwister.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0020" n="22" />
+      <div n="1">
+        <lg type="poem">
+          <head>GEISTLICHES LIED</head>
+          <lb />
+          <lg n="1">
+            <l>Zeichen, seltne Stickerein</l>
+            <lb />
+            <l>Malt ein flatternd Blumenbeet.</l>
+            <lb />
+            <l>Gottes blauer Odem weht</l>
+            <lb />
+            <l>In den Gartensaal herein,</l>
+            <lb />
+            <l>Heiter ein.</l>
+            <lb />
+            <l>Ragt ein Kreuz im wilden Wein.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Hör’ im Dorf sich viele freun,</l>
+            <lb />
+            <l>Gärtner an der Mauer mäht,</l>
+            <lb />
+            <l>Leise eine Orgel geht,</l>
+            <lb />
+            <l>Mischet Klang und goldenen Schein,</l>
+            <lb />
+            <l>Klang und Schein.</l>
+            <lb />
+            <l>Liebe segnet Brot und Wein.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Mädchen kommen auch herein</l>
+            <lb />
+            <l>Und der Hahn zum letzten kräht.</l>
+            <lb />
+            <l>Sacht ein morsches Gitter geht</l>
+            <lb />
+            <l>Und in Rosen Kranz und Reihn,</l>
+            <lb />
+            <l>Rosenreihn</l>
+            <lb />
+            <l>Ruht Maria weiß und fein.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Bettler dort am alten Stein</l>
+            <lb />
+            <l>Scheint verstorben im Gebet,</l>
+            <lb />
+            <l>Sanft ein Hirt vom Hügel geht</l>
+            <lb />
+            <l>Und ein Engel singt im Hain,</l>
+            <lb />
+            <l>Nah am Hain</l>
+            <lb />
+            <l>Kinder in den Schlaf hinein.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0021" n="23" />
+      <div n="1">
+        <lg type="poem">
+          <head>IM HERBST</head>
+          <lb />
+          <lg n="1">
+            <l>Die Sonnenblumen leuchten am Zaun,</l>
+            <lb />
+            <l>Still sitzen Kranke im Sonnenschein.</l>
+            <lb />
+            <l>Im Acker mühn sich singend die Frau’n,</l>
+            <lb />
+            <l>Die Klosterglocken läuten darein.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Die Vögel sagen dir ferne Mär’,</l>
+            <lb />
+            <l>Die Klosterglocken läuten darein.</l>
+            <lb />
+            <l>Vom Hof tönt sanft die Geige her.</l>
+            <lb />
+            <l>Heut keltern sie den braunen Wein.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Da zeigt der Mensch sich froh und lind.</l>
+            <lb />
+            <l>Heut keltern sie den braunen Wein.</l>
+            <lb />
+            <l>Weit offen die Totenkammern sind</l>
+            <lb />
+            <l>Und schön bemalt vom Sonnenschein.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0022" n="24" />
+      <div n="1">
+        <lg type="poem">
+          <head>ZU ABEND MEIN HERZ</head>
+          <lb />
+          <lg n="1">
+            <l>Am Abend hört man den Schrei der Fledermäuse.</l>
+            <lb />
+            <l>Zwei Rappen springen auf der Wiese.</l>
+            <lb />
+            <l>Der rote Ahorn rauscht.</l>
+            <lb />
+            <l>Dem Wanderer erscheint die kleine Schenke am Weg.</l>
+            <lb />
+            <l>Herrlich schmecken junger Wein und Nüsse.</l>
+            <lb />
+            <l>Herrlich: betrunken zu taumeln in dämmernden Wald.</l>
+            <lb />
+            <l>Durch schwarzes Geäst tönen schmerzliche Glocken.</l>
+            <lb />
+            <l>Auf das Gesicht tropft Tau.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0023" n="25" />
+      <div n="1">
+        <lg type="poem">
+          <head>DIE BAUERN</head>
+          <lb />
+          <lg n="1">
+            <l>Vorm Fenster tönendes Grün und Rot.</l>
+            <lb />
+            <l>Im schwarzverräucherten, niederen Saal</l>
+            <lb />
+            <l>Sitzen die Knechte und Mägde beim Mahl;</l>
+            <lb />
+            <l>Und sie schenken den Wein und sie brechen das Brot.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Im tiefen Schweigen der Mittagszeit</l>
+            <lb />
+            <l>Fällt bisweilen ein karges Wort.</l>
+            <lb />
+            <l>Die Äcker flimmern in einem fort</l>
+            <lb />
+            <l>Und der Himmel bleiern und weit.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Fratzenhaft flackert im Herd die Glut</l>
+            <lb />
+            <l>Und ein Schwarm von Fliegen summt.</l>
+            <lb />
+            <l>Die Mägde lauschen blöd und verstummt</l>
+            <lb />
+            <l>Und ihre Schläfen hämmert das Blut.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Und manchmal treffen sich Blicke voll Gier,</l>
+            <lb />
+            <l>Wenn tierischer Dunst die Stube durchweht.</l>
+            <lb />
+            <l>Eintönig spricht ein Knecht das Gebet</l>
+            <lb />
+            <l>Und ein Hahn kräht unter der Tür.</l>
+            <lb />
+          </lg>
+          <lg n="5">
+            <l>Und wieder ins Feld. Ein Grauen packt</l>
+            <lb />
+            <l>Sie oft im tosenden Ährengebraus</l>
+            <lb />
+            <l>Und klirrend schwingen ein und aus</l>
+            <lb />
+            <l>Die Sensen geisterhaft im Takt.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0024" n="26" />
+      <div n="1">
+        <lg type="poem">
+          <head>ALLERSEELEN</head>
+          <lb />
+          <argument>
+            <p>An Karl Hauer</p>
+          </argument>
+          <lb />
+          <lg n="1">
+            <l>Die Männlein, Weiblein, traurige Gesellen,</l>
+            <lb />
+            <l>Sie streuen heute Blumen blau und rot</l>
+            <lb />
+            <l>Auf ihre Grüfte, die sich zag erhellen.</l>
+            <lb />
+            <l>Sie tun wie arme Puppen vor dem Tod.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>O! wie sie hier voll Angst und Demut scheinen,</l>
+            <lb />
+            <l>Wie Schatten hinter schwarzen Büschen stehn.</l>
+            <lb />
+            <l>Im Herbstwind klagt der Ungebornen Weinen,</l>
+            <lb />
+            <l>Auch sieht man Lichter in der Irre gehn.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Das Seufzen Liebender haucht in Gezweigen</l>
+            <lb />
+            <l>Und dort verwest die Mutter mit dem Kind.</l>
+            <lb />
+            <l>Unwirklich scheinet der Lebendigen Reigen</l>
+            <lb />
+            <l>Und wunderlich zerstreut im Abendwind.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Ihr Leben ist so wirr, voll trüber Plagen.</l>
+            <lb />
+            <l>Erbarm’ dich Gott der Frauen Höll’ und Qual,</l>
+            <lb />
+            <l>Und dieser hoffnungslosen Todesklagen.</l>
+            <lb />
+            <l>Einsame wandeln still im Sternensaal.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0025" n="27" />
+      <div n="1">
+        <lg type="poem">
+          <head>MELANCHOLIE</head>
+          <lb />
+          <lg n="1">
+            <l>Bläuliche Schatten. O ihr dunklen Augen,</l>
+            <lb />
+            <l>Die lang mich anschaun im Vorübergleiten.</l>
+            <lb />
+            <l>Guitarrenklänge sanft den Herbst begleiten</l>
+            <lb />
+            <l>Im Garten, aufgelöst in braunen Laugen.</l>
+            <lb />
+            <l>Des Todes ernste Düsternis bereiten</l>
+            <lb />
+            <l>Nymphische Hände, an roten Brüsten saugen</l>
+            <lb />
+            <l>Verfallne Lippen und in schwarzen Laugen</l>
+            <lb />
+            <l>Des Sonnenjünglings feuchte Locken gleiten.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0026" n="28" />
+      <div n="1">
+        <lg type="poem">
+          <head>SEELE DES LEBENS</head>
+          <lb />
+          <lg n="1">
+            <l>Verfall, der weich das Laub umdüstert,</l>
+            <lb />
+            <l>Es wohnt im Wald sein weites Schweigen.</l>
+            <lb />
+            <l>Bald scheint ein Dorf sich geisterhaft zu neigen.</l>
+            <lb />
+            <l>Der Schwester Mund in schwarzen Zweigen flüstert.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Der Einsame wird bald entgleiten,</l>
+            <lb />
+            <l>Vielleicht ein Hirt auf dunklen Pfaden.</l>
+            <lb />
+            <l>Ein Tier tritt leise aus den Baumarkaden,</l>
+            <lb />
+            <l>Indes die Lider sich vor Gottheit weiten.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Der blaue Fluß rinnt schön hinunter,</l>
+            <lb />
+            <l>Gewölke sich am Abend zeigen;</l>
+            <lb />
+            <l>Die Seele auch in engelhaftem Schweigen.</l>
+            <lb />
+            <l>Vergängliche Gebilde gehen unter.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0027" n="29" />
+      <div n="1">
+        <lg type="poem">
+          <head>VERKLÄRTER HERBST</head>
+          <lb />
+          <lg n="1">
+            <l>Gewaltig endet so das Jahr</l>
+            <lb />
+            <l>Mit goldnem Wein und Frucht der Gärten.</l>
+            <lb />
+            <l>Rund schweigen Wälder wunderbar</l>
+            <lb />
+            <l>Und sind des Einsamen Gefährten.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Da sagt der Landmann: Es ist gut.</l>
+            <lb />
+            <l>Ihr Abendglocken lang und leise</l>
+            <lb />
+            <l>Gebt noch zum Ende frohen Mut.</l>
+            <lb />
+            <l>Ein Vogelzug grüßt auf der Reise.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Es ist der Liebe milde Zeit.</l>
+            <lb />
+            <l>Im Kahn den blauen Fluß hinunter</l>
+            <lb />
+            <l>Wie schön sich Bild an Bildchen reiht –</l>
+            <lb />
+            <l>Das geht in Ruh und Schweigen unter.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0028" n="30" />
+      <div n="1">
+        <lg type="poem">
+          <head>WINKEL AM WALD</head>
+          <lb />
+          <argument>
+            <p>An Karl Minnich</p>
+          </argument>
+          <lb />
+          <lg n="1">
+            <l>Braune Kastanien. Leise gleiten die alten Leute</l>
+            <lb />
+            <l>In stilleren Abend; weich verwelken schöne Blätter.</l>
+            <lb />
+            <l>Am Friedhof scherzt die Amsel mit dem toten Vetter,</l>
+            <lb />
+            <l>Angelen gibt der blonde Lehrer das Geleite.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Des Todes reine Bilder schaun von Kirchenfenstern;</l>
+            <lb />
+            <l>Doch wirkt ein blutiger Grund sehr trauervoll und düster.</l>
+            <lb />
+            <l>Das Tor blieb heut verschlossen. Den Schlüssel hat der Küster.</l>
+            <lb />
+            <l>Im Garten spricht die Schwester freundlich mit Gespenstern.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>In alten Kellern reift der Wein ins Goldne, Klare.</l>
+            <lb />
+            <l>Süß duften Äpfel. Freude glänzt nicht allzu ferne.</l>
+            <lb />
+            <l>Den langen Abend hören Kinder Märchen gerne;</l>
+            <lb />
+            <l>Auch zeigt sich sanftem Wahnsinn oft das Goldne, Wahre.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Das Blau fließt voll Reseden; in Zimmern Kerzenhelle.</l>
+            <lb />
+            <l>Bescheidenen ist ihre Stätte wohl bereitet.</l>
+            <lb />
+            <l>Den Saum des Walds hinab ein einsam Schicksal gleitet;</l>
+            <lb />
+            <l>Die Nacht erscheint, der Ruhe Engel, auf der Schwelle.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0029" n="31" />
+      <div n="1">
+        <lg type="poem">
+          <head>IM WINTER</head>
+          <lb />
+          <lg n="1">
+            <l>Der Acker leuchtet weiß und kalt.</l>
+            <lb />
+            <l>Der Himmel ist einsam und ungeheuer.</l>
+            <lb />
+            <l>Dohlen kreisen über dem Weiher</l>
+            <lb />
+            <l>Und Jäger steigen nieder vom Wald.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Ein Schweigen in schwarzen Wipfeln wohnt.</l>
+            <lb />
+            <l>Ein Feuerschein huscht aus den Hütten.</l>
+            <lb />
+            <l>Bisweilen schellt sehr fern ein Schlitten</l>
+            <lb />
+            <l>Und langsam steigt der graue Mond.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Ein Wild verblutet sanft am Rain</l>
+            <lb />
+            <l>Und Raben plätschern in blutigen Gossen.</l>
+            <lb />
+            <l>Das Rohr bebt gelb und aufgeschossen.</l>
+            <lb />
+            <l>Frost, Rauch, ein Schritt im leeren Hain.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0030" n="32" />
+      <div n="1">
+        <lg type="poem">
+          <head>IN EIN ALTES STAMMBUCH</head>
+          <lb />
+          <lg n="1">
+            <l>Immer wieder kehrst du, Melancholie,</l>
+            <lb />
+            <l>O Sanftmut der einsamen Seele.</l>
+            <lb />
+            <l>Zu Ende glüht ein goldener Tag.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Demutsvoll beugt sich dem Schmerz der Geduldige</l>
+            <lb />
+            <l>Tönend von Wohllaut und weichem Wahnsinn.</l>
+            <lb />
+            <l>Siehe! es dämmert schon.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Wieder kehrt die Nacht und klagt ein Sterbliches</l>
+            <lb />
+            <l>Und es leidet ein anderes mit.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Schaudernd unter herbstlichen Sternen</l>
+            <lb />
+            <l>Neigt sich jährlich tiefer das Haupt.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0031" n="33" />
+      <div n="1">
+        <lg type="poem">
+          <head>VERWANDLUNG</head>
+          <lb />
+          <lg n="1">
+            <l>Entlang an Gärten, herbstlich, rotversengt:</l>
+            <lb />
+            <l>Hier zeigt im Stillen sich ein tüchtig Leben.</l>
+            <lb />
+            <l>Des Menschen Hände tragen braune Reben,</l>
+            <lb />
+            <l>Indes der sanfte Schmerz im Blick sich senkt.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Am Abend: Schritte gehn durch schwarzes Land</l>
+            <lb />
+            <l>Erscheinender in roter Buchen Schweigen.</l>
+            <lb />
+            <l>Ein blaues Tier will sich vorm Tod verneigen</l>
+            <lb />
+            <l>Und grauenvoll verfällt ein leer Gewand.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Geruhiges vor einer Schenke spielt,</l>
+            <lb />
+            <l>Ein Antlitz ist berauscht ins Gras gesunken.</l>
+            <lb />
+            <l>Hollunderfrüchte, Flöten weich und trunken,</l>
+            <lb />
+            <l>Resedenduft, der Weibliches umspült.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0032" n="34" />
+      <div n="1">
+        <lg type="poem">
+          <head>KLEINES KONZERT</head>
+          <lb />
+          <lg n="1">
+            <l>Ein Rot, das traumhaft dich erschüttert —</l>
+            <lb />
+            <l>Durch deine Hände scheint die Sonne.</l>
+            <lb />
+            <l>Du fühlst dein Herz verrückt vor Wonne</l>
+            <lb />
+            <l>Sich still zu einer Tat bereiten.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>In Mittag strömen gelbe Felder.</l>
+            <lb />
+            <l>Kaum hörst du noch der Grillen Singen,</l>
+            <lb />
+            <l>Der Mäher hartes Sensenschwingen.</l>
+            <lb />
+            <l>Einfältig schweigen goldene Wälder.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Im grünen Tümpel glüht Verwesung.</l>
+            <lb />
+            <l>Die Fische stehen still. Gottes Odem</l>
+            <lb />
+            <l>Weckt sacht ein Saitenspiel im Brodem.</l>
+            <lb />
+            <l>Aussätzigen winkt die Flut Genesung.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Geist Dädals schwebt in blauen Schatten,</l>
+            <lb />
+            <l>Ein Duft von Milch in Haselzweigen.</l>
+            <lb />
+            <l>Man hört noch lang den Lehrer geigen,</l>
+            <lb />
+            <l>Im leeren Hof den Schrei der Ratten.</l>
+            <lb />
+          </lg>
+          <lg n="5">
+            <l>Im Krug an scheußlichen Tapeten</l>
+            <lb />
+            <l>Blühn kühlere Violenfarben.</l>
+            <lb />
+            <l>Im Hader dunkle Stimmen starben,</l>
+            <lb />
+            <l>Narziß im Endakkord von Flöten.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0033" n="35" />
+      <div n="1">
+        <lg type="poem">
+          <head>MENSCHHEIT</head>
+          <lb />
+          <lg n="1">
+            <l>Menschheit vor Feuerschlünden aufgestellt,</l>
+            <lb />
+            <l>Ein Trommelwirbel, dunkler Krieger Stirnen,</l>
+            <lb />
+            <l>Schritte durch Blutnebel; schwarzes Eisen schellt,</l>
+            <lb />
+            <l>Verzweiflung, Nacht in traurigen Gehirnen:</l>
+            <lb />
+            <l>Hier Evas Schatten, Jagd und rotes Geld.</l>
+            <lb />
+            <l>Gewölk, das Licht durchbricht, das Abendmahl.</l>
+            <lb />
+            <l>Es wohnt in Brot und Wein ein sanftes Schweigen</l>
+            <lb />
+            <l>Und jene sind versammelt zwölf an Zahl.</l>
+            <lb />
+            <l>Nachts schrein im Schlaf sie unter Ölbaumzweigen;</l>
+            <lb />
+            <l>Sankt Thomas taucht die Hand ins Wundenmal.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0034" n="36" />
+      <div n="1">
+        <lg type="poem">
+          <head>DER SPAZIERGANG</head>
+          <lb />
+          <lg n="1">
+            <head>1.</head>
+            <lb />
+            <lg n="1">
+              <l>Musik summt im Gehölz am Nachmittag.</l>
+              <lb />
+              <l>Im Korn sich ernste Vogelscheuchen drehn.</l>
+              <lb />
+              <l>Hollunderbüsche sacht am Weg verwehn;</l>
+              <lb />
+              <l>Ein Haus zerflimmert wunderlich und vag.</l>
+              <lb />
+            </lg>
+            <lg n="2">
+              <l>In Goldnem schwebt ein Duft von Thymian,</l>
+              <lb />
+              <l>Auf einem Stein steht eine heitere Zahl.</l>
+              <lb />
+              <l>Auf einer Wiese spielen Kinder Ball,</l>
+              <lb />
+              <l>Dann hebt ein Baum vor dir zu kreisen an.</l>
+              <lb />
+            </lg>
+            <lg n="3">
+              <l>Du träumst: die Schwester kämmt ihr blondes Haar,</l>
+              <lb />
+              <l>Auch schreibt ein ferner Freund dir einen Brief.</l>
+              <lb />
+              <l>Ein Schober flieht durchs Grau vergilbt und schief</l>
+              <lb />
+              <l>Und manchmal schwebst du leicht und wunderbar.</l>
+              <lb />
+            </lg>
+          </lg>
+          <lg n="2">
+            <head>2.</head>
+            <lb />
+            <lg n="1">
+              <l>Die Zeit verrinnt. O süßer Helios!</l>
+              <lb />
+              <l>O Bild im Krötentümpel süß und klar;</l>
+              <lb />
+              <l>Im Sand versinkt ein Eden wunderbar.</l>
+              <lb />
+              <l>Goldammern wiegt ein Busch in seinem Schoß.</l>
+              <lb />
+            </lg>
+            <lg n="2">
+              <l>Ein Bruder stirbt dir in verwunschnem Land</l>
+              <lb />
+              <l>Und stählern schaun dich deine Augen an.</l>
+              <lb />
+              <l>In Goldnem dort ein Duft von Thymian.</l>
+              <lb />
+              <l>Ein Knabe legt am Weiler einen Brand.</l>
+              <lb />
+            </lg>
+            <lg n="3">
+              <l>Die Liebenden in Faltern neu erglühn</l>
+              <lb />
+              <l>Und schaukeln heiter hin um Stein und Zahl.</l>
+              <lb />
+              <l>Aufflattern Krähen um ein ekles Mahl</l>
+              <lb />
+              <l>Und deine Stirne tost durchs sanfte Grün.</l>
+              <lb />
+            </lg>
+            <pb facs="#f0035" n="37" />
+            <lg n="4">
+              <l>Im Dornenstrauch verendet weich ein Wild.</l>
+              <lb />
+              <l>Nachgleitet dir ein heller Kindertag,</l>
+              <lb />
+              <l>Der graue Wind, der flatterhaft und vag</l>
+              <lb />
+              <l>Verfallne Düfte durch die Dämmerung spült.</l>
+              <lb />
+            </lg>
+          </lg>
+          <lg n="3">
+            <head>3.</head>
+            <lb />
+            <lg n="1">
+              <l>Ein altes Wiegenlied macht dich sehr bang.</l>
+              <lb />
+              <l>Am Wegrand fromm ein Weib ihr Kindlein stillt.</l>
+              <lb />
+              <l>Traumwandelnd hörst du wie ihr Bronnen quillt.</l>
+              <lb />
+              <l>Aus Apfelzweigen fällt ein Weiheklang.</l>
+              <lb />
+            </lg>
+            <lg n="2">
+              <l>Und Brot und Wein sind süß von harten Mühn.</l>
+              <lb />
+              <l>Nach Früchten tastet silbern deine Hand.</l>
+              <lb />
+              <l>Die tote Rahel geht durchs Ackerland.</l>
+              <lb />
+              <l>Mit friedlicher Geberde winkt das Grün.</l>
+              <lb />
+            </lg>
+            <lg n="3">
+              <l>Gesegnet auch blüht armer Mägde Schoß,</l>
+              <lb />
+              <l>Die träumend dort am alten Brunnen stehn.</l>
+              <lb />
+              <l>Einsame froh auf stillen Pfaden gehn</l>
+              <lb />
+              <l>Mit Gottes Kreaturen sündelos.</l>
+              <lb />
+            </lg>
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0036" n="38" />
+      <div n="1">
+        <lg type="poem">
+          <head>DE PROFUNDIS</head>
+          <lb />
+          <lg n="1">
+            <l>Es ist ein Stoppelfeld, in das ein schwarzer Regen fällt.</l>
+            <lb />
+            <l>Es ist ein brauner Baum, der einsam dasteht.</l>
+            <lb />
+            <l>Es ist ein Zischelwind, der leere Hütten umkreist</l>
+            <lb />
+            <l>Wie traurig dieser Abend.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Am Weiler vorbei</l>
+            <lb />
+            <l>Sammelt die sanfte Waise noch spärliche Ähren ein.</l>
+            <lb />
+            <l>Ihre Augen weiden rund und goldig in der Dämmerung</l>
+            <lb />
+            <l>Und ihr Schoß harrt des himmlischen Bräutigams.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Bei der Heimkehr</l>
+            <lb />
+            <l>Fanden die Hirten den süßen Leib</l>
+            <lb />
+            <l>Verwest im Dornenbusch.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Ein Schatten bin ich ferne finsteren Dörfern.</l>
+            <lb />
+            <l>Gottes Schweigen</l>
+            <lb />
+            <l>Trank ich aus dem Brunnen des Hains.</l>
+            <lb />
+          </lg>
+          <lg n="5">
+            <l>Auf meine Stirne tritt kaltes Metall</l>
+            <lb />
+            <l>Spinnen suchen mein Herz.</l>
+            <lb />
+            <l>Es ist ein Licht, das in meinem Mund erlöscht.</l>
+            <lb />
+          </lg>
+          <lg n="6">
+            <l>Nachts fand ich mich auf einer Heide,</l>
+            <lb />
+            <l>Starrend von Unrat und Staub der Sterne.</l>
+            <lb />
+            <l>Im Haselgebüsch</l>
+            <lb />
+            <l>Klangen wieder kristallne Engel.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0037" n="39" />
+      <div n="1">
+        <lg type="poem">
+          <head>TROMPETEN</head>
+          <lb />
+          <lg n="1">
+            <l>Unter verschnittenen Weiden, wo braune Kinder spielen</l>
+            <lb />
+            <l>Und Blätter treiben, tönen Trompeten. Ein Kirchhofsschauer.</l>
+            <lb />
+            <l>Fahnen von Scharlach stürzen durch des Ahorns Trauer,</l>
+            <lb />
+            <l>Reiter entlang an Roggenfeldern, leeren Mühlen.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Oder Hirten singen nachts und Hirsche treten</l>
+            <lb />
+            <l>In den Kreis ihrer Feuer, des Hains uralte Trauer,</l>
+            <lb />
+            <l>Tanzende heben sich von einer schwarzen Mauer;</l>
+            <lb />
+            <l>Fahnen von Scharlach, Lachen, Wahnsinn, Trompeten.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0038" n="40" />
+      <div n="1">
+        <lg type="poem">
+          <head>DÄMMERUNG</head>
+          <lb />
+          <lg n="1">
+            <l>Im Hof, verhext von milchigem Dämmerschein,</l>
+            <lb />
+            <l>Durch Herbstgebräuntes weiche Kranke gleiten.</l>
+            <lb />
+            <l>Ihr wächsern-runder Blick sinnt goldner Zeiten,</l>
+            <lb />
+            <l>Erfüllt von Träumerei und Ruh und Wein.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Ihr Siechentum schließt geisterhaft sich ein.</l>
+            <lb />
+            <l>Die Sterne weiße Traurigkeit verbreiten.</l>
+            <lb />
+            <l>Im Grau, erfüllt von Täuschung und Geläuten,</l>
+            <lb />
+            <l>Sieh, wie die Schrecklichen sich wirr zerstreun.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Formlose Spottgestalten huschen, kauern</l>
+            <lb />
+            <l>Und flattern sie auf schwarz-gekreuzten Pfaden.</l>
+            <lb />
+            <l>O! trauervolle Schatten an den Mauern.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Die andern fliehn durch dunkelnde Arkaden;</l>
+            <lb />
+            <l>Und nächtens stürzen sie aus roten Schauern</l>
+            <lb />
+            <l>Des Sternenwinds, gleich rasenden Mänaden.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0039" n="41" />
+      <div n="1">
+        <lg type="poem">
+          <head>HEITERER FRÜHLING</head>
+          <lb />
+          <lg n="1">
+            <head>1.</head>
+            <lb />
+            <lg n="1">
+              <l>Am Bach, der durch das gelbe Brachfeld fließt,</l>
+              <lb />
+              <l>Zieht noch das dürre Rohr vom vorigen Jahr.</l>
+              <lb />
+              <l>Durchs Graue gleiten Klänge wunderbar,</l>
+              <lb />
+              <l>Vorüberweht ein Hauch von warmem Mist.</l>
+              <lb />
+            </lg>
+            <lg n="2">
+              <l>An Weiden baumeln Kätzchen sacht im Wind,</l>
+              <lb />
+              <l>Sein traurig Lied singt träumend ein Soldat.</l>
+              <lb />
+              <l>Ein Wiesenstreifen saust verweht und matt,</l>
+              <lb />
+              <l>Ein Kind steht in Konturen weich und lind.</l>
+              <lb />
+            </lg>
+            <lg n="3">
+              <l>Die Birken dort, der schwarze Dornenstrauch,</l>
+              <lb />
+              <l>Auch fliehn im Rauch Gestalten aufgelöst.</l>
+              <lb />
+              <l>Hell Grünes blüht und anderes verwest</l>
+              <lb />
+              <l>Und Kröten schliefen durch den jungen Lauch.</l>
+              <lb />
+            </lg>
+          </lg>
+          <lg n="2">
+            <head>2.</head>
+            <lb />
+            <lg n="1">
+              <l>Dich lieb ich treu du derbe Wäscherin.</l>
+              <lb />
+              <l>Noch trägt die Flut des Himmels goldene Last.</l>
+              <lb />
+              <l>Ein Fischlein blitzt vorüber und verblaßt;</l>
+              <lb />
+              <l>Ein wächsern Antlitz fließt durch Erlen hin.</l>
+              <lb />
+            </lg>
+            <lg n="2">
+              <l>In Gärten sinken Glocken lang und leis</l>
+              <lb />
+              <l>Ein kleiner Vogel trällert wie verrückt.</l>
+              <lb />
+              <l>Das sanfte Korn schwillt leise und verzückt</l>
+              <lb />
+              <l>Und Bienen sammeln noch mit ernstem Fleiß.</l>
+              <lb />
+            </lg>
+            <lg n="3">
+              <l>Komm Liebe nun zum müden Arbeitsmann!</l>
+              <lb />
+              <l>In seine Hütte fällt ein lauer Strahl.</l>
+              <lb />
+              <l>Der Wald strömt durch den Abend herb und fahl</l>
+              <lb />
+              <l>Und Knospen knistern heiter dann und wann.</l>
+              <lb />
+            </lg>
+          </lg>
+          <pb facs="#f0040" n="42" />
+          <lg n="3">
+            <head>3.</head>
+            <lb />
+            <lg n="1">
+              <l>Wie scheint doch alles Werdende so krank!</l>
+              <lb />
+              <l>Ein Fieberhauch um einen Weiler kreist;</l>
+              <lb />
+              <l>Doch aus Gezweigen winkt ein sanfter Geist</l>
+              <lb />
+              <l>Und öffnet das Gemüte weit und bang.</l>
+              <lb />
+            </lg>
+            <lg n="2">
+              <l>Ein blühender Erguß verrinnt sehr sacht</l>
+              <lb />
+              <l>Und Ungebornes pflegt der eignen Ruh.</l>
+              <lb />
+              <l>Die Liebenden blühn ihren Sternen zu</l>
+              <lb />
+              <l>Und süßer fließt ihr Odem durch die Nacht.</l>
+              <lb />
+            </lg>
+            <lg n="3">
+              <l>So schmerzlich gut und wahrhaft ist, was lebt;</l>
+              <lb />
+              <l>Und leise rührt dich an ein alter Stein:</l>
+              <lb />
+              <l>Wahrlich! Ich werde immer bei euch sein.</l>
+              <lb />
+              <l>O Mund! der durch die Silberweide bebt.</l>
+              <lb />
+            </lg>
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0041" n="43" />
+      <div n="1">
+        <lg type="poem">
+          <head>VORSTADT IM FÖHN</head>
+          <lb />
+          <lg n="1">
+            <l>Am Abend liegt die Stätte öd und braun,</l>
+            <lb />
+            <l>Die Luft von gräulichem Gestank durchzogen.</l>
+            <lb />
+            <l>Das Donnern eines Zugs vom Brückenbogen —</l>
+            <lb />
+            <l>Und Spatzen flattern über Busch und Zaun.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Geduckte Hütten, Pfade wirr verstreut,</l>
+            <lb />
+            <l>In Gärten Durcheinander und Bewegung,</l>
+            <lb />
+            <l>Bisweilen schwillt Geheul aus dumpfer Regung,</l>
+            <lb />
+            <l>In einer Kinderschar fliegt rot ein Kleid.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Am Kehricht pfeift verliebt ein Rattenchor.</l>
+            <lb />
+            <l>In Körben tragen Frauen Eingeweide,</l>
+            <lb />
+            <l>Ein ekelhafter Zug voll Schmutz und Räude,</l>
+            <lb />
+            <l>Kommen sie aus der Dämmerung hervor.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Und ein Kanal speit plötzlich feistes Blut</l>
+            <lb />
+            <l>Vom Schlachthaus in den stillen Fluß hinunter.</l>
+            <lb />
+            <l>Die Föhne färben karge Stauden bunter</l>
+            <lb />
+            <l>Und langsam kriecht die Röte durch die Flut.</l>
+            <lb />
+          </lg>
+          <lg n="5">
+            <l>Ein Flüstern, das in trübem Schlaf ertrinkt.</l>
+            <lb />
+            <l>Gebilde gaukeln auf aus Wassergräben,</l>
+            <lb />
+            <l>Vielleicht Erinnerung an ein früheres Leben,</l>
+            <lb />
+            <l>Die mit den warmen Winden steigt und sinkt.</l>
+            <lb />
+          </lg>
+          <lg n="6">
+            <l>Aus Wolken tauchen schimmernde Alleen,</l>
+            <lb />
+            <l>Erfüllt von schönen Wägen, kühnen Reitern.</l>
+            <lb />
+            <l>Dann sieht man auch ein Schiff auf Klippen scheitern</l>
+            <lb />
+            <l>Und manchmal rosenfarbene Moscheen.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0042" n="44" />
+      <div n="1">
+        <lg type="poem">
+          <head>DIE RATTEN</head>
+          <lb />
+          <lg n="1">
+            <l>In Hof scheint weiß der herbstliche Mond.</l>
+            <lb />
+            <l>Vom Dachrand fallen phantastische Schatten.</l>
+            <lb />
+            <l>Ein Schweigen in leeren Fenstern wohnt;</l>
+            <lb />
+            <l>Da tauchen leise herauf die Ratten</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Und huschen pfeifend hier und dort</l>
+            <lb />
+            <l>Und ein gräulicher Dunsthauch wittert</l>
+            <lb />
+            <l>Ihnen nach aus dem Abort,</l>
+            <lb />
+            <l>Den geisterhaft der Mondschein durchzittert</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Und sie keifen vor Gier wie toll</l>
+            <lb />
+            <l>Und erfüllen Haus und Scheunen,</l>
+            <lb />
+            <l>Die von Korn und Früchten voll.</l>
+            <lb />
+            <l>Eisige Winde im Dunkel greinen.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0043" n="45" />
+      <div n="1">
+        <lg type="poem">
+          <head>TRÜBSINN</head>
+          <lb />
+          <lg n="1">
+            <l>Weltunglück geistert durch den Nachmittag.</l>
+            <lb />
+            <l>Baraken fliehn durch Gärtchen braun und wüst.</l>
+            <lb />
+            <l>Lichtschnuppen gaukeln um verbrannten Mist,</l>
+            <lb />
+            <l>Zwei Schläfer schwanken heimwärts, grau und vag.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Auf der verdorrten Wiese läuft ein Kind</l>
+            <lb />
+            <l>Und spielt mit seinen Augen schwarz und glatt.</l>
+            <lb />
+            <l>Das Gold tropft von den Büschen trüb und matt.</l>
+            <lb />
+            <l>Ein alter Mann dreht traurig sich im Wind.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Am Abend wieder über meinem Haupt</l>
+            <lb />
+            <l>Saturn lenkt stumm ein elendes Geschick.</l>
+            <lb />
+            <l>Ein Baum, ein Hund tritt hinter sich zurück</l>
+            <lb />
+            <l>Und schwarz schwankt Gottes Himmel und entlaubt.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Ein Fischlein gleitet schnell hinab den Bach;</l>
+            <lb />
+            <l>Und leise rührt des toten Freundes Hand</l>
+            <lb />
+            <l>Und glättet liebend Stirne und Gewand.</l>
+            <lb />
+            <l>Ein Licht ruft Schatten in den Zimmern wach.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0044" n="46" />
+      <div n="1">
+        <lg type="poem">
+          <head>IN DEN NACHMITTAG GEFLÜSTERT</head>
+          <lb />
+          <lg n="1">
+            <l>Sonne, herbstlich dünn und zag,</l>
+            <lb />
+            <l>Und das Obst fällt von den Bäumen</l>
+            <lb />
+            <l>Stille wohnt in blauen Räumen.</l>
+            <lb />
+            <l>Einen langen Nachmittag.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Sterbeklänge von Metall;</l>
+            <lb />
+            <l>Und ein weißes Tier bricht nieder.</l>
+            <lb />
+            <l>Brauner Mädchen rauhe Lieder</l>
+            <lb />
+            <l>Sind verweht im Blätterfall.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Stirne Gottes Farben träumt,</l>
+            <lb />
+            <l>Spürt des Wahnsinns sanfte Flügel.</l>
+            <lb />
+            <l>Schatten drehen sich am Hügel</l>
+            <lb />
+            <l>Von Verwesung schwarz umsäumt.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Dämmerung voll Ruh und Wein;</l>
+            <lb />
+            <l>Traurige Guitarren rinnen.</l>
+            <lb />
+            <l>Und zur milden Lampe drinnen</l>
+            <lb />
+            <l>Kehrst du wie im Traume ein.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0045" n="47" />
+      <div n="1">
+        <lg type="poem">
+          <head>PSALM</head>
+          <lb />
+          <argument>
+            <p>Karl Kraus zugeeignet</p>
+          </argument>
+          <lb />
+          <lg n="1">
+            <l>Es ist ein Licht, das der Wind ausgelöscht hat.</l>
+            <lb />
+            <l>Es ist ein Heidekrug, den am Nachmittag ein Betrunkener verläßt.</l>
+            <lb />
+            <l>Es ist ein Weinberg, verbrannt und schwarz mit Löchern voll Spinnen.</l>
+            <lb />
+            <l>Es ist ein Raum, den sie mit Milch getüncht haben.</l>
+            <lb />
+            <l>Der Wahnsinnige ist gestorben. Es ist eine Insel der Südsee,</l>
+            <lb />
+            <l>Den Sonnengott zu empfangen. Man rührt die Trommeln.</l>
+            <lb />
+            <l>Die Männer führen kriegerische Tänze auf.</l>
+            <lb />
+            <l>Die Frauen wiegen die Hüften in Schlinggewächsen und Feuerblumen,</l>
+            <lb />
+            <l>Wenn das Meer singt. O unser verlorenes Paradies.</l>
+            <lb />
+          </lg>
+          <milestone rendition="#hr" unit="section" />
+          <lb />
+          <lg n="2">
+            <l>Die Nymphen haben die goldenen Wälder verlassen.</l>
+            <lb />
+            <l>Man begräbt den Fremden. Dann hebt ein Flimmerregen an.</l>
+            <lb />
+            <l>Der Sohn des Pan erscheint in Gestalt eines Erdarbeiters,</l>
+            <lb />
+            <l>Der den Mittag am glühenden Asphalt verschläft.</l>
+            <lb />
+            <l>Es sind kleine Mädchen in einem Hof in Kleidchen voll herzzerreißender Armut!</l>
+            <lb />
+            <l>Es sind Zimmer, erfüllt von Akkorden und Sonaten.</l>
+            <lb />
+            <l>Es sind Schatten, die sich vor einem erblindeten Spiegel umarmen.</l>
+            <lb />
+            <l>An den Fenstern des Spitals wärmen sich Genesende.</l>
+            <lb />
+            <l>Ein weißer Dampfer am Kanal trägt blutige Seuchen herauf.</l>
+            <lb />
+          </lg>
+          <milestone rendition="#hr" unit="section" />
+          <lb />
+          <lg n="3">
+            <l>Die fremde Schwester erscheint wieder in jemands bösen Träumen.</l>
+            <lb />
+            <l>Ruhend im Haselgebüsch spielt sie mit seinen Sternen.</l>
+            <lb />
+            <l>Der Student, vielleicht ein Doppelgänger, schaut ihr lange vom Fenster nach.</l>
+            <lb />
+            <pb facs="#f0046" n="48" />
+            <l>Hinter ihm steht sein toter Bruder, oder er geht die alte Wendeltreppe herab.</l>
+            <lb />
+            <l>Im Dunkel brauner Kastanien verblaßt die Gestalt des jungen Novizen.</l>
+            <lb />
+            <l>Der Garten ist im Abend. Im Kreuzgang flattern die Fledermäuse umher.</l>
+            <lb />
+            <l>Die Kinder des Hausmeisters hören zu spielen auf und suchen das Gold des Himmels.</l>
+            <lb />
+            <l>Endakkorde eines Quartetts. Die kleine Blinde läuft zitternd durch die Allee,</l>
+            <lb />
+            <l>Und später tastet ihr Schatten an kalten Mauern hin, umgeben vom Märchen und heiligen               Legenden.</l>
+            <lb />
+          </lg>
+          <milestone unit="section" rendition="#hr" />
+          <lb />
+          <lg n="4">
+            <l>Es ist ein leeres Boot, das am Abend den schwarzen Kanal heruntertreibt.</l>
+            <lb />
+            <l>In der Düsternis des alten Asyls verfallen menschliche Ruinen.</l>
+            <lb />
+            <l>Die toten Waisen liegen an der Gartenmauer.</l>
+            <lb />
+            <l>Aus grauen Zimmern treten Engel mit kotgefleckten Flügeln.</l>
+            <lb />
+            <l>Würmer tropfen von ihren vergilbten Lidern.</l>
+            <lb />
+            <l>Der Platz vor der Kirche ist finster und schweigsam, wie in den Tagen der               Kindheit.</l>
+            <lb />
+            <l>Auf silbernen Sohlen gleiten frühere Leben vorbei</l>
+            <lb />
+            <l>Und die Schatten der Verdammten steigen zu den seufzenden Wassern nieder.</l>
+            <lb />
+            <l>In seinem Grab spielt der weiße Magier mit seinen Schlangen.</l>
+            <lb />
+          </lg>
+          <milestone rendition="#hr" unit="section" />
+          <lb />
+          <lg n="5">
+            <l>Schweigsam über der Schädelstätte öffnen sich Gottes goldene Augen.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0047" n="49" />
+      <div n="1">
+        <head>ROSENKRANZLIEDER</head>
+        <lb />
+        <lg type="poem">
+          <head>AN DIE SCHWESTER</head>
+          <lb />
+          <lg n="1">
+            <l>Wo du gehst wird Herbst und Abend,</l>
+            <lb />
+            <l>Blaues Wild, das unter Bäumen tönt,</l>
+            <lb />
+            <l>Einsamer Weiher am Abend.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Leise der Flug der Vögel tönt,</l>
+            <lb />
+            <l>Die Schwermut über deinen Augenbogen.</l>
+            <lb />
+            <l>Dein schmales Lächeln tönt.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Gott hat deine Lider verbogen.</l>
+            <lb />
+            <l>Sterne suchen nachts, Karfreitagskind,</l>
+            <lb />
+            <l>Deinen Stirnenbogen.</l>
+            <lb />
+          </lg>
+        </lg>
+        <lg type="poem">
+          <head>NÄHE DES TODES</head>
+          <lb />
+          <lg n="1">
+            <l>O der Abend, der in die finsteren Dörfer der Kindheit geht.</l>
+            <lb />
+            <l>Der Weiher unter den Weiden</l>
+            <lb />
+            <l>Füllt sich mit den verpesteten Seufzern der Schwermut.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>O der Wald, der leise die braunen Augen senkt,</l>
+            <lb />
+            <l>Da aus des Einsamen knöchernen Händen</l>
+            <lb />
+            <l>Der Purpur seiner verzückten Tage hinsinkt.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>O die Nähe des Todes. Laß uns beten.</l>
+            <lb />
+            <l>In dieser Nacht lösen auf lauen Kissen</l>
+            <lb />
+            <l>Vergilbt von Weihrauch sich der Liebenden schmächtige Glieder.</l>
+            <lb />
+          </lg>
+        </lg>
+        <pb facs="#f0048" n="50" />
+        <lg type="poem">
+          <head>AMEN</head>
+          <lb />
+          <lg n="1">
+            <l>Verwestes gleitend durch die morsche Stube;</l>
+            <lb />
+            <l>Schatten an gelben Tapeten; in dunklen Spiegeln wölbt</l>
+            <lb />
+            <l>Sich unserer Hände elfenbeinerne Traurigkeit.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Braune Perlen rinnen durch die erstorbenen Finger.</l>
+            <lb />
+            <l>In der Stille</l>
+            <lb />
+            <l>Tun sich eines Engels blaue Mohnaugen auf.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Blau ist auch der Abend;</l>
+            <lb />
+            <l>Die Stunde unseres Absterbens, Azraels Schatten,</l>
+            <lb />
+            <l>Der ein braunes Gärtchen verdunkelt.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0049" n="51" />
+      <div n="1">
+        <lg type="poem">
+          <head>VERFALL</head>
+          <lb />
+          <lg n="1">
+            <l>Am Abend, wenn die Glocken Frieden läuten,</l>
+            <lb />
+            <l>Folg ich der Vögel wundervollen Flügen,</l>
+            <lb />
+            <l>Die lang geschart, gleich frommen Pilgerzügen,</l>
+            <lb />
+            <l>Entschwinden in den herbstlich klaren Weiten.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Hinwandelnd durch den dämmervollen Garten</l>
+            <lb />
+            <l>Träum ich nach ihren helleren Geschicken</l>
+            <lb />
+            <l>Und fühl der Stunden Weiser kaum mehr rücken.</l>
+            <lb />
+            <l>So folg ich über Wolken ihren Fahrten.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Da macht ein Hauch mich von Verfall erzittern.</l>
+            <lb />
+            <l>Die Amsel klagt in den entlaubten Zweigen.</l>
+            <lb />
+            <l>Es schwankt der rote Wein an rostigen Gittern,</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Indes wie blasser Kinder Todesreigen</l>
+            <lb />
+            <l>Um dunkle Brunnenränder, die verwittern,</l>
+            <lb />
+            <l>Im Wind sich fröstelnd blaue Astern neigen.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0050" n="52" />
+      <div n="1">
+        <lg type="poem">
+          <head>IN DER HEIMAT</head>
+          <lb />
+          <lg n="1">
+            <l>Resedenduft durchs kranke Fenster irrt;</l>
+            <lb />
+            <l>Ein alter Platz, Kastanien schwarz und wüst.</l>
+            <lb />
+            <l>Das Dach durchbricht ein goldener Strahl und fließt</l>
+            <lb />
+            <l>Auf die Geschwister traumhaft und verwirrt.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Im Spülicht treibt Verfallnes, leise girrt</l>
+            <lb />
+            <l>Der Föhn im braunen Gärtchen; sehr still genießt</l>
+            <lb />
+            <l>Ihr Gold die Sonnenblume und zerfließt.</l>
+            <lb />
+            <l>Durch blaue Luft der Ruf der Wache klirrt.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Resedenduft. Die Mauern dämmern kahl.</l>
+            <lb />
+            <l>Der Schwester Schlaf ist schwer. Der Nachtwind wühlt</l>
+            <lb />
+            <l>In ihrem Haar, das mondner Glanz umspült.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Der Katze Schatten gleitet blau und schmal</l>
+            <lb />
+            <l>Vom morschen Dach, das nahes Unheil säumt,</l>
+            <lb />
+            <l>Die Kerzenflamme, die sich purpurn bäumt.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0051" n="53" />
+      <div n="1">
+        <lg type="poem">
+          <head>EIN HERBSTABEND</head>
+          <lb />
+          <argument>
+            <p>An Karl Röck</p>
+          </argument>
+          <lb />
+          <lg n="1">
+            <l>Das braune Dorf. Ein Dunkles zeigt im Schreiten</l>
+            <lb />
+            <l>Sich oft an Mauern, die im Herbste stehn,</l>
+            <lb />
+            <l>Gestalten: Mann wie Weib, Verstorbene gehn</l>
+            <lb />
+            <l>In kühlen Stuben jener Bett bereiten.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Hier spielen Knaben. Schwere Schatten breiten</l>
+            <lb />
+            <l>Sich über braune Jauche. Mägde gehn</l>
+            <lb />
+            <l>Durch feuchte Bläue und bisweilen sehn</l>
+            <lb />
+            <l>Aus Augen sie, erfüllt von Nachtgeläuten.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Für Einsames ist eine Schenke da;</l>
+            <lb />
+            <l>Das säumt geduldig unter dunklen Bogen,</l>
+            <lb />
+            <l>Von goldenem Tabaksgewölk umzogen.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Doch immer ist das Eigne schwarz und nah.</l>
+            <lb />
+            <l>Der Trunkne sinnt im Schatten alter Bogen</l>
+            <lb />
+            <l>Den wilden Vögeln nach, die ferngezogen.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0052" n="54" />
+      <div n="1">
+        <lg type="poem">
+          <head>MENSCHLICHES ELEND</head>
+          <lb />
+          <lg n="1">
+            <l>Die Uhr, die vor der Sonne fünfe schlägt –</l>
+            <lb />
+            <l>Einsame Menschen packt ein dunkles Grausen,</l>
+            <lb />
+            <l>Im Abendgarten kahle Bäume sausen.</l>
+            <lb />
+            <l>Des Toten Antlitz sich am Fenster regt.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Vielleicht, daß diese Stunde stille steht.</l>
+            <lb />
+            <l>Vor trüben Augen blaue Bilder gaukeln</l>
+            <lb />
+            <l>Im Takt der Schiffe, die am Flusse schaukeln.</l>
+            <lb />
+            <l>Am Kai ein Schwesternzug vorüberweht.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Im Hasel spielen Mädchen blaß und blind,</l>
+            <lb />
+            <l>Wie Liebende, die sich im Schlaf umschlingen.</l>
+            <lb />
+            <l>Vielleicht, daß um ein Aas dort Fliegen singen,</l>
+            <lb />
+            <l>Vielleicht auch weint im Mutterschoß ein Kind.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Aus Händen sinken Astern blau und rot,</l>
+            <lb />
+            <l>Des Jünglings Mund entgleitet fremd und weise;</l>
+            <lb />
+            <l>Und Lider flattern angstverwirrt und leise;</l>
+            <lb />
+            <l>Durch Fieberschwärze weht ein Duft von Brot.</l>
+            <lb />
+          </lg>
+          <lg n="5">
+            <l>Es scheint, man hört auch gräßliches Geschrei;</l>
+            <lb />
+            <l>Gebeine durch verfallne Mauern schimmern.</l>
+            <lb />
+            <l>Ein böses Herz lacht laut in schönen Zimmern;</l>
+            <lb />
+            <l>An einem Träumer läuft ein Hund vorbei.</l>
+            <lb />
+          </lg>
+          <lg n="6">
+            <l>Ein leerer Sarg im Dunkel sich verliert.</l>
+            <lb />
+            <l>Dem Mörder will ein Raum sich bleich erhellen,</l>
+            <lb />
+            <l>Indes Laternen nachts im Sturm zerschellen.</l>
+            <lb />
+            <l>Des Edlen weiße Schläfe Lorbeer ziert.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0053" n="55" />
+      <div n="1">
+        <lg type="poem">
+          <head>IM DORF</head>
+          <lb />
+          <lg n="1">
+            <head>1.</head>
+            <lb />
+            <lg n="1">
+              <l>Aus braunen Mauern tritt ein Dorf, ein Feld.</l>
+              <lb />
+              <l>Ein Hirt verwest auf einem alten Stein.</l>
+              <lb />
+              <l>Der Saum des Walds schließt blaue Tiere ein,</l>
+              <lb />
+              <l>Das sanfte Laub, das in die Stille fällt.</l>
+              <lb />
+            </lg>
+            <lg n="2">
+              <l>Der Bauern braune Stirnen. Lange tönt</l>
+              <lb />
+              <l>Die Abendglocke; schön ist frommer Brauch,</l>
+              <lb />
+              <l>Des Heilands schwarzes Haupt im Dornenstrauch</l>
+              <lb />
+              <l>Die kühle Stube, die der Tod versöhnt.</l>
+              <lb />
+            </lg>
+            <lg n="3">
+              <l>Wie bleich die Mütter sind. Die Bläue sinkt</l>
+              <lb />
+              <l>Auf Glas und Truh, die stolz ihr Sinn bewahrt;</l>
+              <lb />
+              <l>Auch neigt ein weißes Haupt sich hochbejahrt</l>
+              <lb />
+              <l>Aufs Enkelkind, das Milch und Sterne trinkt.</l>
+              <lb />
+            </lg>
+          </lg>
+          <lg n="2">
+            <head>2.</head>
+            <lb />
+            <lg n="1">
+              <l>Der Arme, der im Geiste einsam starb,</l>
+              <lb />
+              <l>Steigt wächsern über einen alten Pfad.</l>
+              <lb />
+              <l>Die Apfelbäume sinken kahl und stad</l>
+              <lb />
+              <l>Ins Farbige ihrer Frucht, die schwarz verdarb.</l>
+              <lb />
+            </lg>
+            <lg n="2">
+              <l>Noch immer wölbt das Dach aus dürrem Stroh</l>
+              <lb />
+              <l>Sich übern Schlaf der Kühe. Die blinde Magd</l>
+              <lb />
+              <l>Erscheint im Hof; ein blaues Wasser klagt;</l>
+              <lb />
+              <l>Ein Pferdeschädel starrt vom morschen Tor.</l>
+              <lb />
+            </lg>
+            <lg n="3">
+              <l>Der Idiot spricht dunklen Sinns ein Wort</l>
+              <lb />
+              <l>Der Liebe, das im schwarzen Busch verhallt,</l>
+              <lb />
+              <l>Wo jene steht in schmaler Traumgestalt.</l>
+              <lb />
+              <l>Der Abend tönt in feuchter Bläue fort.</l>
+              <lb />
+            </lg>
+          </lg>
+          <pb facs="#f0054" n="56" />
+          <lg n="3">
+            <head>3.</head>
+            <lb />
+            <lg n="1">
+              <l>Ans Fenster schlagen Äste föhnentlaubt.</l>
+              <lb />
+              <l>Im Schoß der Bäurin wächst ein wildes Weh.</l>
+              <lb />
+              <l>Durch ihre Arme rieselt schwarzer Schnee;</l>
+              <lb />
+              <l>Goldäugige Eulen flattern um ihr Haupt.</l>
+              <lb />
+            </lg>
+            <lg n="2">
+              <l>Die Mauern starren kahl und grauverdreckt</l>
+              <lb />
+              <l>Ins kühle Dunkel. Im Fieberbette friert</l>
+              <lb />
+              <l>Der schwangere Leib, den frech der Mond bestiert.</l>
+              <lb />
+              <l>Vor ihrer Kammer ist ein Hund verreckt.</l>
+              <lb />
+            </lg>
+            <lg n="3">
+              <l>Drei Männer treten finster durch das Tor</l>
+              <lb />
+              <l>Mit Sensen, die im Feld zerbrochen sind.</l>
+              <lb />
+              <l>Durchs Fenster klirrt der rote Abendwind;</l>
+              <lb />
+              <l>Ein schwarzer Engel tritt daraus hervor.</l>
+              <lb />
+            </lg>
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0055" n="57" />
+      <div n="1">
+        <lg type="poem">
+          <head>ABENDLIED</head>
+          <lb />
+          <lg n="1">
+            <l>Am Abend, wenn wir auf dunklen Pfaden gehn,</l>
+            <lb />
+            <l>Erscheinen unsere bleichen Gestalten vor uns.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Wenn uns dürstet,</l>
+            <lb />
+            <l>Trinken wir die weißen Wasser des Teichs,</l>
+            <lb />
+            <l>Die Süße unserer traurigen Kindheit.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Erstorbene ruhen wir unterm Hollundergebüsch,</l>
+            <lb />
+            <l>Schaun den grauen Möven zu.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Frühlingsgewölke steigen über die finstere Stadt,</l>
+            <lb />
+            <l>Die der Mönche edlere Zeiten schweigt.</l>
+            <lb />
+          </lg>
+          <lg n="5">
+            <l>Da ich deine schmalen Hände nahm</l>
+            <lb />
+            <l>Schlugst du leise die runden Augen auf,</l>
+            <lb />
+            <l>Dieses ist lange her.</l>
+            <lb />
+          </lg>
+          <lg n="6">
+            <l>Doch wenn dunkler Wohllaut die Seele heimsucht,</l>
+            <lb />
+            <l>
+              Erscheinst du Weiße in des Freundes herbstlicher
+              <lb />
+              <hi rendition="#et">Landschaft.</hi>
+            </l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0056" n="58" />
+      <div n="1">
+        <lg type="poem">
+          <head>DREI BLICKE IN EINEN OPAL</head>
+          <lb />
+          <argument>
+            <p>An Erhard Buschbeck</p>
+          </argument>
+          <lb />
+          <lg n="1">
+            <head>1.</head>
+            <lb />
+            <lg n="1">
+              <l>Blick in Opal: ein Dorf umkränzt von dürrem Wein,</l>
+              <lb />
+              <l>Der Stille grauer Wolken, gelber Felsenhügel</l>
+              <lb />
+              <l>Und abendlicher Quellen Kühle: Zwillingsspiegel</l>
+              <lb />
+              <l>Umrahmt von Schatten und von schleimigem Gestein.</l>
+              <lb />
+            </lg>
+            <lg n="2">
+              <l>Des Herbstes Weg und Kreuze gehn in Abend ein,</l>
+              <lb />
+              <l>Singende Pilger und die blutbefleckten Linnen.</l>
+              <lb />
+              <l>Des Einsamen Gestalt kehrt also sich nach innen</l>
+              <lb />
+              <l>Und geht, ein bleicher Engel, durch den leeren Hain.</l>
+              <lb />
+            </lg>
+            <lg n="3">
+              <l>Aus Schwarzem bläst der Föhn. Mit Satyrn im Verein</l>
+              <lb />
+              <l>Sind schlanke Weiblein; Mönche der Wollust bleiche Priester,</l>
+              <lb />
+              <l>Ihr Wahnsinn schmückt mit Lilien sich schön und düster</l>
+              <lb />
+              <l>Und hebt die Hände auf zu Gottes goldenem Schrein.</l>
+              <lb />
+            </lg>
+          </lg>
+          <lg n="2">
+            <head>2.</head>
+            <lb />
+            <lg n="1">
+              <l>Der ihn befeuchtet, rosig hängt ein Tropfen Tau</l>
+              <lb />
+              <l>Im Rosmarin: hinfließt ein Hauch von Grabgerüchen,</l>
+              <lb />
+              <l>Spitälern, wirr erfüllt von Fieberschrein und Flüchen.</l>
+              <lb />
+              <l>Gebein steigt aus dem Erbbegräbnis morsch und grau.</l>
+              <lb />
+            </lg>
+            <lg n="2">
+              <l>In blauem Schleim und Schleiern tanzt des Greisen Frau,</l>
+              <lb />
+              <l>Das schmutzstarrende Haar erfüllt von schwarzen Tränen,</l>
+              <lb />
+              <l>Die Knaben träumen wirr in dürren Weidensträhnen</l>
+              <lb />
+              <l>Und ihre Stirnen sind von Aussatz kahl und rauh.</l>
+              <lb />
+            </lg>
+            <lg n="3">
+              <l>Durchs Bogenfenster sinkt ein Abend lind und lau.</l>
+              <lb />
+              <l>Ein Heiliger tritt aus seinen schwarzen Wundenmalen.</l>
+              <lb />
+              <l>Die Purpurschnecken kriechen aus zerbrochenen Schalen</l>
+              <lb />
+              <l>Und speien Blut in Dorngewinde starr und grau.</l>
+              <lb />
+            </lg>
+          </lg>
+          <pb facs="#f0057" n="59" />
+          <lg n="3">
+            <head>3.</head>
+            <lb />
+            <lg n="1">
+              <l>Die Blinden streuen in eiternde Wunden Weiherauch.</l>
+              <lb />
+              <l>Rotgoldene Gewänder; Fackeln; Psalmensingen;</l>
+              <lb />
+              <l>Und Mädchen, die wie Gift den Leib des Herrn umschlingen.</l>
+              <lb />
+              <l>Gestalten schreiten wächsernstarr durch Glut und Rauch.</l>
+              <lb />
+            </lg>
+            <lg n="2">
+              <l>Aussätziger mitternächtigen Tanz führt an ein Gauch</l>
+              <lb />
+              <l>Dürrknöchern. Garten wunderlicher Abenteuer;</l>
+              <lb />
+              <l>Verzerrtes; Blumenfratzen, Lachen; Ungeheuer</l>
+              <lb />
+              <l>Und rollendes Gestirn im schwarzen Dornenstrauch.</l>
+              <lb />
+            </lg>
+            <lg n="3">
+              <l>O Armut, Bettelsuppe, Brot und süßer Lauch;</l>
+              <lb />
+              <l>Des Lebens Träumerei in Hütten vor den Wäldern.</l>
+              <lb />
+              <l>Grau härtet sich der Himmel über gelben Feldern</l>
+              <lb />
+              <l>Und eine Abendglocke singt nach altem Brauch.</l>
+              <lb />
+            </lg>
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0058" n="60" />
+      <div n="1">
+        <lg type="poem">
+          <head>NACHTLIED</head>
+          <lb />
+          <lg n="1">
+            <l>Des Unbewegten Odem. Ein Tiergesicht</l>
+            <lb />
+            <l>Erstarrt vor Bläue, ihrer Heiligkeit.</l>
+            <lb />
+            <l>Gewaltig ist das Schweigen im Stein;</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Die Maske eines nächtlichen Vogels. Sanfter Dreiklang</l>
+            <lb />
+            <l>Verklingt in einem. Elai! dein Antlitz</l>
+            <lb />
+            <l>Beugt sich sprachlos über bläuliche Wasser.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>O! ihr stillen Spiegel der Wahrheit.</l>
+            <lb />
+            <l>An des Einsamen elfenbeinerner Schläfe</l>
+            <lb />
+            <l>Erscheint der Abglanz gefallener Engel.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+      <pb facs="#f0059" n="61" />
+      <div n="1">
+        <lg type="poem">
+          <head>HELIAN</head>
+          <lb />
+          <lg n="1">
+            <l>In den einsamen Stunden des Geistes</l>
+            <lb />
+            <l>Ist es schön, in der Sonne zu gehn</l>
+            <lb />
+            <l>An den gelben Mauern des Sommers hin.</l>
+            <lb />
+            <l>Leise klingen die Schritte im Gras; doch immer schläft</l>
+            <lb />
+            <l>Der Sohn des Pan im grauen Marmor.</l>
+            <lb />
+          </lg>
+          <lg n="2">
+            <l>Abends auf der Terasse betranken wir uns mit braunem Wein.</l>
+            <lb />
+            <l>Rötlich glüht der Pfirsich im Laub;</l>
+            <lb />
+            <l>Sanfte Sonate, frohes Lachen.</l>
+            <lb />
+          </lg>
+          <lg n="3">
+            <l>Schön ist die Stille der Nacht.</l>
+            <lb />
+            <l>Auf dunklem Plan</l>
+            <lb />
+            <l>Begegnen wir uns mit Hirten und weißen Sternen.</l>
+            <lb />
+          </lg>
+          <lg n="4">
+            <l>Wenn es Herbst geworden ist</l>
+            <lb />
+            <l>Zeigt sich nüchterne Klarheit im Hain.</l>
+            <lb />
+            <l>Besänftigte wandeln wir an roten Mauern hin</l>
+            <lb />
+            <l>Und die runden Augen folgen dem Flug der Vögel.</l>
+            <lb />
+            <l>Am Abend sinkt das weiße Wasser in Graburnen.</l>
+            <lb />
+          </lg>
+          <lg n="5">
+            <l>In kahlen Gezweigen feiert der Himmel.</l>
+            <lb />
+            <l>In reinen Händen trägt der Landmann Brot und Wein</l>
+            <lb />
+            <l>Und friedlich reifen die Früchte in sonniger Kammer.</l>
+            <lb />
+          </lg>
+          <lg n="6">
+            <l>O wie ernst ist das Antlitz der teueren Toten.</l>
+            <lb />
+            <l>Doch die Seele erfreut gerechtes Anschaun.</l>
+            <lb />
+          </lg>
+          <pb facs="#f0060" n="62" />
+          <lg n="7">
+            <l>Gewaltig ist das Schweigen des verwüsteten Gartens</l>
+            <lb />
+            <l>Da der junge Novize die Stirne mit braunem Laub bekränzt,</l>
+            <lb />
+            <l>Sein Odem eisiges Gold trinkt.</l>
+            <lb />
+          </lg>
+          <lg n="8">
+            <l>Die Hände rühren das Alter bläulicher Wasser</l>
+            <lb />
+            <l>Oder in kalter Nacht die weißen Wangen der Schwestern.</l>
+            <lb />
+          </lg>
+          <lg n="9">
+            <l>Leise und harmonisch ist ein Gang an freundlichen Zimmern hin,</l>
+            <lb />
+            <l>Wo Einsamkeit ist und das Rauschen des Ahorns,</l>
+            <lb />
+            <l>Wo vielleicht noch die Drossel singt.</l>
+            <lb />
+          </lg>
+          <lg n="10">
+            <l>Schön ist der Mensch und erscheinend im Dunkel,</l>
+            <lb />
+            <l>Wenn er staunend Arme und Beine bewegt,</l>
+            <lb />
+            <l>Und in purpurnen Höhlen stille die Augen rollen.</l>
+            <lb />
+          </lg>
+          <lg n="11">
+            <l>Zur Vesper verliert sich der Fremdling in schwarzer Novemberzerstörung,</l>
+            <lb />
+            <l>Unter morschem Geäst, an Mauern voll Aussatz hin,</l>
+            <lb />
+            <l>Wo vordem der heilige Bruder gegangen,</l>
+            <lb />
+            <l>Versunken in das sanfte Saitenspiel seines Wahnsinns,</l>
+            <lb />
+          </lg>
+          <lg n="12">
+            <l>O wie einsam endet der Abendwind.</l>
+            <lb />
+            <l>Ersterbend neigt sich das Haupt im Dunkel des Ölbaums.</l>
+            <lb />
+          </lg>
+          <pb facs="#f0061" n="63" />
+          <lg n="13">
+            <l>Erschütternd ist der Untergang des Geschlechts.</l>
+            <lb />
+            <l>In dieser Stunde füllen sich die Augen des Schauenden</l>
+            <lb />
+            <l>Mit dem Gold seiner Sterne.</l>
+            <lb />
+          </lg>
+          <lg n="14">
+            <l>Am Abend versinkt ein Glockenspiel, das nicht mehr tönt</l>
+            <lb />
+            <l>Verfallen die schwarzen Mauern am Platz,</l>
+            <lb />
+            <l>Ruft der tote Soldat zum Gebet.</l>
+            <lb />
+          </lg>
+          <lg n="15">
+            <l>Ein bleicher Engel</l>
+            <lb />
+            <l>Tritt der Sohn ins leere Haus seiner Väter.</l>
+            <lb />
+          </lg>
+          <lg n="16">
+            <l>Die Schwestern sind ferne zu weißen Greisen gegangen</l>
+            <lb />
+            <l>Nachts fand sie der Schläfer unter den Säulen im Hausflur,</l>
+            <lb />
+            <l>Zurückgekehrt von traurigen Pilgerschaften.</l>
+            <lb />
+          </lg>
+          <lg n="17">
+            <l>O wie starrt von Kot und Würmern ihr Haar,</l>
+            <lb />
+            <l>Da er darein mit silbernen Füßen steht,</l>
+            <lb />
+            <l>Und jene verstorben aus kahlen Zimmern treten.</l>
+            <lb />
+          </lg>
+          <lg n="18">
+            <l>O ihr Psalmen in feurigen Mitternachtsregen,</l>
+            <lb />
+            <l>Da die Knechte mit Nesseln die sanften Augen schlugen,</l>
+            <lb />
+            <l>Die kindlichen Früchte des Holunders</l>
+            <lb />
+            <l>Sich staunend neigen über ein leeres Grab.</l>
+            <lb />
+          </lg>
+          <lg n="19">
+            <l>Leise rollen vergilbte Monde</l>
+            <lb />
+            <l>Über die Fieberlinnen des Jünglings,</l>
+            <lb />
+            <l>Eh dem Schweigen des Winters folgt.</l>
+            <lb />
+          </lg>
+          <pb facs="#f0062" n="64" />
+          <lg n="20">
+            <l>Ein erhabenes Schicksal sinnt den Kidron hinab,</l>
+            <lb />
+            <l>Wo die Zeder, ein weiches Geschöpf,</l>
+            <lb />
+            <l>Sich unter den blauen Brauen des Vaters entfaltet,</l>
+            <lb />
+            <l>Über die Weide nachts ein Schäfer seine Herde führt.</l>
+            <lb />
+            <l>Oder es sind Schreie im Schlaf,</l>
+            <lb />
+            <l>Wenn ein eherner Engel im Hain den Menschen antritt,</l>
+            <lb />
+            <l>Das Fleisch des Heiligen auf glühendem Rost hinschmilzt.</l>
+            <lb />
+          </lg>
+          <lg n="21">
+            <l>Um die Lehmhütten rankt purpurner Wein,</l>
+            <lb />
+            <l>Tönende Bündel vergilbten Korns,</l>
+            <lb />
+            <l>Das Summen der Bienen, der Flug des Kranichs.</l>
+            <lb />
+            <l>Am Abend begegnen sich Auferstandene auf Felsenpfaden.</l>
+            <lb />
+          </lg>
+          <lg n="22">
+            <l>In schwarzen Wassern spiegeln sich Aussätzige;</l>
+            <lb />
+            <l>Oder sie öffnen die kotbefleckten Gewänder</l>
+            <lb />
+            <l>Weinend dem balsamischen Wind, der vom rosigen Hügel weht.</l>
+            <lb />
+          </lg>
+          <lg n="23">
+            <l>Schlanke Mägde tasten durch die Gassen der Nacht,</l>
+            <lb />
+            <l>Ob sie den liebenden Hirten fänden.</l>
+            <lb />
+            <l>Sonnabends tönt in den Hütten sanfter Gesang.</l>
+            <lb />
+          </lg>
+          <lg n="24">
+            <l>Lasset das Lied auch des Knaben gedenken,</l>
+            <lb />
+            <l>Seines Wahnsinns, und weißer Brauen und seines Hingangs</l>
+            <lb />
+            <l>Des Verwesten, der bläulich die Augen aufschlägt.</l>
+            <lb />
+            <l>O wie traurig ist dieses Wiedersehn.</l>
+            <lb />
+          </lg>
+          <pb facs="#f0063" n="65" />
+          <lg n="25">
+            <l>Die Stufen des Wahnsinns in schwarzen Zimmern,</l>
+            <lb />
+            <l>Die Schatten der Alten unter der offenen Tür,</l>
+            <lb />
+            <l>Da Helians Seele sich im rosigen Spiegel beschaut</l>
+            <lb />
+            <l>Und Schnee und Aussatz von seiner Stirne sinken</l>
+            <lb />
+          </lg>
+          <lg n="26">
+            <l>An den Wänden sind die Sterne erloschen</l>
+            <lb />
+            <l>Und die weißen Gestalten des Lichts.</l>
+            <lb />
+          </lg>
+          <lg n="27">
+            <l>Dem Teppich entsteigt Gebein der Gräber,</l>
+            <lb />
+            <l>Das Schweigen verfallener Kreuze am Hügel,</l>
+            <lb />
+            <l>Des Weihrauchs Süße im purpurnen Nachtwind.</l>
+            <lb />
+          </lg>
+          <lg n="28">
+            <l>O ihr zerbrochenen Augen in schwarzen Mündern,</l>
+            <lb />
+            <l>Da der Enkel in sanfter Umnachtung</l>
+            <lb />
+            <l>Einsam dem dunkleren Ende nachsinnt,</l>
+            <lb />
+            <l>Der stille Gott die blauen Lider über ihn senkt.</l>
+            <lb />
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

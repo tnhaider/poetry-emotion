@@ -1,0 +1,85 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Tränen des Vaterlandes / Anno 1636</title>
+        <author>
+          <persName>
+            <surname>Gryphius</surname>
+            <forename>Andreas</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">4</measure>
+        <measure type="verses">14</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-3, 4-3</measure>
+        <measure type="tokens">126</measure>
+        <measure type="sentences">7</measure>
+        <measure type="characters">631</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1636</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/andreas-gryphius-traenen-des-vaterlandes,textbearbeitung,121.html">Tränen des Vaterlandes - Andreas Gryphius (Interpretation #121)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Barock</classCode>
+        <classCode scheme="text_genre">Sonett</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Tränen des Vaterlandes / Anno 1636</head>
+          <lg rhyme="abba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="020102|0201020:" emo1="annoyance">Wir sind doch nunmehr ganz, ja mehr denn ganz verheeret!</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="020102|010002|" emo1="annoyance">Der frechen Völker Schar, die rasende Posaun</l>
+            <l met="+-|+-|-+|-+|-+|-+|" rhythm="002002|010002|" emo1="annoyance">Das vom Blut fette Schwert, die donnernde Karthaun</l>
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="0102|02|0102010:" emo1="annoyance">Hat aller Schweiß, und Fleiß, und Vorrat aufgezehret.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="020102|0102010:" emo1="sadness">Die Türme stehn in Glut, die Kirch' ist umgekehret.</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="020102|010002:" emo1="sadness">Das Rathaus liegt im Grauß, die Starken sind zerhaun,</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="010002|000102|" emo1="sadness" emo2="uneasiness">Die Jungfern sind geschänd't, und wo wir hin nur schaun</l>
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="020|2|02|0101020:" emo1="sadness" emo2="uneasiness">Ist Feuer, Pest, und Tod, der Herz und Geist durchfähret.</l>
+          </lg>
+          <lg rhyme="aab" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="000102(|)020102:" emo1="uneasiness">Hier durch die Schanz' und Stadt rinnt allzeit frisches Blut.</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="100002|000102|" emo1="uneasiness">Dreimal sind schon sechs Jahr, als unser Ströme Flut</l>
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="010002|0102010:" emo1="uneasiness">Von Leichen fast verstopft, sich langsam fort gedrungen.</l>
+          </lg>
+          <lg rhyme="aab" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="020000|010002|" emo1="sadness">Doch schweig' ich noch von dem, was ärger als der Tod,</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="010002|010201|" emo1="sadness">Was grimmer denn die Pest, und Glut und Hungersnot,</l>
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="000102|0002010:" emo1="sadness">Das auch der Seelen Schatz, so vielen abgezwungen.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

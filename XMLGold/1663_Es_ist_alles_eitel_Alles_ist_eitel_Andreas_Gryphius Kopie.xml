@@ -1,0 +1,85 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Es ist alles eitel / Alles ist eitel</title>
+        <author>
+          <persName>
+            <surname>Gryphius</surname>
+            <forename>Andreas</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">4</measure>
+        <measure type="verses">14</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-3, 4-3</measure>
+        <measure type="tokens">125</measure>
+        <measure type="sentences">9</measure>
+        <measure type="characters">614</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1663</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/andreas-gryphius-es-ist-alles-eitel-all-is-vanity,textbearbeitung,434.html"> Es ist alles eitel (All is Vanity) - Andreas Gryphius (English Translation, Interpretation #434)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Barock</classCode>
+        <classCode scheme="text_genre">Sonett</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Es ist alles eitel / Alles ist eitel</head>
+          <lg rhyme="abba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="02|0102(|)0201020:" emo1="sadness" emo2="awe/sublime">Du siehst, wohin du siehst nur  Eitelkeit auf Erden.</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="000102|020102:" emo1="sadness" emo2="awe/sublime">Was dieser heute baut, reißt jener morgen ein:</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="010201|000201|" emo1="sadness" emo2="awe/sublime">Wo itzund Städte stehn, wird eine Wiese sein</l>
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="000201(|)0100020:" emo1="sadness" emo2="awe/sublime">Auf der ein Schäferskind wird spielen mit den Herden:</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="000102|0002010:" emo1="sadness" emo2="awe/sublime">Was itzund prächtig blüht, soll bald zertreten werden.</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="000102(|)020102:" emo1="sadness" emo2="awe/sublime">Was itzt so pocht und trotzt ist Morgen Asch und Bein</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="01|0201|02|0201:" emo1="awe/sublime" emo2="sadness">Nichts ist, das ewig sei, kein Erz, kein Marmorstein.</l>
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="020102|0100020:" emo1="awe/sublime" emo2="sadness">Itzt lacht das Glück uns an, bald donnern die Beschwerden.</l>
+          </lg>
+          <lg rhyme="aab" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="010102(|)000102:" emo1="awe/sublime" emo2="sadness">Der hohen Taten Ruhm muß wie ein Traum vergehn.</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="000102|010202:" emo1="awe/sublime" emo2="sadness">Soll denn das Spiel der Zeit, der leichte Mensch bestehn?</l>
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="2|00002|0002010|" emo1="awe/sublime" emo2="sadness">Ach! was ist alles dies, was wir für köstlich achten,</l>
+          </lg>
+          <lg rhyme="aab" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="010201|020|102:" emo1="awe/sublime" emo2="sadness">Als schlechte Nichtigkeit, als Schatten, Staub und Wind;</l>
+            <l met="-+|-+|-+|-+|-+|-+|" rhythm="000201|000201:" emo1="awe/sublime" emo2="sadness">Als eine Wiesenblum, die man nicht wiederfind't.</l>
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="010200(|)0102020:" emo1="awe/sublime" emo2="sadness">Noch will was ewig ist kein einig Mensch betrachten!</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Der frohe Wandersmann</title>
+        <author>
+          <persName>
+            <surname>Eichendorff</surname>
+            <forename>Joseph von</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">4</measure>
+        <measure type="verses">17</measure>
+        <measure type="verses_per_stanza">1-5, 2-4, 3-4, 4-4</measure>
+        <measure type="tokens">103</measure>
+        <measure type="sentences">3</measure>
+        <measure type="characters">485</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1823</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/joseph-von-eichendorff-der-frohe-wandersmann,textbearbeitung,158.html">Der frohe Wandersmann - Joseph von Eichendorff (Interpretation #158)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Romantik</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Der frohe Wandersmann</head>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-+|-" rhythm="020002010" emo1="awe/sublime" emo2="beauty/joy">Wem Gott will rechte Gunst erweisen,</l>
+            <l met="-+|-+|-+|-+|" rhythm="02000102:" emo1="awe/sublime" emo2="beauty/joy">Den schickt er in die weite Welt;</l>
+            <l met="-+|-+|-+|-+|-" rhythm="010002010|" emo1="awe/sublime" emo2="beauty/joy">Dem will er seine Wunder weisen</l>
+            <l met="-+|-+|-+|-+|" rhythm="02020202:" emo1="awe/sublime" emo2="beauty/joy">In Berg und Wald und Strom und Feld.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-+|-" rhythm="020|002010|" emo1="sadness">Die Trägen, die zu Hause liegen,</l>
+            <l met="-+|-+|-+|-+|" rhythm="02010201:" emo1="sadness">Erquicket nicht das Morgenrot,</l>
+            <l met="-+|-+|-+|-+|-" rhythm="010002010|" emo1="sadness">Sie wissen nur von Kinderwiegen,</l>
+            <l met="-+|-+|-+|-+|" rhythm="020|20202:" emo1="sadness">Von Sorgen, Last und Not um Brot.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-+|-" rhythm="010002010|" emo1="vitality" emo2="beauty/joy">Die Bächlein von den Bergen springen,</l>
+            <l met="-+|-+|-+|-+|" rhythm="01020102:" emo1="vitality" emo2="beauty/joy">Die Lerchen schwirren hoch vor Lust,</l>
+            <l met="-+|-+|-+|-+|-" rhythm="020100020|" emo1="vitality" emo2="beauty/joy">Was sollt ich nicht mit ihnen singen</l>
+            <l met="-+|-+|-+|-+|" rhythm="01020102:" emo1="vitality" emo2="beauty/joy">Aus voller Kehl und frischer Brust?</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-+|-" rhythm="010200020:" emo1="awe/sublime" emo2="beauty/joy">Den lieben Gott lass ich nur walten;</l>
+            <l met="-+|-+|-+|-+|" rhythm="020|20|202|" emo1="awe/sublime" emo2="beauty/joy">Der Bächlein, Lerchen, Wald und Feld</l>
+            <l met="-+|-+|-+|-+|-" rhythm="010200020|" emo1="awe/sublime" emo2="beauty/joy">Und Erd und Himmel will erhalten,</l>
+            <l met="-+|-+|-+|-+|" rhythm="00020102:" emo1="awe/sublime" emo2="beauty/joy">Hat auch mein Sach aufs best bestellt!</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

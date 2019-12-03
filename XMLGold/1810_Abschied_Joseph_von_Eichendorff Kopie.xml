@@ -1,0 +1,103 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Abschied</title>
+        <author>
+          <persName>
+            <surname>Eichendorff</surname>
+            <forename>Joseph von</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">4</measure>
+        <measure type="verses">32</measure>
+        <measure type="verses_per_stanza">1-8, 2-8, 3-8, 4-8</measure>
+        <measure type="tokens">140</measure>
+        <measure type="sentences">6</measure>
+        <measure type="characters">700</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1810</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/joseph-von-eichendorff-abschied,textbearbeitung,232.html">Abschied - Joseph von Eichendorff (Interpretation #232)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Romantik</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Abschied</head>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l met="-+|-+|-+|-" rhythm="0102|020|" emo1="vitality">O Täler weit, o Höhen,</l>
+            <l met="-+|-+|-+|" rhythm="010102:" emo1="vitality">O schöner, grüner Wald,</l>
+            <l met="-+|-+|-+|-" rhythm="0002020|" emo1="vitality">Du meiner Lust und Wehen</l>
+            <l met="-+|-+|-+|" rhythm="100201:" emo1="vitality">Andächt'ger Aufenthalt!</l>
+            <l met="-+|-+|-+|-" rhythm="020|1020|" emo1="vitality">Da draußen, stets betrogen,</l>
+            <l met="-+|-+|-+|" rhythm="200102:" emo1="vitality">Saust die geschäft'ge Welt,</l>
+            <l met="-+|-+|-+|-" rhythm="1000020|" emo1="vitality">Schlag noch einmal die Bogen</l>
+            <l met="-+|-+|-+|" rhythm="00|0102:" emo1="vitality">Um mich, du grünes Zelt!</l>
+          </lg>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l met="-+|-+|-+|-" rhythm="0001020|" emo1="beauty/joy">Wenn es beginnt zu tagen,</l>
+            <l met="-+|-+|-+|" rhythm="010202|" emo1="beauty/joy">Die Erde dampft und blinkt,</l>
+            <l met="-+|-+|-+|-" rhythm="0201020|" emo1="beauty/joy">Die Vögel lustig schlagen,</l>
+            <l met="-+|-+|-+|" rhythm="000201:" emo1="beauty/joy">Daß dir dein Herz erklingt:</l>
+            <l met="-+|-+|-+|-" rhythm="0102|020|" emo1="beauty/joy" emo2="vitality">Da mag vergehn, verwehen</l>
+            <l met="-+|-+|-+|" rhythm="010201|" emo1="beauty/joy" emo2="vitality">Das trübe Erdenleid,</l>
+            <l met="-+|-+|-+|-" rhythm="0102010|" emo1="beauty/joy" emo2="vitality">Da sollst du auferstehen</l>
+            <l met="-+|-+|-+|" rhythm="010201:" emo1="beauty/joy" emo2="vitality">In junger Herrlichkeit!</l>
+          </lg>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l met="-+|-+|-+|-" rhythm="0201020|" emo1="awe/sublime" emo2="beauty/joy">Da steht im Wald geschrieben</l>
+            <l met="-+|-+|-+|" rhythm="010|201" emo1="awe/sublime" emo2="beauty/joy">Ein stilles, ernstes Wort</l>
+            <l met="-+|-+|-+|-" rhythm="0102020|" emo1="awe/sublime" emo2="beauty/joy">Von rechtem Tun und Lieben,</l>
+            <l met="-+|-+|-+|" rhythm="010102:" emo1="awe/sublime" emo2="beauty/joy">Und was des Menschen Hort.</l>
+            <l met="-+|-+|-+|-" rhythm="0201020|" emo1="awe/sublime" emo2="beauty/joy">Ich habe treu gelesen</l>
+            <l met="-+|-+|-+|" rhythm="020|202:" emo1="awe/sublime" emo2="beauty/joy">Die Worte, schlicht und wahr,</l>
+            <l met="-+|-+|-+|-" rhythm="0001020|" emo1="awe/sublime" emo2="beauty/joy">Und durch mein ganzes Wesen</l>
+            <l met="-+|-+|-+|" rhythm="020102:" emo1="awe/sublime" emo2="beauty/joy">Wards unaussprechlich klar.</l>
+          </lg>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l met="-+|-+|-+|-" rhythm="1000020|" emo1="nostalgia" emo2="beauty/joy">Bald werd ich dich verlassen,</l>
+            <l met="-+|-+|-+|" rhythm="100201:" emo1="nostalgia" emo2="beauty/joy">Fremd in der Fremde gehn,</l>
+            <l met="-+|-+|-+|-" rhythm="0201020|" emo1="nostalgia" emo2="beauty/joy">Auf buntbewegten Gassen</l>
+            <l met="-+|-+|-+|" rhythm="010201:" emo1="nostalgia" emo2="beauty/joy">Des Lebens Schauspiel sehn;</l>
+            <l met="-+|-+|-+|-" rhythm="0100020|" emo1="awe/sublime">Und mitten in dem Leben</l>
+            <l met="-+|-+|-+|" rhythm="000102|" emo1="awe/sublime">Wird deines Ernsts Gewalt</l>
+            <l met="-+|-+|-+|-" rhythm="0100020|" emo1="awe/sublime">Mich Einsamen erheben,</l>
+            <l met="-+|-+|-+|" rhythm="010102:" emo1="awe/sublime">So wird mein Herz nicht alt.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

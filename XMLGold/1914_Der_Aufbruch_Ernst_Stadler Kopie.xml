@@ -1,0 +1,83 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Der Aufbruch</title>
+        <author>
+          <persName>
+            <surname>Stadler</surname>
+            <forename>Ernst</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">1</measure>
+        <measure type="verses">18</measure>
+        <measure type="verses_per_stanza">1-18</measure>
+        <measure type="tokens">176</measure>
+        <measure type="sentences">11</measure>
+        <measure type="characters">1008</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1914</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/ernst-stadler-der-aufbruch,textbearbeitung,80.html">Der Aufbruch - Ernst Stadler (Interpretation #80)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Expressionismus</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Der Aufbruch</head>
+          <lg rhyme="aabbccddeeffgghhii" type="stanza">
+            <l met="+--+--+--+-+--++--+-" rhythm="10000020|020100120010" emo1="uneasiness">Einmal schon haben Fanfaren mein ungeduldiges Herz blutig gerissen,</l>
+            <l met="+-+--+-+-+-+-+-+-" rhythm="10|210002|020002010:" emo1="uneasiness">Dass es, aufsteigend wie ein Pferd, sich wütend ins Gezäum verbissen.</l>
+            <l met="+-+-+--+-+-+-" rhythm="001020(|)020(1)020" emo1="uneasiness">Damals schlug Tamburmarsch den Sturm auf allen Wegen,</l>
+            <l met="-+-+-+-+-+-+-+-" rhythm="020001020(|)002010:" emo1="uneasiness">Und herrlichste Musik der Erde hieß uns Kugelregen.</l>
+            <l met="++--+-+-+-+-+-+-+-" rhythm="2|20|01020:2010001020:" emo1="beauty/joy">Dann, plötzlich, stand Leben stille. Wege führten zwischen alten Bäumen.</l>
+            <l met="-+-+-+-+-+--+-+-" rhythm="02010:002|010(|)00020" emo1="beauty/joy">Gemächer lockten. Es war süß, zu weilen und sich versäumen,</l>
+            <l met="-+-+-+-+-+--+-+-+-" rhythm="020002(|)000100200020|" emo1="beauty/joy">Von Wirklichkeit den Leib so wie von staubiger Rüstung zu entketten,</l>
+            <l met="+--+-+-+-+--+-+-" rhythm="2000(|)020102102010:" emo1="beauty/joy">Wollüstig sich in Daunen weicher Traumstunden einzubetten.</l>
+            <l met="+-+-+-+--+-+-+--+-" rhythm="000020(|)100201(|)0100020|" emo1="suspense">Aber eines Morgens rollte durch Nebelluft das Echo von Signalen,</l>
+            <l met="++-+-+--+-+-+-+-+-+--" rhythm="2|2|01020:02|000200020210:" emo1="suspense">Hart, scharf, wie Schwerthieb pfeifend. Es war, wie wenn im Dunkel plötzlich Lichter aufstrahlen.</l>
+            <l met="-+-+-+-+--+-+-+-" rhythm="02|0002010(|)0201020|" emo1="suspense">Es war, wie wenn durch Biwakfrühe Trompetenstöße klirren,</l>
+            <l met="-+--+--+-+-+--+-+-+-" rhythm="0100200(|)0020100(|)002010:" emo1="suspense">Die Schlafenden aufspringen und die Zelte abschlagen und die Pferde schirren.</l>
+            <l met="-+-+-+-+-+-+-+-+-+-+-+-" rhythm="00010201|0002010|20001020:" emo1="suspense">Ich war in Reihen eingeschient, die in den Morgen stießen, Feuer über Helm und Bügel,</l>
+            <l met="+--+-+-+-+-+-+-" rhythm="20|010202|0201020:" emo1="suspense">Vorwärts, in Blick und Blut die Schlacht, mit vorgehaltnem Zügel.</l>
+            <l met="-++-+-+-+-+--+-" rhythm="0(1)000010(|)2010020" emo1="uneasiness">Vielleicht würden uns am Abend Siegesmärsche umstreichen,</l>
+            <l met="-++--+-++-+--+-" rhythm="0(1)200100201(|)0020:" emo1="uneasiness">Vielleicht lägen wir irgendwo ausgestreckt unter Leichen.</l>
+            <l met="+-+--+--+--+-" rhythm="0000020(|)000020|" emo1="vitality">Aber vor dem Erraffen und vor dem Versinken</l>
+            <l met="+-+-+-+-+-+-+-+-+-" rhythm="000020001020102010:" emo1="vitality">Würden unsre Augen sich an Welt und Sonne satt und glühend trinken.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

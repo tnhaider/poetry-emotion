@@ -1,0 +1,243 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Die Bürgschaft</title>
+        <author>
+          <persName>
+            <surname>Schiller</surname>
+            <forename>Friedrich</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">20</measure>
+        <measure type="verses">140</measure>
+        <measure type="verses_per_stanza">1-7, 2-7, 3-7, 4-7, 5-7, 6-7, 7-7, 8-7, 9-7, 10-7, 11-7, 12-7, 13-7, 14-7, 15-7, 16-7, 17-7, 18-7, 19-7, 20-7</measure>
+        <measure type="tokens">870</measure>
+        <measure type="sentences">25</measure>
+        <measure type="characters">4267</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1798</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/friedrich-schiller-die-buergschaft,textbearbeitung,396.html">Die Bürgschaft - Friedrich Schiller (Interpretation #396)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Weimarer Klassik</classCode>
+        <classCode scheme="text_genre">Ballade</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Die Bürgschaft</head>
+          <lg rhyme="abbaacc" type="stanza">
+            <l met="--+|-+|-+|-+|" rhythm="0020|0010|0" emo1="suspense">Zu Dionys, dem Tyrannen, schlich</l>
+            <l met="+--|+--|+-|" rhythm="20|010020:" emo1="suspense">Damon, den Dolch im Gewande:</l>
+            <l met="-+|--+|--+|-" rhythm="020010020|" emo1="suspense">Ihn schlugen die Häscher in Bande,</l>
+            <l met="-+|--+|-+|-+|" rhythm="01000020|2|" emo1="suspense">"Was wolltest du mit dem Dolche? sprich!"</l>
+            <l met="-+|--+|--+|-+|" rhythm="0200100201:" emo1="suspense">Entgegnet ihm finster der Wüterich.</l>
+            <l met="-+|--+|--+|-" rhythm="020010020:" emo1="suspense">"Die Stadt vom Tyrannen befreien!"</l>
+            <l met="-+|--+|--+|-" rhythm="010020010:" emo1="suspense" emo2="uneasiness">"Das sollst du am Kreuze bereuen."</l>
+          </lg>
+          <lg rhyme="abbaacc" type="stanza">
+            <l met="-+|-+|--+|--+|" rhythm="02|010|02001|" emo1="suspense">"Ich bin", spricht jener, "zu sterben bereit</l>
+            <l met="-+|-+|--+|-" rhythm="01000020:" emo1="suspense">Und bitte nicht um mein Leben:</l>
+            <l met="-+|-+|--+|-" rhythm="01020010|" emo1="suspense">Doch willst du Gnade mir geben,</l>
+            <l met="-+|-+|--+|-+|" rhythm="020000102|" emo1="suspense">Ich flehe dich um drei Tage Zeit,</l>
+            <l met="-+|-+|--+|--+|" rhythm="0002001002:" emo1="suspense">Bis ich die Schwester dem Gatten gefreit;</l>
+            <l met="-+|--+|--+|-" rhythm="010020020|" emo1="suspense">Ich lasse den Freund dir als Bürgen,</l>
+            <l met="-+|--+|--+|-" rhythm="020|020|020" emo1="suspense">Ihn magst du, entrinn' ich, erwürgen."</l>
+          </lg>
+          <lg rhyme="abbaacc" type="stanza">
+            <l met="-+|--+|--+|-+|" rhythm="0200100102|" emo1="suspense">Da lächelt der König mit arger List</l>
+            <l met="-+|-+|--+|-" rhythm="02010020:" emo1="suspense">Und spricht nach kurzem Bedenken:</l>
+            <l met="-+|-+|--+|-" rhythm="02000020|" emo1="suspense">"Drei Tage will ich dir schenken;</l>
+            <l met="-+|-+|--+|--+|" rhythm="020|00020|02|" emo1="suspense" emo2="uneasiness">Doch wisse, wenn sie verstrichen, die Frist,</l>
+            <l met="-+|-+|--+|-+|" rhythm="000100201" emo1="suspense" emo2="uneasiness">Eh' du zurück mir gegeben bist,</l>
+            <l met="-+|--+|--+|-" rhythm="020010020|" emo1="suspense" emo2="uneasiness">So muß er statt deiner erblassen,</l>
+            <l met="-+|--+|--+|-" rhythm="010010020:" emo1="suspense" emo2="uneasiness">Doch dir ist die Strafe erlassen."</l>
+          </lg>
+          <lg rhyme="abbaacc" type="stanza">
+            <l met="--+|-+|--+|--+|" rhythm="001020|01002" emo1="suspense">Und er kommt zum Freunde: "Der König gebeut,</l>
+            <l met="-+|-+|--+|-" rhythm="00010020|" emo1="suspense">Daß ich am Kreuz mit dem Leben</l>
+            <l met="-+|--+|--+|-" rhythm="020010020:" emo1="suspense">Bezahle das frevelnde Streben.</l>
+            <l met="-+|--+|--+|-+|" rhythm="0100200102|" emo1="suspense">Doch will er mir gönnen drei Tage Zeit,</l>
+            <l met="-+|-+|--+|--+|" rhythm="0002001002:" emo1="suspense">Bis ich die Schwester dem Gatten gefreit;</l>
+            <l met="-+|--+|--+|-" rhythm="001020010|" emo1="suspense">So bleib du dem König zum Pfande,</l>
+            <l met="--+|--+|--+|-" rhythm="0020010020:" emo1="suspense">Bis ich komme zu lösen die Bande."</l>
+          </lg>
+          <lg rhyme="abbaacc" type="stanza">
+            <l met="-+|--+|--+|-+|" rhythm="0100200102|" emo1="sadness">Und schweigend umarmt ihn der treue Freund</l>
+            <l met="-+|--+|--+|-" rhythm="010010020:" emo1="sadness">Und liefert sich aus dem Tyrannen;</l>
+            <l met="-+|--+|--+|-" rhythm="020010020:" emo1="sadness">Der andere ziehet von dannen.</l>
+            <l met="-+|--+|-+|--+|" rhythm="0200102001|" emo1="beauty/joy">Und ehe das dritte Morgenrot scheint,</l>
+            <l met="--+|--+|--+|--+|" rhythm="001002001002:" emo1="beauty/joy">Hat er schnell mit dem Gatten die Schwester vereint,</l>
+            <l met="-+|-+|--+|-" rhythm="02010020|" emo1="beauty/joy">Eilt heim mit sorgender Seele,</l>
+            <l met="-+|--+|--+|-" rhythm="000020020:" emo1="beauty/joy">Damit er die Frist nicht verfehle.</l>
+          </lg>
+          <lg rhyme="abbaacc" type="stanza">
+            <l met="-+|-+|--+|--+|" rhythm="0201002001|" emo1="suspense" emo2="uneasiness">Da gießt unendlicher Regen herab,</l>
+            <l met="--+|-+|--+|-" rhythm="002010020|" emo1="suspense" emo2="uneasiness">Von den Bergen stürzen die Quellen,</l>
+            <l met="--+|--+|-+|-" rhythm="0020|01020:" emo1="suspense" emo2="uneasiness">Und die Bäche, die Ströme schwellen.</l>
+            <l met="--+|-+|--+|--+|" rhythm="00102001002|" emo1="suspense" emo2="uneasiness">Und er kommt ans Ufer mit wanderndem Stab,</l>
+            <l met="-+|--+|--+|--+|" rhythm="01002001002|" emo1="suspense" emo2="uneasiness">Da reißet die Brücke der Strudel herab,</l>
+            <l met="-+|-+|--+|-" rhythm="02010020|" emo1="suspense" emo2="uneasiness">Und donnernd sprengen die Wogen</l>
+            <l met="--+|-+|--+|-" rhythm="002010020:" emo1="suspense" emo2="uneasiness">Des Gewölbes krachenden Bogen.</l>
+          </lg>
+          <lg rhyme="abbaacc" type="stanza">
+            <l met="-+|-+|--+|-+|" rhythm="010200201:" emo1="suspense" emo2="sadness">Und trostlos irrt er an Ufers Rand:</l>
+            <l met="-+|--+|--+|-" rhythm="020010020|" emo1="suspense" emo2="sadness">Wie weit er auch spähet und blicket</l>
+            <l met="--+|--+|--+|-" rhythm="0020010020:" emo1="suspense" emo2="sadness">Und die Stimme, die rufende, schicket.</l>
+            <l met="-+|--+|--+|-+|" rhythm="0100200102|" emo1="suspense" emo2="sadness">Da stößet kein Nachen vom sichern Strand,</l>
+            <l met="--+|--+|-+|-+|" rhythm="0020000102:" emo1="suspense" emo2="sadness">Der ihn setze an das gewünschte Land,</l>
+            <l met="-+|-+|--+|-" rhythm="02010020|" emo1="suspense" emo2="sadness">Kein Schiffer lenket die Fähre,</l>
+            <l met="--+|-+|--+|-" rhythm="001020020:" emo1="suspense" emo2="sadness">Und der wilde Strom wird zum Meere.</l>
+          </lg>
+          <lg rhyme="abbaacc" type="stanza">
+            <l met="-+|--+|--+|-+|" rhythm="0100200102|" emo1="suspense" emo2="sadness">Da sinkt er ans Ufer und weint und fleht,</l>
+            <l met="-+|--+|-+|-" rhythm="02001020:" emo1="suspense" emo2="sadness">Die Hände zum Zeus erhoben:</l>
+            <l met="-+|--+|-+|-" rhythm="02001020:" emo1="suspense" emo2="sadness">"O hemme des Stromes Toben!</l>
+            <l met="-+|--+|--+|-+|" rhythm="010020|0201" emo1="suspense" emo2="sadness">Es eilen die Stunden, im Mittag steht</l>
+            <l met="-+|--+|--+|-" rhythm="020|000201|" emo1="suspense" emo2="sadness">Die Sonne, und wenn sie niedergeht</l>
+            <l met="-+|--+|--+|-" rhythm="002010020|" emo1="suspense" emo2="sadness">Und ich kann die Stadt nicht erreichen,</l>
+            <l met="-+|-+|--+|-" rhythm="01020020:" emo1="suspense" emo2="sadness">So muß der Freund mir erbleichen."</l>
+          </lg>
+          <lg rhyme="abbaacc" type="stanza">
+            <l met="-+|--+|--+|-+|" rhythm="0100200102|" emo1="suspense" emo2="uneasiness">Doch wachsend erneut sich des Stromes Wut,</l>
+            <l met="-+|--+|--+|-" rhythm="010010020|" emo1="suspense" emo2="uneasiness">Und Welle auf Welle zerrinnet,</l>
+            <l met="-+|--+|--+|-" rhythm="010010020:" emo1="suspense" emo2="uneasiness">Und Stunde an Stunde ertrinnet.</l>
+            <l met="-+|--+|-+|--+|" rhythm="01002|01002|" emo1="suspense" emo2="vitality">Da treibt ihn die Angst, da faßt er sich Mut</l>
+            <l met="-+|--+|--+|--+|" rhythm="01002001002|" emo1="suspense" emo2="vitality">Und wirft sich hinein in die brausende Flut</l>
+            <l met="-+|--+|--+|-" rhythm="020010020" emo1="suspense" emo2="vitality">Und teilt mit gewaltigen Armen</l>
+            <l met="-+|--+|--+|-" rhythm="02|0020020:" emo1="suspense" emo2="vitality">Den Strom, und ein Gott hat Erbarmen.</l>
+          </lg>
+          <lg rhyme="abbaacc" type="stanza">
+            <l met="--+|-+|--+|-+|" rhythm="0010200102|" emo1="suspense" emo2="beauty/joy">Und gewinnt das Ufer und eilet fort</l>
+            <l met="-+|--+|--+|-" rhythm="020010020:" emo1="suspense" emo2="beauty/joy">Und danket dem rettenden Gotte;</l>
+            <l met="-+|--+|--+|-" rhythm="020010020|" emo1="suspense" emo2="uneasiness">Da stürzet die raubende Rotte</l>
+            <l met="-+|--+|-+|--+|" rhythm="0100201002:" emo1="suspense" emo2="uneasiness">Hervor aus des Waldes nächtlichem Ort,</l>
+            <l met="-+|-+|--+|-+|" rhythm="01020|0102|" emo1="suspense" emo2="uneasiness">Den Pfad ihm sperrend, und schnaubert Mord</l>
+            <l met="-+|--+|--+|-" rhythm="020010020|" emo1="suspense" emo2="uneasiness">Und hemmet des Wanderers Eile</l>
+            <l met="-+|--+|--+|-" rhythm="020010020:" emo1="suspense" emo2="uneasiness">Mit drohend geschwungener Keule.</l>
+          </lg>
+          <lg rhyme="abbaacc" type="stanza">
+            <l met="-+|-+|--+|-+|" rhythm="020|000102|" emo1="suspense">"Was wollt ihr?" ruft er vor Schrecken bleich,</l>
+            <l met="-+|-+|--+|-" rhythm="01020020|" emo1="suspense">"Ich habe nichts als mein Leben,</l>
+            <l met="-+|--+|--+|-" rhythm="010020010:" emo1="suspense">Das muß ich dem Könige geben!"</l>
+            <l met="--+|-+|--+|-+|" rhythm="0020100001|" emo1="suspense">Und entreißt die Keule dem nächsten gleich:</l>
+            <l met="--+|-+|--+|-+|" rhythm="0020100201:" emo1="suspense">"Um des Freundes willen erbarmet euch!"</l>
+            <l met="-+|--+|--|+-|" rhythm="010010020" emo1="suspense">Und drei mit gewaltigen Streichen</l>
+            <l met="-+|--+|--+|-" rhythm="020|010020:" emo1="suspense">Erlegt er, die andern entweichen.</l>
+          </lg>
+          <lg rhyme="abbaacc" type="stanza">
+            <l met="--+|--+|-+|--+|" rhythm="00100201002|" emo1="suspense">Und die Sonne versendet glühenden Brand,</l>
+            <l met="-+|--+|--+|-" rhythm="000010020" emo1="suspense">Und von der unendlichen Mühe</l>
+            <l met="-+|-+|--+|-" rhythm="020|10020:" emo1="suspense">Ermattet sinken die Kniee.</l>
+            <l met="-+|--+|--+|-+|" rhythm="0200100201|" emo1="sadness">"O hast du mich gnädig aus Räubershand,</l>
+            <l met="--+|--+|--+|--+|" rhythm="001002001002:" emo1="sadness">Aus dem Strom mich gerettet ans heilige Land,</l>
+            <l met="-+|--+|--+|-" rhythm="020010020|" emo1="sadness">Und soll hier verschmachtend verderben,</l>
+            <l met="--+|--+|--+|-" rhythm="0020|0100|20:" emo1="sadness">Und der Freund mir, der liebende, sterben!"</l>
+          </lg>
+          <lg rhyme="abbaacc" type="stanza">
+            <l met="-+|-+|--+|-+|" rhythm="02|0200102|" emo1="suspense" emo2="beauty/joy">Und horch! da sprudelt es silberhell,</l>
+            <l met="-+|--+|--+|-" rhythm="020|010020|" emo1="suspense" emo2="beauty/joy">Ganz nahe, wie rieselndes Rauschen,</l>
+            <l met="-+|-+|--+|-" rhythm="02000|020:" emo1="suspense" emo2="beauty/joy">Und stille hält er, zu lauschen;</l>
+            <l met="-+|--+|--+|-+|" rhythm="010020|0102|" emo1="beauty/joy">Und sieh, aus dem Felsen, geschwätzig, schnell,</l>
+            <l met="-+|--+|--+|--+|" rhythm="01002001002:" emo1="beauty/joy">Springt murmelnd hervor ein lebendiger Quell,</l>
+            <l met="-+|-+|--+|-" rhythm="02010020|" emo1="beauty/joy">Und freudig bückt er sich nieder</l>
+            <l met="--+|--+|--+|-" rhythm="0020010020:" emo1="beauty/joy">Und erfrischet die brennenden Glieder.</l>
+          </lg>
+          <lg rhyme="abbaacc" type="stanza">
+            <l met="--+|-+|--+|-+|" rhythm="0010200102|" emo1="beauty/joy">Und die Sonne blickt durch der Zweige Grün</l>
+            <l met="-+|--+|--+|-" rhythm="020010020|" emo1="beauty/joy">Und malt auf den glänzenden Matten</l>
+            <l met="-+|--+|--+|-" rhythm="020010020:" emo1="beauty/joy">Der Bäume gigantische Schatten;</l>
+            <l met="--+|--+|--+|-+|" rhythm="00200100201|" emo1="suspense">Und zwei Wanderer sieht er die Straße ziehn,</l>
+            <l met="-+|--+|--+|-+|" rhythm="0100200102|" emo1="suspense">Will eilenden Laufes vorüber fliehn,</l>
+            <l met="-+|--+|--+|-" rhythm="020010020|" emo1="suspense">Da hört er die Worte sie sagen:</l>
+            <l met="-+|--+|-+|-" rhythm="01002010:" emo1="suspense" emo2="uneasiness">"Jetzt wird er ans Kreuz geschlagen."</l>
+          </lg>
+          <lg rhyme="abbaacc" type="stanza">
+            <l met="--+|-+|--+|--+|" rhythm="00102001002|" emo1="suspense" emo2="uneasiness">Und die Angst beflügelt den eilenden Fuß,</l>
+            <l met="-+|--+|-+|-" rhythm="02001020:" emo1="suspense" emo2="uneasiness">Ihn jagen der Sorge Qualen;</l>
+            <l met="-+|--+|--+|-" rhythm="020010020|" emo1="suspense">Da schimmern in Abendrots Strahlen</l>
+            <l met="-+|--+|--+|-+" rhythm="0200100201|" emo1="suspense">Von ferne die Zinnen von Syrakus,</l>
+            <l met="--+|-+|--+|-+" rhythm="0010200201:" emo1="suspense">Und entgegen kommt ihm Philostratus,</l>
+            <l met="-+|-+|--+|-" rhythm="02010020|" emo1="suspense">Des Hauses redlicher Hüter,</l>
+            <l met="--+|--+|--+|-" rhythm="0020010020:" emo1="suspense">Der erkennet entsetzt den Gebieter:</l>
+          </lg>
+          <lg rhyme="abbaacc" type="stanza">
+            <l met="-+|-+|--+|-+|" rhythm="02|0200102|" emo1="sadness">"Zurück! du rettest den Freund nicht mehr,</l>
+            <l met="-+|--+|--+|-" rhythm="020010020:" emo1="sadness">So rette das eigene Leben!</l>
+            <l met="-+|-+|--+|-" rhythm="02010020:" emo1="sadness">Den Tod erleidet er eben.</l>
+            <l met="-+|--+|--+|-+" rhythm="0100100200|" emo1="sadness">Von Stunde zu Stunde gewartet' er</l>
+            <l met="-+|--+|--+|-+" rhythm="0100200201:" emo1="sadness">Mit hoffender Seele der Wiederkehr,</l>
+            <l met="-+|--+|--+|-" rhythm="020010020|" emo1="sadness">Ihm konnte den mutigen Glauben</l>
+            <l met="-+|--+|--+|-" rhythm="020010020:" emo1="sadness">Der Hohn des Tyrannen nicht rauben."</l>
+          </lg>
+          <lg rhyme="abbaacc" type="stanza">
+            <l met="-+|--+|-+|--+|" rhythm="01002|01002|" emo1="sadness">"Und ist es zu spät, und kann ich ihm nicht,</l>
+            <l met="-+|--+|--+|-" rhythm="020|010020|" emo1="sadness">Ein Retter, willkommen erscheinen,</l>
+            <l met="-+|--+|--+|-" rhythm="010020010:" emo1="sadness">So soll mich der Tod ihm vereinen.</l>
+            <l met="-+|--+|--+|-+|" rhythm="0200100200|" emo1="sadness">Des rühme der blut'ge Tyrann sich nicht,</l>
+            <l met="--+|-+|--+|--+|" rhythm="00202001002:" emo1="sadness">Daß der Freund dem Freunde gebrochen die Pflicht,</l>
+            <l met="-+|--+|-+|-" rhythm="02001020|" emo1="sadness">Er schlachte der Opfer zweie</l>
+            <l met="-+|--+|--+|-" rhythm="020010020:" emo1="sadness">Und glaube an Liebe und Treue!"</l>
+          </lg>
+          <lg rhyme="abbaacc" type="stanza">
+            <l met="--+|--+|--+|--+|" rhythm="0010020|01002|" emo1="suspense" emo2="uneasiness">Und die Sonne geht unter, da steht er am Tor,</l>
+            <l met="-+|-+|--+|-" rhythm="01020020|" emo1="suspense" emo2="uneasiness">Und sieht das Kreuz schon erhöhet,</l>
+            <l met="--+|-+|--+|-" rhythm="002010020:" emo1="suspense" emo2="uneasiness">Das die Menge gaffend umstehet;</l>
+            <l met="--+|--+|--+|-+|" rhythm="00200100201|" emo1="suspense" emo2="uneasiness">An dem Seile schon zieht man den Freund empor,</l>
+            <l met="--+|--+|--+|-+|" rhythm="00200100102|" emo1="suspense">Da zertrennt er gewaltig den dichter Chor:</l>
+            <l met="-+|-+|--+|-" rhythm="2|20|10|020:" emo1="suspense">"Mich, Henker", ruft er, "erwürget!</l>
+            <l met="-+|--+|--+|-" rhythm="020|000020:" emo1="suspense">Da bin ich, für den er gebürget!"</l>
+          </lg>
+          <lg rhyme="abbaacc" type="stanza">
+            <l met="--+|--+|--+|-+|" rhythm="00200100201|" emo1="beauty/joy">Und Erstaunen ergreifet das Volk umher,</l>
+            <l met="--+|-+|--+|-" rhythm="002010020|" emo1="beauty/joy">In den Armen liegen sich beide</l>
+            <l met="-+|--+|--+|-" rhythm="020010020:" emo1="beauty/joy">Und weinen vor Schmerzen und Freude.</l>
+            <l met="-+|--+|-+|-+|" rhythm="020010201|" emo1="beauty/joy">Da sieht man kein Augen tränenleer,</l>
+            <l met="--+|--+|--+|-+|" rhythm="00200100201:" emo1="beauty/joy">Und zum Könige bringt man die Wundermär';</l>
+            <l met="-+|-+|--+|-" rhythm="02010020|" emo1="beauty/joy">Der fühlt ein menschliches Rühren,</l>
+            <l met="-+|--+|-+|-" rhythm="02001020:" emo1="beauty/joy">Läßt schnell vor den Thron sie führen,</l>
+          </lg>
+          <lg rhyme="abbaacc" type="stanza">
+            <l met="-+|--+|--+|-+|" rhythm="0200100201:" emo1="beauty/joy">Und blicket sie lange verwundert an.</l>
+            <l met="-+|--+|--+|-" rhythm="020|010020|" emo1="beauty/joy">Drauf spricht er: "Es ist euch gelungen,</l>
+            <l met="-+|-+|--+|-" rhythm="00020020:" emo1="beauty/joy">Ihr habt das Herz mir bezwungen;</l>
+            <l met="--+|--+|--+|-+|" rhythm="0020|0000102:" emo1="beauty/joy">Und die Treue, sie ist doch kein leerer Wahn -</l>
+            <l met="-+|--+|--+|-+|" rhythm="0100200201:" emo1="beauty/joy">So nehmet auch mich zum Genossen an:</l>
+            <l met="-+|-+|--+|-" rhythm="02|010020|" emo1="beauty/joy">Ich sei, gewährt mir die Bitte,</l>
+            <l met="-+|-+|--+|-" rhythm="00010020:" emo1="beauty/joy">In eurem Bunde der dritte!"</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

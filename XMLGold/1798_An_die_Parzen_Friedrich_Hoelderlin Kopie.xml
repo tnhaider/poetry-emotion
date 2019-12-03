@@ -1,0 +1,81 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">An die Parzen</title>
+        <author>
+          <persName>
+            <surname>Hölderlin</surname>
+            <forename>Friedrich</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">3</measure>
+        <measure type="verses">12</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-4</measure>
+        <measure type="tokens">82</measure>
+        <measure type="sentences">4</measure>
+        <measure type="characters">411</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1798</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/friedrich-hoelderlin-an-die-parzen,textbearbeitung,217.html">An die Parzen - Friedrich Hölderlin (Interpretation #217)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Weimarer Klassik</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>An die Parzen</head>
+          <lg rhyme="abcd" type="stanza">
+            <l met="-+|-+|-+|--+|-+|" rhythm="010201|00200|" emo1="vitality">Nur Einen Sommer gönnt, ihr Gewaltigen!</l>
+            <l met="-+|-+|-+|--+|-+|" rhythm="0102|0100200:" emo1="vitality">Und einen Herbst zu reifem Gesange mir,</l>
+            <l met="-+|-+|-+|-+|-" rhythm="010002|010" emo1="vitality">Daß williger mein Herz, vom süßen</l>
+            <l met="+--|+--|+-|+-|" rhythm="200200|0020:" emo1="vitality">Spiele gesättiget, dann mir sterbe.</l>
+          </lg>
+          <lg rhyme="abcd" type="stanza">
+            <l met="-+|-+|-+|--+|-+|" rhythm="020|00200102" emo1="sadness" emo2="awe/sublime">Die Seele, der im Leben ihr göttlich Recht</l>
+            <l met="-+|-+|-+|--+|-+|" rhythm="01|020100201:" emo1="sadness" emo2="awe/sublime">Nicht ward, sie ruht auch drunten im Orkus nicht;</l>
+            <l met="-+|-+|-+|-+|-" rhythm="0001020|00" emo1="beauty/joy">Doch ist mir einst das Heil'ge, das am</l>
+            <l met="+--|+--|+-|+-|" rhythm="2001|001020:" emo1="beauty/joy">Herzen mir liegt, das Gedicht gelungen,</l>
+          </lg>
+          <lg rhyme="abcd" type="stanza">
+            <l met="-+|-+|-+|--+|-+|" rhythm="0200|0100201:" emo1="vitality">Willkommen dann, o Stille der Schattenwelt!</l>
+            <l met="-+|-+|-+|--+|-+|" rhythm="02000|000201" emo1="vitality">Zufrieden bin ich, wenn auch mein Saitenspiel</l>
+            <l met="-+|-+|-+|--+|" rhythm="0102010:(1)0" emo1="vitality">Mich nicht hinab geleitet; Einmal</l>
+            <l met="+--|+--|+--|+|" rhythm="20|020|01002:" emo1="awe/sublime">Lebt ich, wie Götter, und mehr bedarfs nicht.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

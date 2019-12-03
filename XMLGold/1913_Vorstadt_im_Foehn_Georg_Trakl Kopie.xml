@@ -1,0 +1,99 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Vorstadt im Föhn</title>
+        <author>
+          <persName>
+            <surname>Trakl</surname>
+            <forename>Georg</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">6</measure>
+        <measure type="verses">24</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-4, 4-4, 5-4, 6-4</measure>
+        <measure type="tokens">152</measure>
+        <measure type="sentences">10</measure>
+        <measure type="characters">858</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1913</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/georg-trakl-vorstadt-im-foehn,textbearbeitung,86.html">Vorstadt im Föhn - Georg Trakl (Interpretation #86)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Expressionismus</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Vorstadt im Föhn</head>
+          <lg rhyme="abba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|" rhythm="010(|)0020102|" emo1="uneasiness">Am Abend liegt die Stätte öd und braun,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="02(|)010002010:" emo1="uneasiness">Die Luft von gräulichem Gestank durchzogen.</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="010002(|)02010:" emo1="uneasiness">Das Donnern eines Zugs vom Brückenbogen -</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="02010(|)00102:" emo1="uneasiness">Und Spatzen flattern über Busch und Zaun.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|" rhythm="01020|20102|" emo1="uneasiness" emo2="suspense">Geduckte Hütten, Pfade wirr verstreut,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="0201020(|)0020|" emo1="uneasiness" emo2="suspense">In Gärten Durcheinander und Bewegung,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="010002(|)01020" emo1="uneasiness" emo2="suspense">Bisweilen schwillt Geheul aus dumpfer Regung,</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="0002010102:" emo1="uneasiness" emo2="suspense">In einer Kinderschar fliegt rot ein Kleid.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|" rhythm="020(|)1020201:" emo1="uneasiness">Am Kehricht pfeift verliebt ein Rattenchor.</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="020(|)10202010" emo1="uneasiness">In Körben tragen Frauen Eingeweide,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="02010201020|" emo1="uneasiness">Ein ekelhafter Zug voll Schmutz und Räude,</l>
+            <l met="+--|+-|+--|+" rhythm="100002001:" emo1="uneasiness">Kommen sie aus der Dämmerung hervor.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|" rhythm="0002010102|" emo1="uneasiness">Und ein Kanal speit plötzlich feistes Blut</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="020(|)00102010:" emo1="uneasiness">Vom Schlachthaus in den stillen Fluß hinunter.</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="01020102020|" emo1="uneasiness">Die Föhne färben karge Stauden bunter,</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="0001020002:" emo1="uneasiness">Und langsam kriecht die Röte durch die Flut.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|" rhythm="020|0010202:" emo1="uneasiness">Ein Flüstern, das in trübem Schlaf ertrinkt.</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="01020002010|" emo1="uneasiness">Gebilde gaukeln auf aus Wassergräben,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="0(1)020001020|" emo1="nostalgia" emo2="beauty/joy">Vielleicht Erinnerung an ein früheres Leben,</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="0001020(|)102:" emo1="nostalgia" emo2="beauty/joy">Die mit den warmen Winden steigt und sinkt.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l met="-+|-+|-+|-+|-+|" rhythm="0201010002|" emo1="beauty/joy">Aus Wolken tauchen schimmernde Alleen,</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="0201020|1020:" emo1="beauty/joy">Erfüllt von schönen Wägen, kühnen Reitern.</l>
+            <l met="-+|-+|-+|-+|-+|-" rhythm="01000202010" emo1="beauty/joy">Dann sieht man auch ein Schiff auf Klippen scheitern</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="0002010002:" emo1="beauty/joy">Und manchmal rosenfarbene Moscheen.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

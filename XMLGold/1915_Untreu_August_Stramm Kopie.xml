@@ -1,0 +1,77 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Untreu</title>
+        <author>
+          <persName>
+            <surname>Stramm</surname>
+            <forename>August</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">1</measure>
+        <measure type="verses">12</measure>
+        <measure type="verses_per_stanza">1-12</measure>
+        <measure type="tokens">34</measure>
+        <measure type="sentences">4</measure>
+        <measure type="characters">200</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1915</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/august-stramm-untreu,textbearbeitung,21.html">Untreu - August Stramm (Interpretation #21)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Expressionismus</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Untreu</head>
+          <lg rhyme="abcdefghijkl" type="stanza">
+            <l met="-+|-+|-+|-+|" rhythm="0102(|)0002:" emo1="sadness" >Dein Lächeln weint in meiner Brust</l>
+            <l met="-+|-+|-+|-+|-" rhythm="020102010:" emo1="sadness">Die glutverbissnen Lippen eisen</l>
+            <l met="-+|-+|-+|-+|" rhythm="02010201:" emo1="sadness">Im Atem wittert Laubgewelk!</l>
+            <l met="-+|-+|" rhythm="0102" emo1="sadness">Dein Blick versargt</l>
+            <l met="+|" rhythm="1" emo1="sadness">Und</l>
+            <l met="+-|+-|+-|+|" rhythm="0010201:" emo1="sadness">Hastet polternd Worte drauf.</l>
+            <l met="-+|-" rhythm="020|" emo1="sadness">Vergessen</l>
+            <l met="+-|+-|+-|" rhythm="001020:" emo1="sadness">Bröckeln nach die Hände!</l>
+            <l met="+|" rhythm="2|" emo1="sadness">Frei</l>
+            <l met="+-|+-|" rhythm="1021|" emo1="sadness">Buhlt dein Kleidsaum</l>
+            <l met="+-|" rhythm="20|" emo1="sadness">Schlenkrig</l>
+            <l met="+-|+-|" rhythm="2020:" emo1="sadness">Drüber rüber!</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

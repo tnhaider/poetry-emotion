@@ -1,0 +1,87 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Sonntagnachmittag</title>
+        <author>
+          <persName>
+            <surname>Lichtenstein</surname>
+            <forename>Alfred</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">4</measure>
+        <measure type="verses">16</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-4, 4-4</measure>
+        <measure type="tokens">97</measure>
+        <measure type="sentences">12</measure>
+        <measure type="characters">571</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1912</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/alfred-lichtenstein-sonntagnachmittag,textbearbeitung,44.html">Sonntagnachmittag - Alfred Lichtenstein (Interpretation #44)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Expressionismus</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Sonntagnachmittag</head>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-" rhythm="01020(|)102010|" emo1="beauty/joy">Auf faulen Straßen lagern Häuserrudel,</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="0002010201:" emo1="beauty/joy">Um deren Buckel graue Sonne hellt.</l>
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="01020|00201020|" emo1="humor">Ein parfümierter, halbverrückter kleiner Pudel</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="01020(|)00102:" emo1="humor">Wirft wüste Augen in die große Welt.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-" rhythm="00020001020:" emo1="humor">In einem Fenster fängt ein Junge Fliegen.</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="0201020(|)200:" emo1="humor">Ein arg beschmiertes Baby ärgert sich.</l>
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="010002|0102010:" emo1="beauty/joy">Am Himmel fährt ein Zug, wo windge Wiesen liegen;</l>
+            <l met="-+|-+|-+|-+|" rhythm="020(|)0020102:" emo1="beauty/joy">Malt langsam einen langen dicken Strich.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-" rhythm="02010(|)102010:" emo1="nostalgia" emo2="beauty/joy">Wie Schreibmaschinen klappen Droschkenhufe.</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="0200010201:" emo1="nostalgia" emo2="beauty/joy">Und lärmend kommt ein staubger Turnverein.</l>
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="02010(|)20001020:" emo1="nostalgia" emo2="beauty/joy">Aus Kutscherkneipen stürzen sich brutale Rufe.</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="0102010002:" emo1="nostalgia" emo2="beauty/joy">Doch feine Glocken dringen auf sie ein.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l met="-+|-+|-+|-+|-+|-" rhythm="02010|002010|" emo1="nostalgia" emo2="beauty/joy">In Rummelplätzen, wo Athleten ringen,</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="0002000201:" emo1="nostalgia" emo2="beauty/joy">Wird alles dunkler schon und ungenau.</l>
+            <l met="-+|-+|-+|-+|-+|-+|-" rhythm="020102|0201020:" emo1="nostalgia" emo2="beauty/joy">Ein Leierkasten heult und Küchenmädchen singen.</l>
+            <l met="-+|-+|-+|-+|-+|" rhythm="0201000102:" emo1="uneasiness">Ein Mann zertrümmert eine morsche Frau.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Berlin VIII</title>
+        <author>
+          <persName>
+            <surname>Heym</surname>
+            <forename>Georg</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">4</measure>
+        <measure type="verses">14</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-3, 4-3</measure>
+        <measure type="tokens">87</measure>
+        <measure type="sentences">6</measure>
+        <measure type="characters">502</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1910</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/georg-heym-berlin-viii,textbearbeitung,45.html">Berlin VIII - Georg Heym (Interpretation #45)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Expressionismus</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Berlin VIII</head>
+          <lg rhyme="abba" type="stanza">
+            <l met="+--+-+-+-+" rhythm="2001(|)010200(|)" emo1="beauty/joy">Schornsteine stehn in großem Zwischenraum</l>
+            <l met="-+-+-+-+-+" rhythm="0200|010002|" emo1="beauty/joy">Im Wintertag, und tragen seine Last,</l>
+            <l met="-+-+-+-+-+" rhythm="0102010002:" emo1="beauty/joy">Des schwarzen Himmels dunkelnden Palast.</l>
+            <l met="-+-+-+-+-+" rhythm="0102020102:" emo1="beauty/joy">Wie goldne Stufe brennt sein niedrer Saum.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l met="+--+-+-+-+" rhythm="2(|)001020|102|" emo1="uneasiness">Fern zwischen kahlen Bäumen, manchem Haus,</l>
+            <l met="+--+-+-+-+" rhythm="20020|00201:" emo1="uneasiness">Zäunen und Schuppen, wo die Weltstadt ebbt,</l>
+            <l met="+--+-+-+-+" rhythm="0001020(|)102|" emo1="uneasiness">Und auf vereisten Schienen mühsam schleppt</l>
+            <l met="-+-+-+-+-+" rhythm="010200(|)0102:" emo1="uneasiness">Ein langer Güterzug sich schwer hinaus.</l>
+          </lg>
+          <lg rhyme="aba" type="stanza">
+            <l met="-+-+-+-+-+" rhythm="020102|2|202|" emo1="uneasiness">Ein Armenkirchhof ragt, schwarz, Stein an Stein,</l>
+            <l met="-+-+-+-+-+" rhythm="020(|)2010200(|)" emo1="uneasiness">Die Toten schaun den roten Untergang</l>
+            <l met="-+-+-+-+-+" rhythm="0002:020102:" emo1="uneasiness">Aus ihrem Loch. Er schmeckt wie starker Wein.</l>
+          </lg>
+          <lg rhyme="aba" type="stanza">
+            <l met="-+-+-+-+-+" rhythm="0102000201:" emo1="uneasiness">Sie sitzen strickend an der Wand entlang,</l>
+            <l met="+--+-+-+-+" rhythm="1002(|)010201|" emo1="uneasiness">Mützen aus Ruß dem nackten Schläfenbein,</l>
+            <l met="-+-+-+-+-+" rhythm="0102|010201:" emo1="uneasiness">Zur Marseillaise, dem alten Sturmgesang.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Die Beiden</title>
+        <author>
+          <persName>
+            <surname>Hofmannsthal</surname>
+            <forename>Hugo von</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">3</measure>
+        <measure type="verses">14</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-6</measure>
+        <measure type="tokens">85</measure>
+        <measure type="sentences">2</measure>
+        <measure type="characters">381</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1896</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/hugo-von-hofmannsthal-die-beiden,textbearbeitung,286.html">Die Beiden - Hugo von Hofmannsthal (Interpretation #286)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Symbolismus</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Die Beiden</head>
+          <lg rhyme="aabb" type="stanza">
+            <l met="-+|-+|-+|-+|" rhythm="01020002:" emo1="suspense" emo2="beauty/joy">Sie trug den Becher in der Hand -</l>
+            <l met="-+|-+|-+|-+|" rhythm="0102(|)0002:" emo1="suspense" emo2="beauty/joy">Ihr Kinn und Mund glich seinem Rand -,</l>
+            <l met="-+|-+|-+|-+|" rhythm="01020002:" emo1="suspense" emo2="beauty/joy">So leicht und sicher war ihr Gang,</l>
+            <l met="-+|-+|-+|-+|" rhythm="(1)2000201:" emo1="suspense" emo2="beauty/joy">Kein Tropfen aus dem Becher sprang.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l met="-+|-+|-+|-+|" rhythm="01020002:" emo1="suspense">So leicht und fest war seine Hand:</l>
+            <l met="-+|-+|-+|-+|-" rhythm="020001020:" emo1="suspense">Er ritt auf einem jungen Pferde,</l>
+            <l met="-+|-+|-+|-+|-" rhythm="002000020|" emo1="suspense">Und mit nachlässiger Gebärde</l>
+            <l met="-+|-+|-+|-+|" rhythm="020|00102:" emo1="suspense">Erzwang er, daß es zitternd stand.</l>
+          </lg>
+          <lg rhyme="abccab" type="stanza">
+            <l met="-+|-+|-+|-+|" rhythm="02|000002|" emo1="beauty/joy">Jedoch, wenn er aus ihrer Hand</l>
+            <l met="-+|-+|-+|-+|-" rhythm="010202010:" emo1="beauty/joy">Den leichten Becher nehmen sollte,</l>
+            <l met="-+|-+|-+|-+|" rhythm="01020102:" emo1="beauty/joy">So war es beiden allzu schwer:</l>
+            <l met="-+|-+|-+|-+|" rhythm="01020002:" emo1="beauty/joy">Denn beide bebten sie so sehr,</l>
+            <l met="-+|-+|-+|-+|" rhythm="01020102:" emo1="beauty/joy">Daß keine Hand die andre fand</l>
+            <l met="-+|-+|-+|-+|-" rhythm="010202010:" emo1="beauty/joy">Und dunkler Wein am Boden rollte.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

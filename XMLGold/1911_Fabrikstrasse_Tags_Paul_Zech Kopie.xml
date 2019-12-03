@@ -1,0 +1,85 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Fabrikstraße Tags</title>
+        <author>
+          <persName>
+            <surname>Zech</surname>
+            <forename>Paul</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">4</measure>
+        <measure type="verses">14</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-3, 4-3</measure>
+        <measure type="tokens">83</measure>
+        <measure type="sentences">7</measure>
+        <measure type="characters">440</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1911</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/paul-zech-fabrikstrasse-tags,textbearbeitung,157.html">Fabrikstraße Tags - Paul Zech (Interpretation #157)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Expressionismus</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Fabrikstraße Tags</head>
+          <lg rhyme="abba" type="stanza">
+            <l met="+-|+-|+-|+-|+|" rhythm="1020:00102(|)" emo1="sadness">Nichts als Mauern. Ohne Gras und Glas</l>
+            <l met="+-|+-|+-|+-|+|" rhythm="1020|00102" emo1="sadness">zieht die Straße den gescheckten Gurt</l>
+            <l met="+-|+-|+-|+-|+|" rhythm="0020:00102:" emo1="sadness">der Fassaden. Keine Bahnspur surrt.</l>
+            <l met="+-|+-|+-|+-|+|" rhythm="001020201:" emo1="sadness">Immer glänzt das Pflaster wassernass.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l met="+-|+-|+-|+-|+|" rhythm="1020|10201" emo1="uneasiness">Streift ein Mensch dich, trifft sein Blick dich kalt</l>
+            <l met="+-|+-|+-|+-|+|" rhythm="002:01020|1" emo1="uneasiness">bis ins Mark; die harten Schritte haun</l>
+            <l met="+-|+-|+-|+-|+|" rhythm="20(|)0020102|" emo1="uneasiness">Feuer aus dem turmhoch steilen Zaun,</l>
+            <l met="+-|+-|+-|+-|+|" rhythm="001020102:" emo1="uneasiness">noch sein kurzer Atem wolkt geballt.</l>
+          </lg>
+          <lg rhyme="abb" type="stanza">
+            <l met="+-|+-|+-|+|" rhythm="002010|2" emo1="uneasiness" emo2="awe/sublime">Keine Zuchthauszelle klemmt</l>
+            <l met="+-|+-|+-|+-|+|" rhythm="102010|001" emo1="uneasiness" emo2="awe/sublime">so in Eis das Denken wie dies Gehn</l>
+            <l met="+-|+-|+-|+-|+|" rhythm="0020|000(2)1:" emo1="uneasiness" emo2="awe/sublime">zwischen Mauern, die nur sich besehn.</l>
+          </lg>
+          <lg rhyme="abb" type="stanza">
+            <l met="+-|+-|+-|+-|+|" rhythm="1020(|)00201:" emo1="awe/sublime">Trägst Du Purpur oder Büßerhemd -:</l>
+            <l met="+-|+-|+-|+-|+|" rhythm="002010002|" emo1="awe/sublime">immer drückt mit riesigem Gewicht</l>
+            <l met="+-|+-|+-|+-|+|" rhythm="1020:10002:" emo1="awe/sublime">Gottes Bannfluch: uhrenlose Schicht.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
