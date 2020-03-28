@@ -2,8 +2,6 @@
 
 This is PO-EMO, a corpus of German and English poetry, annotated on line level with aesthetic emotions.
 
-Repository is currently under construction ...
-
 If you find this resource helpful, consider citing our paper
 
 ```@inproceedings{Haider2020,
@@ -23,3 +21,5 @@ If you find this resource helpful, consider citing our paper
   note = {accepted},
   url = {http://www.romanklinger.de/publications/HaiderEgerKimKlingerMenninghaus2020LREC_PO-EMO.pdf}
 }```
+
+Repository is currently under construction ...
