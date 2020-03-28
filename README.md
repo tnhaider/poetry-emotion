@@ -2,6 +2,12 @@
 
 This is PO-EMO, a corpus of German and English poetry, annotated on line level with aesthetic emotions.
 
+## Structure of the repository
+
+- 48 gold annotated German poems in XML format are given in [XMLGold](XMLGold/)
+- 110 German poems and 64 English poems annotated by two annotators are given in [tsv](tsv/) in tab separated format
+
+
 If you find this resource helpful, consider citing our paper
 
 ```
