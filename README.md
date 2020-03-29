@@ -8,6 +8,7 @@ Repository is currently under construction ...
 
 - 48 gold annotated German poems in XML format are given in [XMLGold](XMLGold/)
 - 110 German poems and 64 English poems annotated by two annotators are given in [tsv](tsv/) in tab separated format
+- Sample code is provided in [code](code/)
 
 
 ## Reference
