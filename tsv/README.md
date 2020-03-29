@@ -12,4 +12,4 @@ The structure of the data is as follows:
 4. Per line: tab separates text and annotations. There are two annotations per line, corresponding to the two annotators.
 5. Each annotator annotates 1 or 2 emotions per line. Emotion separator is "---"
 
-**NB** This directory does not include the 48 gold standard annotated poems.
+**NB** This directory does not include the 48 gold standard annotated poems. They can be found [here](https://github.com/tnhaider/poetry-emotion/tree/master/XMLGold).
