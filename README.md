@@ -1,6 +1,6 @@
 # PO-EMO
 
-This is PO-EMO, a corpus of German and English poetry, annotated on line level with aesthetic emotions.
+This is [PO-EMO](https://arxiv.org/abs/2003.07723), a corpus of German and English poetry, annotated on line level with aesthetic emotions.
 
 Repository is continuously being updated.
 
