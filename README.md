@@ -11,6 +11,12 @@ Repository is continuously being updated.
 - Sample code is provided in [code](code/)
 - Our annotation guidelines can be found in [annotationGuidelines](annotationGuidelines/)
 
+## Further releases
+
+- We had one (female) native Chinese speaker annotate 30 classical and 30 modern Chinese poems according to the label scheme of PO-EMO
+- The links to the data are here: [classical](https://docs.google.com/spreadsheets/d/12SuEeGRszDhPtSTD7uO6G__2fDfNaIrz4qsLnS-YORE/edit?usp=sharing), [modern](https://docs.google.com/spreadsheets/d/1ilxAN0ap3FGOeSG4i1XUG6TWRpOUa8yLZRMaqvrLabY/edit?usp=sharing)
+- Before doing so, we had the annotator "train" on batches of 5-8 English poems until acceptable agreement was finally reached (see details: [here](https://docs.google.com/spreadsheets/d/1WOI-w72EAstejrS3WRJyQwGbmdj7YtBG9LQO6YkcS2Y/edit?usp=sharing) and [here](https://docs.google.com/spreadsheets/d/1jXIsQWU53jC7sgf_gLTwEPm3yIgBb3E6ZkUlbDE3Eas/edit?usp=sharing)) 
+
 
 ## Reference
 
