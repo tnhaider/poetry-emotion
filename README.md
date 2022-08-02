@@ -8,7 +8,7 @@ Repository is continuously being updated.
 
 - 48 gold annotated German poems in XML format are given in [XMLGold](XMLGold/)
 - 110 German poems and 64 English poems annotated by two annotators are given in [tsv](tsv/) in tab separated format
-- All 158 German poems with emotion and prosody annotation in tsv 
+- All 158 German poems with emotion and prosody annotation in [tsv](tsv/) 
 - Sample code is provided in [code](code/)
 - Our annotation guidelines can be found in [annotationGuidelines](annotationGuidelines/)
 
