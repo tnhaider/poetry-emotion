@@ -19,6 +19,9 @@ Repository is continuously being updated.
 - Before doing so, we had the annotator "train" on batches of 5-8 English poems until acceptable agreement was finally reached (see details: [here](https://docs.google.com/spreadsheets/d/1WOI-w72EAstejrS3WRJyQwGbmdj7YtBG9LQO6YkcS2Y/edit?usp=sharing) and [here](https://docs.google.com/spreadsheets/d/1jXIsQWU53jC7sgf_gLTwEPm3yIgBb3E6ZkUlbDE3Eas/edit?usp=sharing)) 
 - Subsequently, the annotator annotated further [15 modern](https://docs.google.com/spreadsheets/d/17I_PjQ_6L_uPGfCAEq4pxkS4QDNkX86tkQXvZCVT0W8/edit?usp=sharing) and [15 classical](https://docs.google.com/spreadsheets/d/19XOSdPu0cqm4vD4RW6TmvuXd9HevONzmUYqYofMjD2Y/edit?usp=sharing) poems.
 
+## License
+
+This project and its data are under a CC-BY 4.0 license.
 
 ## Reference
 
